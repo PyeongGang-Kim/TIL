@@ -19,7 +19,7 @@ for song in songs:
     
 
 # csv 파일로 옮기기
-with open('melon.csv', 'w', encoding='utf-8', newline='\n') as f:
+with open('melon.csv', 'w', encoding='utf-8') as f:
     for song in songs:
         rank=song.select_one('#lst50 > td:nth-child(2) > div > span.rank').text
         name=song.select_one('#lst50 > td:nth-child(6) > div > div > div.ellipsis.rank01 > span > a').text
