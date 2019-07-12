@@ -19,7 +19,7 @@ idol={
     }
 }
 
-#3. 딕셔너리 값 가져오기
+#3. 딕셔너리 값 가져오기. get을 이용하면 빈 키값을 입력해도 에러가 안남.
 print(idol['bts']['RM'])
 print(idol.get('bts').get('RM'))
 

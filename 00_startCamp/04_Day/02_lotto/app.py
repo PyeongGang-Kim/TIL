@@ -13,7 +13,7 @@ def lotto_result():
 
      #num회차의 로또api 에 접속해서 데이터를 받아와 딕셔너리로 반환(.json활용)
     lotto=requests.get(f'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo={num}').json()  
-    #. lotto 딕셔너리에서 번호 6개 가져오기
+    #1. lotto 딕셔너리에서 번호 6개 가져오기
     winner=[]
     for i in range(1,7):
         winner.append(lotto[f'drwtNo{i}'])

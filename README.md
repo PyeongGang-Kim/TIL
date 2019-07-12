@@ -7,3 +7,5 @@ https://docs.google.com/spreadsheets/d/1f5Il6slzWfrAKskzKvx23YjrtxpqtlsBBm_AmZtD
 
 
 https://mygumi.slack.com/messages/CL0E0QZ5F/
+
+vs코드의 확장프로그램 excel viewer tjfcl
