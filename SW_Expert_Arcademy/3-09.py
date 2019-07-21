@@ -5,8 +5,8 @@ T=int(input())
 for t in range(1,T+1):
     
     #문제입력 양쪽에서 공백이 있는 경우가 있기 때문에 strip()을 추가하였음.
-    N, M = map(int, input().split(" "))
-    ai=list(map(int, input().split(" ")))
+    N, M = map(int, input().strip().split(" "))
+    ai=list(map(int, input().strip().split(" ")))
 
     result=0
     maxnum, minnum = sum(ai[0:M]), sum(ai[0:M])
