@@ -1,4 +1,30 @@
-# def fndr(x,y):
+def fndr(SX, SY):
+    if maze[SX+1][SY] == '0':
+        maze[SX+1][SY]='1'
+        st.append(SX,SY)
+        SX=SX+1
+        fndr(SX,SY)
+    elif maze[SX][SY-1] == '0':
+        maze[SX][SY-1]='1'
+        st.append(SX,SY)
+        SY=SY-1
+        fndr(SX,SY)
+    elif maze[SX-1][SY] == '0':
+        maze[SX-1][SY]='1'
+        st.append(SX,SY)
+        SX=SX-1
+        fndr(SX,SY)
+    elif maze[SX][SY+1] == '0':
+        maze[SX][SY+1]='1'
+        st.append(SX,SY)
+        SY=SY+1
+        fndr(SX,SY)
+    else:
+        maze[SX + 1][SY] = '1'
+        maze[SX - 1][SY] = '1'
+        maze[SX][SY+1] = '1'
+        maze[SX][SY-1] = '1'
+
 
 
 T=int(input())
@@ -26,4 +52,7 @@ for t in range(1,T+1):
                 GX, GY = x, y
             elif maze[y][x]=='2':
                 SX, SY = x, y
+
+    fndr(SX, SY)
+
 
