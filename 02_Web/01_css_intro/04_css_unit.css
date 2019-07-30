@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    font-size: 50%;
+}
+div {
+    color: red;
+    font-size: 50%;
+}
+ul {
+    color: rgb(48, 199, 66);
+    font-size: 2rem
+    /* rem은 html의 기본 폰트사이즈,
+    없으면 브라우저 기본 폰트사이즈에 영향을 받는다.
+    2rem은 기본 폰트의 2배를 의미함.*/
+}
+
+div > h2 {
+    color: skyblue;
+    font-size: 5em
+    /* em은 100%를 의미한다. 부모태그에 영향을 받는다. */
+}

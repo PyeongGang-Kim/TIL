@@ -1,0 +1,34 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+#div-1 {
+    margin-right: auto
+
+}
+#div-2 {
+    margin-left: auto
+
+}
+#div-3 {
+    margin-right: auto;
+    margin-left: auto
+
+}
+#div-4 {
+    margin: auto
+}
+
+/* 블록을 인라인처럼 만들어줌 */
+p {
+    display: inline-block;
+}
+#div-5 {
+    display: none
+}
+#div-6 {
+    visibility: hidden;
+}
+body {
+    background-image: url("images/e.jpg")
+}

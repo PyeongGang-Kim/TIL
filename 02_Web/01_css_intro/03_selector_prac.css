@@ -1,0 +1,31 @@
+/* * {
+    color: darksalmon;
+    font-size:25 px;
+}
+
+ol, ul {
+    list-style-type: square;
+}
+
+a{
+    text-decoration: none;
+} */
+/* 
+.favorite {
+    color: purple;
+}
+
+#title {
+    color: red;
+
+} */
+
+/* ol 안에 있는 li 모두 선택됨 */
+ol li {
+    color:crimson;
+}
+
+/* ol 바로 밑에 있는 li만 선택됨 */
+ol > li {
+    color:crimson;
+}
