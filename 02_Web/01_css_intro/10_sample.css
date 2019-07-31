@@ -1,0 +1,10 @@
+/* 
+nth-child(위치번호)의 경우 ol밑의 위치번호째 자식이 li일 경우 적용됨
+nth-of-type(위치번호)의 경우 ol밑의 위치번호째 li를 찾아 적용함
+*/
+.menu > ol > li:nth-child(4) {
+    background-color: blueviolet
+}
+.menu2 > ul > li:nth-of-type(4) {
+    background-color: forestgreen
+}
