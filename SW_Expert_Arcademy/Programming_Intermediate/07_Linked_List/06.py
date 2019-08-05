@@ -20,19 +20,25 @@ def enQ(f, r, num):
 def insQ():
     global front, rear, front2, rear2
     tmp = front
-    while tmp.num:
-        if tmp.num > front2.num:
-            rear2.next = tmp
-            front2.before = tmp.before
-            tmp.before.next = front2
-            tmp.before=rear2
-            break
-        if tmp.next is not None:
-            tmp = tmp.next
-        else:
-            front2.before = tmp
-            tmp.next = front2
-            rear = rear2
+    if tmp.num > front2.num:
+        front = front2
+        rear2.next = tmp
+        tmp.before = rear2
+    else:
+        while tmp.num:
+            if tmp.num > front2.num:
+                rear2.next = tmp
+                front2.before = tmp.before
+                tmp.before.next = front2
+                tmp.before=rear2
+                break
+            if tmp.next is not None:
+                tmp = tmp.next
+            else:
+                front2.before = rear
+                rear.next = front2
+                rear = rear2
+                break
 
     if tmp is None:
         rear.next = front2
@@ -44,7 +50,7 @@ def printQ():
     result = ''
     tmp = rear
     for i in range(10):
-        result += tmp.num
+        result += ' ' +str(tmp.num)
         tmp=tmp.before
     return result
 
@@ -64,7 +70,4 @@ for t in range(1, T+1):
         for num in ml2:
             front2, rear2 = enQ(front2, rear2, num)
         insQ()
-    print('#{} {}'.format(t, printQ()))
-
-
-
+    print('#{}{}'.format(t, printQ()))
