@@ -30,10 +30,6 @@ def insertQ(idx, num):
             tmp.next = Node(num, tmp.next)
 
 
-
-
-
-
 T = int(input())
 for t in range(1, T+1):
     front = None
