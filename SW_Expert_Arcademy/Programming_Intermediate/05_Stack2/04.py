@@ -23,9 +23,12 @@ for t in range(1,T+1):
                     tmp2=st.pop(-1)
                     tmp1=st.pop(-1)
                     st.append(int(round((tmp1/tmp2))))
-                else:
+                elif r=='.':
                     result=st.pop()
-        print('#{} {}'.format(t,result))
+        if st:
+            print('#{} {}'.format(t,'error'))
+        else:
+            print('#{} {}'.format(t,result))
     except:
         print('#{} {}'.format(t,'error'))
-
+        
