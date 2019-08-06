@@ -42,3 +42,50 @@
         <p>{{ message }}, {{ message|length }}</p>
     {% endif %}
 {% endfor %}
+
+<hr>
+<h3>4. lorem ipsum</h3>
+<!-- 아무 의미없는 텍스트 입력해줌 -->
+{% lorem %}
+<hr>
+<!-- 아무 의미없는 텍스트 단어 3개 -->
+{% lorem 3 w %}
+<hr>
+<!-- 아무 의미없는 텍스트 단어 4개 임의로 -->
+{% lorem 4 w random %}
+<hr>
+<!-- 아무 의미없는 텍스트 문단 2개 임의로 -->
+{% lorem 2 p random %}
+<hr>
+
+<h3>5. 글자수 제한(truncate)</h3>
+<!-- views.py에서 넘겨준 my_sentence에서 단어 3개 그 이후로 말줄임표 -->
+<p>{{ my_sentence|truncatewords:3 }}</p>
+<!-- 글자(공백 포함) 10번째 앞까지 -->
+<p>{{ my_sentence|truncatechars:10 }}</p>
+
+<h3>6. 글자 관련 필터</h3>
+<!-- 길이 반환 -->
+<p>{{ 'abc'|length }}</p>
+<!-- 소문자로 변환 -->
+<p>{{ 'ABC'|lower }}</p>
+<!-- 단어 첫글자 대문자로 나머지 소문자로 -->
+<p>{{ my_sentence|title }}</p>
+<!-- menus 리스트에서 랜덤하게 뽑아줌 -->
+<p>{{ menus|random }}</p>
+<hr>
+<h3>7. 연산</h3>
+<!-- 덧셈 -->
+<p>{{ 4|add:6 }}</p>
+<hr>
+<h3>8. 날짜 표현</h3>
+{{ datetimenow }} <br>
+{% now "DATETIME_FORMAT" %} <br>
+{% now "SHORT_DATETIME_FORMAT" %} <br>
+{% now "DATE_FORMAT" %} <br>
+{% now "SHORT_DATE_FORMAT" %} <br>
+{% now "Y년 m월 d일 (D) h:i" %} <br>
+{{ datetimenow|date:"SHORT_DATE_FORMAT" }}
+
+<h3>9. 기타</h3>
+{{ 'google.com'|urlize }}

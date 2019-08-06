@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import random
 from datetime import datetime
+import requests
 
 # Create your views here.
 def index(request):
@@ -66,7 +67,7 @@ def template_language(request):
     my_sentence = 'Life is short, you need python'
     messages = ['apple', 'banana', 'cucumber', 'mango']
 
-    empty_list = ['ㅣ']
+    empty_list = ['14']
     datetimenow = datetime.now()
 
 
@@ -79,3 +80,107 @@ def template_language(request):
     }
 
     return render(request, 'template_language.html', context)
+
+#6. 실습
+#6-1. isbirth
+def isbirth(request, month, day):
+    today = datetime.now()
+    if today.month == month and today.day == day:
+        result = True
+    else:
+        result = False
+    context = {
+        'result': result
+    }
+    return render(request, 'isbirth.html', context)
+#6-2. 회문판별
+def ispal(request, word):
+    if word == word[::-1]:
+        result = True
+    else:
+        result = False
+    context = {
+        'result': result
+    }
+    return render(request, 'ispal.html', context)
+#6-3. 로또 번호 추첨
+# lottos -> 1,45까지의 번호 중 6개를 랜덤으로 pick한 리스트
+# real_lottos -> [21 24 30 32 40 42]
+# 1. DTL(for문) 문법을 활용해 하나씩 출력 해보기 (lottos)
+# 2. 컴시기가 뽑은 로또 번호와 실제 로또 당첨 번호를 비교해보기(DTL-if문)
+
+def islotto(request):
+    lottos = sorted(random.sample(list(range(1,46)), 6))
+    real_lottos = [21, 24, 30, 32, 40, 42]
+    result = lottos == real_lottos
+
+    context = {
+        'lottos': lottos,
+        'real_lottos': real_lottos,
+        'result': result,
+    }
+
+
+    return render(request, 'islotto.html', context)
+
+def throw(request):
+    
+    return render(request, 'throw.html')
+
+def catch(request):
+    message = request.GET.get('message')
+    message2 = request.GET.get('message2')
+    context = {
+        'message': message,
+        'message2': message2
+    }
+    return render(request, 'catch.html', context)
+
+
+def ping(request):
+    return render(request, 'ping.html')
+
+def pong(request):
+    message = request.GET.get('message')
+    message2 = request.GET.get('message2')
+    context = {
+        'message': message,
+        'message2': message2,
+    }
+    return render(request, 'pong.html', context)
+
+#8. Form - GET 실습(아스키 아티)
+def art(request):
+    return render(request, 'art.html')
+
+def result(request):
+    #1. form으로 날린 데이터를 받는다.(GET)
+    word = request.GET.get('word')
+
+    #2. ARTII api로 요청을 보내 응답 결과를 fonts에 저장한다.
+    fonts = requests.get('http://artii.herokuapp.com/fonts_list').text
+
+    #3. str을 list로 변경
+    fonts = fonts.split('\n')
+
+    #4. fonts(list)안에 들어있는 요소 중 하나를 선택해서 font라는 변수에 저장
+    font = random.choice(fonts)
+
+    #5. font를 가지고 요청을 보내어 받은 결과를 result에 저장한다.
+    result = requests.get('http://artii.herokuapp.com/make?text=' + word + '&font=' + font).text
+    context = {
+        'result': result,
+    }
+    return render(request, 'result.html', context)
+
+def user_new(request):
+    return render(request, 'user_new.html')
+
+def user_create(request):
+    name = request.POST.get('name')
+    pwd = request.POST.get('pwd')
+    context = {
+        'name': name,
+        'password': pwd,
+    }
+    return render(request, 'user_create.html', context)
