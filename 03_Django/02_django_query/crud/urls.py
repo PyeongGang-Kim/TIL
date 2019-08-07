@@ -1,4 +1,4 @@
-"""django_intro URL Configuration
+"""crud URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -15,11 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from pages import views
 
 urlpatterns = [
-    path('utilities/', include('utilities.urls')),
-    path('pages/', include('pages.urls')),
+    path('crud/', include('articles.urls')),
     path('admin/', admin.site.urls),
-    
 ]

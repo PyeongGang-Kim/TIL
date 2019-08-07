@@ -1,0 +1,9 @@
+<form action="/pages/user_create/" method="POST">
+    <!-- POST의 경우 토큰이 없으면 forbidon 403나옴
+    그리고 보내는 정보가 주소창에 노출되지 않는다. -->
+    {% csrf_token %}
+    
+    이름: <input type="text" name="name">
+    비밀번호: <input type="password" name="pwd">
+    <input type="submit">
+</form>
