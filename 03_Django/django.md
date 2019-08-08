@@ -9,8 +9,6 @@ $ python -m venv venv
 student@DESKTOP MINGW64 ~/TIL/03_Django/01_django_intro (master)
 $ source venv/Scripts/activate
 (venv)
-student@DESKTOP MINGW64 ~/TIL/03_Django/01_django_intro (master)
-$
 ```
 
 ## 가상환경 종료하기
@@ -272,3 +270,191 @@ articles = Article.objects.all()을 통해 모든 데이터베이스를 articles
 
 filter은 없는 값 조회해도 빈 쿼리를 반환하기 때문에 에러가 나지 않는다.
 
+
+
+### 정렬
+
+```bash
+id 기준으로 오름차순 정렬
+>>> articles = Article.objects.order_by('id')
+id 기준으로 내림차순 정렬
+>>> articles = Article.objects.order_by('-id')
+```
+
+
+
+### 값 하나 빼오기
+
+```
+모든 데이터 가져온 리스트 중 1번 인덱스 하나 가져옴. (객체 한개만 가져옴)
+>>> article = Article.objects.all()[1]
+```
+
+
+
+### 슬라이싱
+
+```bash
+인덱스 1, 2번 가져오는 법
+>>> article = Article.objects.all()[1:3]
+```
+
+
+
+### 검색, 필터링
+
+```bash
+필터의 경우 갯수 상관 없이 쿼리 셋을 반환한다.
+
+타이틀 내부에 fir이 포함되어 있는 것들만 가져옴
+>>> articles = Article.objects.filter(title__contains='fir')
+>>> articles
+<QuerySet [<Article: 1번글 - first: django!>, <Article: 4번글 - first: haha>, <Article: 5
+번글 - first: vacation>]>
+
+타이틀이 first로 시작하는 것들만 가져옴
+>>> articles = Article.objects.filter(title__startswith='first')
+>>> articles
+<QuerySet [<Article: 1번글 - first: django!>, <Article: 4번글 - first: haha>, <Article: 5
+번글 - first: vacation>]>
+
+content가 !로 끝나는 것들만 가져옴
+>>> articles = Article.objects.filter(content__endswith='!')
+>>> articles
+<QuerySet [<Article: 1번글 - first: django!>, <Article: 4번글 - first: haha>, <Article: 5
+번글 - first: vacation>]>
+```
+
+
+
+### 업데이트
+
+```bash
+첫번째 객체 가지고옴
+>>> article = Article.objects.get(pk=1)
+타이틀을 변경 후 저장.
+>>> article.title='byebye'
+>>> article.save()
+확인
+>>> Article.objects.all()
+<QuerySet [<Article: 1번글 - byebye: django!>, <Article: 2번글 - second: django!>, <Article: 3번글 - third: django!>, <Article: 4번글 - first: haha>, <Article: 5번글 - first: vacation>]>
+```
+
+
+
+### 삭제
+
+```bash
+하나의 객체 가지고 옴
+>>> article = Article.objects.get(pk=1)
+삭제하기
+>>> article.delete()
+확인
+<QuerySet [<Article: 2번글 - second: django!>, <Article: 3번글 - third: django!>, <Article: 4번글 - first: haha>, <Article: 5번글 - first: vacation>]>
+```
+
+
+
+## 관리자 모드
+
+### 관리자 계정 만들기
+
+```bash
+사용자 이름 (leave blank to use 'student'): admin
+이메일 주소:
+Password:
+Password (again):
+비밀번호가 너무 짧습니다. 최소 8 문자를 포함해야 합니다.
+비밀번호가 너무 일상적인 단어입니다.
+비밀번호가 전부 숫자로 되어 있습니다.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+```
+
+### 관리자 페이지에서 데이터베이스 보기
+
+admin.py 파일에
+
+```python
+from django.contrib import admin
+from .models import Article
+
+admin.site.register(Article)
+```
+
+입력하면 Article 데이터베이스를 관리자페이지(/admin)에서 확인할 수 있다.
+
+### 어드민 페이지 커스텀
+
+```python
+from django.contrib import admin
+from .models import Article
+
+class ArticleAdmin(admin.ModelAdmin):
+    list_display = ['id', 'title', 'content', 'created_at', 'updated_at']
+admin.site.register(Article, ArticleAdmin)
+```
+
+Article을 list_display에 맞게 보여준다.
+
+
+
+## 장고 익스텐션
+
+### 장고 익스텐션 설치
+
+```bash
+pip install django-extensions
+```
+
+그 후 settings 파일의 INSTALLED_APPS의 맨 밑에 'django_extensions'를 추가해 준다.
+
+이렇게 설정한 후에는
+
+python manage.py shell을 했을때에는 따로 import했던것들(데이터베이스 등)을 하지 않고 바로 사용할 수 있는 python manage.py shell_plus를 사용 가능함.
+
+
+
+
+
+## CRUD
+
+views.py에서 데이터베이스에 접근하려면
+
+views.py에 데이터베이스 임포트
+
+```python
+from .models import Article
+```
+
+그 후 장고 쉘에서 했던것처럼 코드 작성해주면 된다.
+
+```python
+def create(request):
+    title = request.GET.get('title')
+    content = request.GET.get('content')
+    article = Article()
+    article.title = title
+    article.content = content
+    article.save()
+    
+    return render(request, 'articles/create.html')
+```
+
+
+
+### redirect
+
+views.py에 redirect를 임포트해주고
+
+```python
+from django.shortcuts import render, redirect
+```
+
+리턴 부분의 리턴 렌더를
+
+```python
+    return redirect('/articles/')
+```
+
+로 고치면 redirect를 사용할 수 있게 된다.
