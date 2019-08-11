@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    #big {
+        position: relative;
+        margin: 100px auto 500px;
+        border: 5px solid black;
+        width: 200px;
+        height: 200px;
+    }
+    .small {
+        width: 100px;
+        height: 100px;
+
+    }
+    #red{
+        background-color: red;
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+    }
+    #gold{
+        background-color: gold;
+        position: relative;
+        bottom: 10px;
+    }
+    #green{
+        background-color: green;
+        position: relative;
+        /* top:100px;
+        left:100px; */
+        }
+    </style>
+</head>
+<body>
+    <select name="" id="" size="6">
+        <optgroup label="a">
+            <option value="">1</option>
+            <option value="">2</option>
+        </optgroup>
+        <optgroup label="b">
+            <option value="">1</option>
+            <option value="">2</option>
+        </optgroup>
+    </select>
+    <ol>
+        <li style="list-style-type: circle">123</li>
+    </ol>
+    <div id="big">
+        <div id="red" class="small"></div>
+        <div id="gold" class="small"></div>
+        <div id="green" class="small"></div>
+    </div>
+</body>
+</html>
