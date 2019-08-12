@@ -4,4 +4,10 @@
 
 T = int(input())
 for t in range(1, T+1):
-    N, M, L = 
+    N, M, L = map(int, input().split())
+    nl = [0] * (N+1)
+    for m in range(M):
+        i, v = map(int, input().split())
+        nl[i] = v
+    print(nl)
+
