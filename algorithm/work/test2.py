@@ -1,15 +1,21 @@
+import sys
+sys.stdin = open('test2_input.txt')
+
+
 T = int(input())
 for t in range(1, T+1):
-    N, A, B = map(int, input().split())
-    n = 1
-    while n**2<N:
-        n += 1
-    result = B*(N-1)
-    for r in range(1, N):
-        for c in range(r, N//r+1):
-            tmp = A*abs(r-c)+B*(N-r*c)
-            if tmp < result:
-                result = tmp
-    print('#{} {}'.format(t,result))
-
-
+    N, M = map(int, input().split())
+    nl = []
+    for m in range(M):
+        nl.append(list(map(int, input().split())))
+    print(nl)
+    for n in range(1, N+1):
+        st = [n]
+        while 1:
+            for v in nl:
+                if v[0] == st[-1]:
+                    st.append(v[0])
+                    break
+                elif v[1] == st[-1]:
+                    st.append(v[1])
+                    break
