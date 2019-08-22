@@ -1,43 +1,41 @@
+import time
 import sys
-sys.stdin = open('test2_input.txt')
+sys.stdin = open('asdf.txt')
 
 
-def mkr(d = 0):
-    global result
-    tmp = 0
-    tmpx, tmpy = nl[0], nl[1]
-    for i in arr:
-        tmp += abs(tmpx - nl[i * 2 + 4]) + abs(tmpy - nl[i * 2 + 5])
-        tmpx, tmpy = nl[i * 2 + 4], nl[i * 2 + 5]
-    tmp += abs(tmpx - nl[2]) + abs(tmpy - nl[3])
-    if tmp > result:
-        return
-    if d == N:
-        if tmp < result:
-            result = tmp
-        return
-    for i in range(N):
-        if i not in arr:
-            arr.append(i)
-            mkr(d+1)
-            arr.pop()
+def fnf():
+    global st
+    X = len(nl)//2
+    vl = [0 for _ in range(V+1)]
+    for i in range(X):
+        vl[nl[2*i+1]] += 1
+    for i in range(1, V+1):
+        if i not in st and not vl[i] and i in nl:
+            st.append(i)
 
 
-T = int(input())
+def delf():
+    tmp = st.pop()
+    result.append(tmp)
+    tmpst = []
+    for i in range(len(nl)//2):
+        if nl[2*i] == tmp:
+            tmpst.append(i)
+    while tmpst:
+        tmp2 = tmpst.pop()
+        nl.pop(2*tmp2)
+        nl.pop(2*tmp2)
+
+T = 10
 for t in range(1, T+1):
-    N = int(input())
+    V, E = map(int, input().split())
     nl = list(map(int, input().split()))
-    company = nl[0:2]
-    home = nl[2:4]
-    arr = []
-    tmp = 0
-    tmpx, tmpy = nl[0], nl[1]
-    for i in range(N):
-        tmp += abs(tmpx - nl[i * 2 + 4]) + abs(tmpy - nl[i * 2 + 5])
-        tmpx, tmpy = nl[i * 2 + 4], nl[i * 2 + 5]
-    tmp += abs(tmpx - nl[2]) + abs(tmpy - nl[3])
-    result = tmp
-    mkr()
-    print('#{} {}'.format(t, result))
-    # print(fr)
-    # print(result)
+    st=[]
+    result = []
+    fnf()
+    delf()
+    while nl:
+        while st:
+            delf()
+        fnf()
+    print(result)
