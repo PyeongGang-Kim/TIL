@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open('asdf.txt')
-
 
 def ck():
     global E
@@ -19,7 +16,6 @@ def ck():
                         al.pop(j)
                         al.pop(i)
                         break
-
 
 def ck2():
     tmp = []
@@ -62,9 +58,14 @@ def moa():
 dr = [[0, 1], [0, -1], [-1, 0], [1, 0]]
 T = int(input())
 for t in range(1, T+1):
+    # x, y일때 M[1000-y][1000+x]
     N = int(input())
-    al = [list(map(int, input().split())) for _ in range(N)]
+    al = []
     E = 0
+    for n in range(N):
+        # al = 원자 리스트 x, y, 방향(0123상하좌우), 에너지
+        al.append(list(map(int, input().split())))
+
     while len(al)>1:
         ck()
         ck2()
