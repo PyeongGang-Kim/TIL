@@ -1,73 +1,17 @@
-import sys
-sys.stdin = open('asdf.txt')
+a=[1, 2, 3, 4]
+b=[4, 5, 6, 7]
+c=[6, 0, 9, 2]
+nl = [[0 for _ in range(10)] for _ in range(10)]
+s = []
+s.append(a)
+s.append(b)
+s.append(c)
+print(s)
+for S in s:
+    x1, y1, x2, y2 = S
+    for j in range(y1, y2):
+        for i in range(x1, x2):
+            nl[j][i] = 1
 
-
-def ck():
-    global E
-    for i in range(0, len(al)-1):
-        for j in range(i, len(al)):
-            if al[j][0] == al[i][0] + dr[al[i][2]][0] and al[j][1] == al[i][1] + dr[al[i][2]][1]:
-                if al[i][2] == 1 or al[i][2] == 3:
-                    if al[j][2] == al[i][2] - 1:
-                        E += al[i][3] + al[j][3]
-                        al.pop(j)
-                        al.pop(i)
-                        break
-                else:
-                    if al[j][2] == al[i][2] + 1:
-                        E += al[i][3] + al[j][3]
-                        al.pop(j)
-                        al.pop(i)
-                        break
-
-
-def ck2():
-    tmp = []
-    C = []
-    for A in al:
-        tx, ty = A[0] + dr[A[2]][0], A[1] + dr[A[2]][1]
-        if (tx, ty) not in tmp:
-            tmp.append((tx, ty))
-        else:
-            if (tx, ty) not in C:
-                C.append((tx, ty))
-    while C:
-        dela(*C.pop())
-
-
-def dela(x, y):
-    global E
-    tmp = []
-    for i in range(len(al)):
-        if al[i][0]+dr[al[i][2]][0] == x and al[i][1]+dr[al[i][2]][1] == y:
-            E += al[i][3]
-
-            tmp.append(i)
-
-    while tmp:
-        al.pop(tmp.pop())
-
-
-def moa():
-    tmp = []
-    for i in range(len(al)):
-        al[i][0] += dr[al[i][2]][0]
-        al[i][1] += dr[al[i][2]][1]
-        if not (-1000 <= al[i][0] <= 1000 and -1000 <= al[i][1] <= 1000):
-            tmp.append(i)
-    while tmp:
-        al.pop(tmp.pop())
-
-
-dr = [[0, 1], [0, -1], [-1, 0], [1, 0]]
-T = int(input())
-for t in range(1, T+1):
-    N = int(input())
-    al = [list(map(int, input().split())) for _ in range(N)]
-    E = 0
-    while len(al)>1:
-        ck()
-        ck2()
-        moa()
-
-    print('#{} {}'.format(t, E))
+for n in nl:
+    print(n)

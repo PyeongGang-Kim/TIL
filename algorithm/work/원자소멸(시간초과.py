@@ -1,22 +1,4 @@
 
-def ck():
-    global E
-    for i in range(0, len(al)-1):
-        for j in range(i, len(al)):
-            if al[j][0] == al[i][0] + dr[al[i][2]][0] and al[j][1] == al[i][1] + dr[al[i][2]][1]:
-                if al[i][2] == 1 or al[i][2] == 3:
-                    if al[j][2] == al[i][2] - 1:
-                        E += al[i][3] + al[j][3]
-                        al.pop(j)
-                        al.pop(i)
-                        break
-                else:
-                    if al[j][2] == al[i][2] + 1:
-                        E += al[i][3] + al[j][3]
-                        al.pop(j)
-                        al.pop(i)
-                        break
-
 def ck2():
     tmp = []
     C = []
@@ -49,7 +31,7 @@ def moa():
     for i in range(len(al)):
         al[i][0] += dr[al[i][2]][0]
         al[i][1] += dr[al[i][2]][1]
-        if not (-1000 <= al[i][0] <= 1000 and -1000 <= al[i][1] <= 1000):
+        if not (-2000 <= al[i][0] <= 2000 and -2000 <= al[i][1] <= 2000):
             tmp.append(i)
     while tmp:
         al.pop(tmp.pop())
@@ -65,9 +47,11 @@ for t in range(1, T+1):
     for n in range(N):
         # al = 원자 리스트 x, y, 방향(0123상하좌우), 에너지
         al.append(list(map(int, input().split())))
+    for A in al:
+        A[0] = A[0]*2
+        A[1] = A[1]*2
 
     while len(al)>1:
-        ck()
         ck2()
         moa()
 
