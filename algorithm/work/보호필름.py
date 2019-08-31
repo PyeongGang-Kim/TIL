@@ -1,3 +1,9 @@
+'''
+bfs, 리스트 pop(0)제한시간 초과
+bfs, 큐 런타임에러
+bfs, 리스트 + front 런타임 에러
+dfs, 스택 통과
+'''
 import sys
 sys.stdin = open('asdf.txt')
 
@@ -60,7 +66,6 @@ def mkarr(tmpc):
     return False
 
 
-results = []
 T = int(input())
 for t in range(1, T+1):
     D, W, K = map(int, input().split())
@@ -70,4 +75,3 @@ for t in range(1, T+1):
     tl = nl[:]
     dfs()
     print('#{} {}'.format(t, result))
-#print('\n'.join(results))

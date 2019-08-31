@@ -1,17 +1,60 @@
-a=[1, 2, 3, 4]
-b=[4, 5, 6, 7]
-c=[6, 0, 9, 2]
-nl = [[0 for _ in range(10)] for _ in range(10)]
-s = []
-s.append(a)
-s.append(b)
-s.append(c)
-print(s)
-for S in s:
-    x1, y1, x2, y2 = S
-    for j in range(y1, y2):
-        for i in range(x1, x2):
-            nl[j][i] = 1
+from itertools import combinations
 
-for n in nl:
-    print(n)
+t = int(input())
+
+for test_case in range(t):
+    d, w, k = map(int, input().split())
+    raw = [list(map(int, input().split())) for _ in range(d)]
+
+
+    def check():
+        global d, w, k
+        for col in range(w):
+            flag = 0
+            cnt = 1
+            for row in range(d - 1):
+                if d - row < k and cnt == 1:
+                    break
+                if data[row][col] == data[row + 1][col]:
+                    cnt += 1
+                else:
+                    cnt = 1
+                if cnt == k:
+                    flag = 1
+                    break
+            if not flag:
+                return False
+        return True
+
+
+    def solve(depth):
+        global d, w, res, data
+
+        if depth == d:
+            res = min(res, d)
+            return
+        comb = combinations(idx, depth)
+        for c in comb:
+            for j in range(2):
+                for i in c:
+                    data[i] = drug[j]
+                if check():
+                    res = min(res, depth)
+                    return
+                data = raw[:]
+
+
+    data = raw[:]
+    drug = [[0] * w, [1] * w]
+    idx = list(range(d))
+    visited = [0] * d
+    res = float('inf')
+    if check() or k <= 1:
+        res = 0
+    else:
+        for i in range(1, d + 1):
+            if i >= res:
+                break
+            solve(i)
+
+    print('#{} {}'.format(test_case + 1, res))
