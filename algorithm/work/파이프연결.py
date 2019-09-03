@@ -1,13 +1,7 @@
+import sys
+sys.stdin = open('asdf.txt')
 
 def dfs(i, j, d, cnt=3):
-    if not cl[j][i][d]:
-        cl[j][i][d] = cnt
-    else:
-        if cl[j][i][d] < cnt:
-            return
-        else:
-            cl[j][i][d] = cnt
-
     if nl[j][i] < 3:
         tx, ty = i + dr[d][0], j + dr[d][1]
         if mov(tx, ty, i, j, d, cnt):
@@ -33,20 +27,12 @@ def dfs(i, j, d, cnt=3):
 def mov(tx, ty, i, j, d, cnt):
     global result
     if 0 <= tx < N and 0 <= ty < N and nl[ty][tx] and not vl[ty][tx]:
-        if chk:
-            if [tx, ty] == [N - 1, N - 1]:
-                if [i, j] == G and gd == d:
-                    if result > cnt:
-                        result = cnt
-            else:
-                return True
+        if [tx, ty] == [0, 0]:
+            if [i, j] == S and sd == d:
+                if result > cnt:
+                    result = cnt
         else:
-            if [tx, ty] == [0, 0]:
-                if [i, j] == S and sd == d:
-                    if result > cnt:
-                        result = cnt
-            else:
-                return True
+            return True
     return False
 
 
@@ -74,20 +60,6 @@ for t in range(1, T + 1):
     vl[G[1]][G[0]] = 1
     dfs(G[0], G[1], gd)
     vl[G[1]][G[0]] = 0
-
-    chk = 1
-    cl = [[[[], [], [], []] for _ in range(N)] for _ in range(N)]
-    if nl[0][0] == 1 or nl[0][0] == 2:
-        sd = 1
-    else:
-        sd = 2
-    if nl[N - 1][N - 1] == 1 or nl[N - 1][N - 1] == 2:
-        gd = 1
-    else:
-        gd = 2
-
-    vl[S[1]][S[0]] = 1
-    dfs(S[0], S[1], sd)
 
     print('#', end='')
     print(t, result)
