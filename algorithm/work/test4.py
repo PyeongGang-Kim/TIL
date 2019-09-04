@@ -1,5 +1,18 @@
-a = {'강민구', '고승연', '권대민','김가영','김도훈','김정덕','김평강','남수경','류재헌','박교열','박찬환','배태한','백서현','변인욱','서혜영','소재완','유일규','윤명훈','이은수','이지훈','이지훈', '이현우','임현수','정성훈','평준혁','하승진'}
-for i in range(1, len(a)+1):
-    print('{:2} {}'.format(i, a.pop()), end='   ')
-    if not i%5:
-        print()
+import sys
+sys.stdin = open('asdf.txt')
+
+
+T = int(input())
+for t in range(1, T+1):
+    N = 5
+    sl = [list(input()) for _ in range(N)]
+    r = []
+    mxl = 0
+    for s in sl:
+        if len(s) > mxl:
+            mxl = len(s)
+    for i in range(mxl):
+        for j in range(N):
+            if len(sl[j]) > i:
+                r.append(sl[j][i])
+    print('#{} {}'.format(t, ''.join(r)))
