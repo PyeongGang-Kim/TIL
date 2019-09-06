@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="9/04">
-      <change afterPath="$PROJECT_DIR$/algorithm/work/이차원배열과연산.py" afterDir="false" />
+    <list default="true" id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/work/나무재테크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/work/연산자삽입.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/work/asdf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/work/asdf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/work/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/work/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/work/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/work/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/work/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/work/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/work/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/work/test5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,86 +19,58 @@
     <session id="-1836669634">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10608" />
-          <entry key="txt" value="206" />
+          <entry key="py" value="15140" />
+          <entry key="txt" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="206" />
-          <entry key="Python" value="10608" />
+          <entry key="PLAIN_TEXT" value="244" />
+          <entry key="Python" value="15140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="7" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5554649">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/work/벽돌깨기.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/work/test.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1444">
-                  <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-                  <folding>
-                    <marker date="1567653444077" expanded="true" signature="69:142" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/work/이차원배열과연산.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm/work/test2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/algorithm/work/test3.py">
+            <entry file="file://$PROJECT_DIR$/algorithm/work/나무재테크.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+                <state relative-caret-position="375">
+                  <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
                   <folding>
-                    <marker date="1567680575199" expanded="true" signature="52:462" ph="..." />
+                    <marker date="1567759097910" expanded="true" signature="55:304" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm/work/test5.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="76">
+                  <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -106,8 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5852">
-                  <caret line="308" selection-start-line="308" selection-end-line="308" />
+                <state relative-caret-position="196">
+                  <caret line="310" selection-start-line="310" selection-end-line="310" />
                 </state>
               </provider>
             </entry>
@@ -115,12 +87,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/algorithm/work/asdf.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="133">
-                  <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -138,8 +110,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>K</find>
       <find>E</find>
+      <find>K</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,16 +163,19 @@
         <option value="$PROJECT_DIR$/algorithm/work/test.py" />
         <option value="$PROJECT_DIR$/algorithm/work/이차원배열과연산.py" />
         <option value="$PROJECT_DIR$/algorithm/work/test2.py" />
-        <option value="$PROJECT_DIR$/algorithm/work/asdf.txt" />
         <option value="$PROJECT_DIR$/algorithm/work/test3.py" />
+        <option value="$PROJECT_DIR$/algorithm/work/연산자삽입.py" />
+        <option value="$PROJECT_DIR$/algorithm/work/test5.py" />
+        <option value="$PROJECT_DIR$/algorithm/work/asdf.txt" />
+        <option value="$PROJECT_DIR$/algorithm/work/나무재테크.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="472" />
-    <option name="y" value="95" />
+    <option name="x" value="638" />
+    <option name="y" value="44" />
     <option name="width" value="1222" />
-    <option name="height" value="867" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,8 +237,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test3">
-    <configuration name="활주로건설" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.나무재테크">
+    <configuration name="나무재테크" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,7 +250,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/활주로건설.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/나무재테크.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="연산자삽입" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/연산자삽입.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="홈방범서비스" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/홈방범서비스.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="보호필름" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/보호필름.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,69 +490,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="홈방범서비스" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/홈방범서비스.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="보호필름" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/보호필름.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -557,18 +532,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/work/test5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.test2" />
-      <item itemvalue="Python.활주로건설" />
       <item itemvalue="Python.test3" />
+      <item itemvalue="Python.연산자삽입" />
+      <item itemvalue="Python.test5" />
+      <item itemvalue="Python.나무재테크" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.나무재테크" />
+        <item itemvalue="Python.test5" />
+        <item itemvalue="Python.연산자삽입" />
         <item itemvalue="Python.test3" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.활주로건설" />
       </list>
     </recent_temporary>
   </component>
@@ -632,11 +630,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567594736408</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="9/05">
+      <created>1567681180853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567681180853</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="472" y="95" width="1222" height="867" extended-state="0" />
+    <frame x="638" y="44" width="1222" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18158785" />
@@ -644,12 +649,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5942623" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.420765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2572877" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923833" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282636" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3296433" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32962963" />
@@ -695,7 +700,8 @@
     <MESSAGE value="8/22" />
     <MESSAGE value="9/01" />
     <MESSAGE value="9/04" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/04" />
+    <MESSAGE value="9/05" />
+    <option name="LAST_COMMIT_MESSAGE" value="9/05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,13 +808,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/work/test3.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="171" />
+          <line>24</line>
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/work/test3.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="173" />
+          <line>6</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/work/test3.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/work/나무재테크.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/work/나무재테크.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="189" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -822,11 +843,20 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="tl" language="Python" />
+        <watch expression="nl" language="Python" />
+        <watch expression="nl[ny][nx][1]" language="Python" />
+        <watch expression="nl[tree[1]]" language="Python" />
+        <watch expression="tree" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>j &lt;=70</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>t==5</expression-string>
         <language-id>Python</language-id>
@@ -872,13 +902,43 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="watch">
       <expression>
-        <expression-string>x==2, y==3</expression-string>
+        <expression-string>tree</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-    </expressions>
-    <expressions id="watch">
+      <expression>
+        <expression-string>nl[tree[1]]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nl[tree[1]][tree[0]]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nl[tree[1]][tree[0]][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nl[ny][nx][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nl[ny][nx]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nl</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>tl</expression-string>
         <language-id>Python</language-id>
@@ -894,53 +954,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>nl[y][x]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nl[j][i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nl[j][i-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pl2[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pl[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pl</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ml[j][P+X]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/work/0816/부분집합의합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/string/4865글자수_input.txt" />
-    <entry file="file://$PROJECT_DIR$/algorithm/string/4861회문_input.txt" />
     <entry file="file://$PROJECT_DIR$/algorithm/string/4864문자열비교_input.txt" />
     <entry file="file://$PROJECT_DIR$/algorithm/string/4861회문.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/string/4864문자열비교.py" />
@@ -1114,17 +1130,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/work/벽돌깨기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/work/이차원배열과연산.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state relative-caret-position="1064">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1138,10 +1147,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/work/벽돌깨기.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/work/이차원배열과연산.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="1463">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1152,19 +1161,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/work/asdf.txt">
+    <entry file="file://$PROJECT_DIR$/algorithm/work/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1567732899722" expanded="true" signature="97:616" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/work/test3.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/work/연산자삽입.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
-            <marker date="1567680575199" expanded="true" signature="52:462" ph="..." />
+            <marker date="1567736614531" expanded="true" signature="72:81" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/work/asdf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/work/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/work/나무재테크.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1567759097910" expanded="true" signature="55:304" ph="..." />
           </folding>
         </state>
       </provider>

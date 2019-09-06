@@ -2,31 +2,38 @@ import sys
 sys.stdin = open('asdf.txt')
 
 
-def bfs():
-    Q = [(0, 0)]
-    while Q:
-        x, y = Q.pop(0)
-        h = tl[y][x]
-        if x == N-1 and y == N-1:
-            continue
-        for dx, dy in dr:
-            tx, ty = x+dx, y+dy
-            if 0 <= tx < N and 0 <= ty < N:
-                if tl[ty][tx] > h + nl[ty][tx]:
-                    Q.append((tx, ty))
-                    tl[ty][tx] = h + nl[ty][tx]
+def cal(i):
+    global r1, r2
+    ori = i
+    cnt = 100
+    for j in range(99):
+        if i >= 1:
+            if nl[j][i-1] == 1:
+                x = 1
+                while i - x >= 0 and nl[j][i-x]:
+                    x += 1
+                i += - x + 1
+                cnt += x - 1
+                continue
+        if i <= 98:
+            if nl[j][i+1] == 1:
+                x = 1
+                while i + x <= 99 and nl[j][i+x]:
+                    x += 1
+                i += x - 1
+                cnt += x - 1
+    if r1 >= cnt:
+        r1 = cnt
+        r2 = ori
 
 
-dr = [[0, 1], [1, 0], [-1, 0], [0, -1]]
-T = int(input())
+
+T = 10
 for t in range(1, T+1):
-    N = int(input())
-    nl = [[int(i) for i in list(input())] for _ in range(N)]
-    tmp = 0
-    for i in range(N):
-        for j in range(N):
-            tmp += nl[j][i]
-    tl = [[tmp for _ in range(N)] for _ in range(N)]
-    tl[0][0] = 0
-    bfs()
-    print('#{} {}'.format(t, tl[N-1][N-1]))
+    tc = int(input())
+    nl = [list(map(int, input().split())) for _ in range(100)]
+    r1, r2 = 10000, 0
+    for i in range(100):
+        if nl[0][i]:
+            cal(i)
+    print('#{} {}'.format(t, r2))
