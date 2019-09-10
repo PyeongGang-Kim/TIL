@@ -2,39 +2,54 @@ import sys
 sys.stdin = open('asdf.txt')
 
 
-def cntn(i):
-    global cnt
-    cnt += 1
-    if tree[i][0]:
-        cntn(tree[i][0])
-    if tree[i][1]:
-        cntn(tree[i][1])
+def dfs(s):
+    global r
+    if chk():
+        r = s
+    if r != 'impossible':
+        return
+    if s[-1] == '0':
+        if vl[0]:
+            vl[0]-=1
+            dfs(s+'0')
+            vl[0]+=1
+        if vl[1]:
+            vl[1]-=1
+            dfs(s+'1')
+            vl[1]+=1
+    else:
+        if vl[2]:
+            vl[2]-=1
+            dfs(s+'0')
+            vl[2]+=1
+        if vl[3]:
+            vl[3]-=1
+            dfs(s+'1')
+            vl[3]+=1
 
+
+def chk():
+    for i in range(4):
+        if vl[i] != 0:
+            return False
+    return True
+
+
+rr = ['00', '01', '10', '11']
 T = int(input())
 for t in range(1, T+1):
-    V, E, P1, P2 = map(int, input().split())
-    data = list(map(int, input().split()))
-    tree = [[0 for _ in range(3)] for _ in range(V+1)]
-    for i in range(0, len(data)-1, 2):
-        if tree[data[i]][0] != 0:
-            tree[data[i]][1] = data[i+1]
-        else:
-            tree[data[i]][0] = data[i+1]
-        tree[data[i+1]][2] = data[i]
-
-
-
-    while 1:
-        if i1 + 1 == i2:
-            if i1//2 == i2//2:
+    vl = list(map(int, input().split()))
+    r = 'impossible'
+    t1 = max(vl[1], vl[2])
+    t2 = min(vl[0], vl[3])
+    if t1<t2:
+        pass
+    else:
+        for i in range(4):
+            if r != 'impossible':
                 break
-            else:
-                i1 //= 2
-                i2 //= 2
-                continue
-        i2 //= 2
-        if i1 > i2:
-            i1, i2 = i2, i1
-    r1 = i1//2
-    cnt = 0
-    print('#{} {} {}'.format(t, tree[r1], cnt))
+            if vl[i]:
+                vl[i]-=1
+                dfs(rr[i])
+                vl[i]+=1
+    print('#{} {}'.format(t, r))
