@@ -2,54 +2,27 @@ import sys
 sys.stdin = open('asdf.txt')
 
 
-def dfs(s):
-    global r
-    if chk():
-        r = s
-    if r != 'impossible':
-        return
-    if s[-1] == '0':
-        if vl[0]:
-            vl[0]-=1
-            dfs(s+'0')
-            vl[0]+=1
-        if vl[1]:
-            vl[1]-=1
-            dfs(s+'1')
-            vl[1]+=1
+N = 10
+A = [0]*N
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def printSet(n):
+    for i in range(n):
+        if A[i] == 1:
+            print("%d " % data[i], end='')
+    print()
+
+def powerset(n, k):
+    if n == k:
+        tmp = 0
+        for i in range(len(data)):
+            tmp += A[i]*data[i]
+        if tmp == 10:
+            printSet(n)
     else:
-        if vl[2]:
-            vl[2]-=1
-            dfs(s+'0')
-            vl[2]+=1
-        if vl[3]:
-            vl[3]-=1
-            dfs(s+'1')
-            vl[3]+=1
+        A[k] = 1
+        powerset(n, k+1)
+        A[k] = 0
+        powerset(n, k+1)
 
-
-def chk():
-    for i in range(4):
-        if vl[i] != 0:
-            return False
-    return True
-
-
-rr = ['00', '01', '10', '11']
-T = int(input())
-for t in range(1, T+1):
-    vl = list(map(int, input().split()))
-    r = 'impossible'
-    t1 = max(vl[1], vl[2])
-    t2 = min(vl[0], vl[3])
-    if t1<t2:
-        pass
-    else:
-        for i in range(4):
-            if r != 'impossible':
-                break
-            if vl[i]:
-                vl[i]-=1
-                dfs(rr[i])
-                vl[i]+=1
-    print('#{} {}'.format(t, r))
+powerset(N, 0)
