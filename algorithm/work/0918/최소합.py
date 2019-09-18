@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('asdf1.txt')
+sys.stdin = open('최소합.txt')
 from collections import deque
 
 
