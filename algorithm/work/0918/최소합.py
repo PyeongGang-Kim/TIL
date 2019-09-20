@@ -18,7 +18,7 @@ def bfs():
                     Q.append([tx, ty])
 
 
-d = [[1, 0], [0, 1], [-1, 0], [0, -1]]
+d = [[1, 0], [0, 1]]
 T = int(input())
 for t in range(1, T+1):
     N = int(input())
