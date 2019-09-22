@@ -6,8 +6,6 @@ dfs나 bfs를 사용하면 연산횟수가 nC0~nCn의 합이다.
 이것을 맨 밑의 행까지 반복 후 맨 밑의 행에서 가장 최대값을 출력하면 된다.
 '''
 
-
-
 n = int(input())
 nl = [[0] + list(map(int, input().split())) +[0] for _ in range(n)]
 for i in range(1, n):
