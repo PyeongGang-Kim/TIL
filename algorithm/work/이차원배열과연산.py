@@ -1,5 +1,5 @@
 import sys
-# sys.stdin = open('asdf.txt')
+sys.stdin = open('asdf.txt')
 
 
 def oper():
@@ -56,7 +56,7 @@ def oper():
                 for i in range(k, len(tmp2)):
                     if tmp2[i][1] < tmp2[i-1][1]:
                         tmp2[i], tmp2[i-1] = tmp2[i-1], tmp2[i]
-            tmp2 = tmp2[:100]
+            tmp2 = tmp2[:50]
             if len(tmp2)*2 > tmplen:
                 tmplen = len(tmp2)*2
             tmp4 = []
