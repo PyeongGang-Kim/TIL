@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open('최소신장트리.txt')
+
 def prim(idx = 0):
     global ad, r
 
