@@ -1,5 +1,5 @@
+from collections import deque
 '''
-
 0이 담긴 위치들 리스트
 3개 선정하는 for문
 각각의 경우에 대해서 초기화 후 bfs
@@ -7,7 +7,6 @@
 bfs 체크 될 때마다 tmp변수 +1
 결과값에 저장
 '''
-from collections import deque
 
 
 def bfs(i, j):

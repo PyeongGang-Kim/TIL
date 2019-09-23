@@ -1,4 +1,11 @@
 from collections import deque
+'''
+bfs
+방문할 곳이 유효한 좌표이면서 방문 안했고 값이 1인 곳을 큐에 넣으면서 탐색한다.
+도착점을 만나면 return
+'''
+
+
 def bfs():
     Q = deque([[0, 0, 1]])
     while Q:
