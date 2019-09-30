@@ -9,7 +9,7 @@ bfs를 한번 해서 가장 먼 곳을 고르고 거기서 가장 먼곳까지�
 '''
 def bfs(i, j):
     global R
-    Q = deque([[i, j, 0]])
+    Q = deque([(i, j, 0)])
     vl[j][i] = 1
     while Q:
         x, y, d = Q.popleft()
@@ -17,7 +17,7 @@ def bfs(i, j):
             tx, ty = x + dx, y + dy
             if 0 <= tx < M and 0 <= ty < N and not vl[ty][tx] and nl[ty][tx] == 'L':
                 vl[ty][tx] = 1
-                Q.append([tx, ty, d+1])
+                Q.append((tx, ty, d+1))
     R = max(R, d)
 
 
