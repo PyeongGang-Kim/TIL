@@ -1,3 +1,12 @@
+'''
+00xx00xx00x
+00xx00xx00x
+xx00xx00xx0
+xx00xx00xx0
+이런식으로 배치되야 최대로 콩을 심을 수 있다.
+가로로도 4번 세로로도 4번마다 규칙성이 있음에 착안하여 계산해 준다.
+'''
+
 T = int(input())
 for t in range(1, T+1):
     N, M = map(int, input().split())

@@ -1,3 +1,8 @@
+'''
+각 자리 숫자들을 하나씩 바꿔서 10진수로 바꾼 값을 셋에 넣어준다.
+2진수를 변환해서 저장한 셋과 3진수를 변환해서 저장한 셋의 교집합을 구한다.
+'''
+
 T = int(input())
 for t in range(1, T+1):
     bn = list(input())
@@ -28,15 +33,13 @@ for t in range(1, T+1):
             tn[i] = '1'
             tmp = 0
             for j in range(len(tn)):
-                tmp *= 2
+                tmp *= 3
                 tmp += int(tn[j])
             tns.add(tmp)
-
-            tn[i] = '0'
             tn[i] = '2'
             tmp = 0
             for j in range(len(tn)):
-                tmp *= 2
+                tmp *= 3
                 tmp += int(tn[j])
             tns.add(tmp)
 
@@ -45,15 +48,13 @@ for t in range(1, T+1):
             bn[i] = '0'
             tmp = 0
             for j in range(len(tn)):
-                tmp *= 2
+                tmp *= 3
                 tmp += int(tn[j])
             tns.add(tmp)
-
-            tn[i] = '1'
-            tn[i] = '3'
+            tn[i] = '2'
             tmp = 0
             for j in range(len(tn)):
-                tmp *= 2
+                tmp *= 3
                 tmp += int(tn[j])
             tns.add(tmp)
 
@@ -62,17 +63,15 @@ for t in range(1, T+1):
             tn[i] = '0'
             tmp = 0
             for j in range(len(tn)):
-                tmp *= 2
+                tmp *= 3
                 tmp += int(tn[j])
             tns.add(tmp)
-
-            tn[i] = '2'
             tn[i] = '1'
             tmp = 0
             for j in range(len(tn)):
-                tmp *= 2
+                tmp *= 3
                 tmp += int(tn[j])
             tns.add(tmp)
 
             tn[i] = '2'
-    print(bns.intersection(tns))
+    print('#{} {}'.format(t, bns.intersection(tns).pop()))
