@@ -166,6 +166,9 @@ class Article(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     # modified_at = models.DateTimeField(auto_now=True)
+    
+    def __str__(self):
+        return f'제목: {self.title}, 내용: {self.content}'
 ```
 
 이런식으로 만들고 나서
@@ -179,6 +182,10 @@ python manage.py migrate 입력하면 db에 작성됨
 sqlite 익스텐션 설치 해 준 후 f1눌러서 sqlite검색 하여 open database로 데이터베이스 열어준다.
 
 익스플로러 맨 밑에 나온다.
+
+python manage.py sqlmigrate app이름 0001 명령을 하면 데이터베이스 정의를 볼 수 있다.
+
+python manage.py showmigrations를 하면 볼 수 있다.
 
 
 
