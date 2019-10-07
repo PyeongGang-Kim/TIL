@@ -10,6 +10,7 @@ M개 남기는 조합
 
 %%조합이 제대로 만들어졌는지 확인하고 시작하기.
 '''
+
 def bfs(i, j):
     vl = [[0 for _ in range(N)] for _ in range(N)]
     Q = deque([[i, j]])

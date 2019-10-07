@@ -465,3 +465,82 @@ from django.shortcuts import render, redirect
 ```
 
 로 고치면 redirect를 사용할 수 있게 된다.
+
+### 장고 익스텐션
+
+settings 의 installed_apps에 django_extentions 를 추가한다.
+
+
+
+
+
+### ㅇㄹㅇㄹ
+
+python manage.py sqlmigrate jobs 0001
+
+입력하면 jobs 앱의 0001번 설계도를 확인할 수 있다.
+
+python manage.py showmigrations 현재 데이터베이스 상태 볼 수 있다.
+
+
+
+### 해야하는 것
+
+- urls
+
+  - url 분리
+  - app_name, path name 설정
+
+- views
+
+  - index: index.html 렌더링
+  - past_life: 사용자가 form으로 넘긴 데이터와 faker 라이브러리를 활용해 전생 직업 생성
+    - 사용자가 form을 통해 날린 이름을 받는다.
+    - DB에 사용자에게 받은 이름이 존재하는지 확인
+      - 존재 시 기존 사용자의 past_job을 past_job 이라는 변수에 저장
+      - 존재하지 않을 시 faker를 활용하여 새로운 직업을 생성하고 입력받은 사용자의 이름과 새로 생성한 직업을 DB에 저장
+    - context로 담아서 past_life.html로 넘김
+    - 
+
+- templates
+
+  - 템플릿 구조는 app/templates/app
+
+  - base.html 기존 프로젝트 폴더에서 확장
+
+  - index.html 사용자에게 자신의 이름을 입력할 수 있는 form 제공
+
+  - past_life.html context로 넘겨 받은 데이터를 출력
+
+    ex)  {{ person.name }}님의 전생 직업은 {{ person.past_job }} 입니다.
+
+
+
+### 경로를 앱 이름, 경로 이름으로 입력하는 방법
+
+urls.py에서
+
+```python
+app_name = 'jobs'
+
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('past_life', views.past_life, name='past_life'),
+]
+
+```
+
+이런식으로 앱 이름과 경로 이름을 지정해 준다.
+
+```html
+    <form action="{% url 'jobs:past_life' %}" method="post">
+					<!-- 앱이름:경로이름 -->
+        {% csrf_token %}
+        <label for="name">NAME</label>
+        <input type="text" name="name" id="name"><br>
+        <input type="submit" value="이름 전송">
+    </form>
+```
+
+위와 같이 사용할 수 있다.
+

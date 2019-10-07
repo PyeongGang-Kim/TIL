@@ -7,26 +7,29 @@ T = int(input())
 for t in range(1, T+1):
     N = int(input())
     nl = list(map(int, input().split()))
-    low = nl[0]
-    chkd = True
-    cnt = 0
-    st = []
+    idx = 0
     for i in range(len(nl)-1):
-        #올라가는 경우
-        if chkd:
-            if nl[i] < nl[i+1]:
-                cnt += 1
-            else:
-                st.append(cnt)
-                cnt = 0
-                chkd = False
-
-        #내려가는 경우
-        else:
-            if nl[i] > nl[i+1]:
-                cnt += 1
-            else:
-                st.append(cnt)
-                cnt = 0
-                chkd = True
-    #맨 마지막 하나가 남는다.
+        if nl[i] < nl[i+1]:
+            idx = i
+            break
+    r = 0
+    if not idx and nl[0] > nl[1]:
+        #안한다
+        pass
+    else:
+        #한다
+        st = [idx]
+        d = True
+        for i in range(len(nl)-1):
+            if d:
+                if nl[i] > nl[i+1]:
+                    st.append(i)
+                    d = False
+            elif nl[i] < nl[i+1]:
+                st.append(i)
+                d = False
+        if nl[-1] < nl[-2]:
+            st.append(len(nl)-1)
+        for i in range(0, len(st)-1, 2):
+            r += (st[i+1]-st[i])*(st[i+2]-st[i+1])
+    print('#{} {}'.format(t, r))
