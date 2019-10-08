@@ -4,7 +4,7 @@ from faker import Faker
 from decouple import config
 import requests
 from IPython import embed
-
+from pprint import pprint
 
 
 # Create your views here.
@@ -29,8 +29,17 @@ def past_life(request):
     url = f'http://api.giphy.com/v1/gifs/search?api_key={GIPHY_API_KEY}&q={past_job}&limit=1&'
     data = requests.get(url).json()
     image = data.get('data')[0].get('images').get('original').get('url')
-
-    context = {'person': person, 'image': image}
+    #네이버 이미지
+    #1 요청 헤더 정보 준비
+    headers = {
+        'X-Naver-Client-Id': config('NAVER_ID'),
+        'X-Naver-Client-Secret': config('NAVER_SECRET')
+    }
+    #2 요청 url 준비
+    url2 = 'https://openapi.naver.com/v1/search/image?query='+past_job+'&filter=medium&display=1'
+    #3 요청 보내기
+    naver_image = requests.get(url2, headers=headers).json().get('items')[0].get('link')
+    context = {'person': person, 'image': image, 'naver_image': naver_image}
 
     return render(request, 'jobs/past_life.html', context)
     # try:

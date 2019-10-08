@@ -193,6 +193,10 @@ python manage.py showmigrations를 하면 볼 수 있다.
 
 python manage.py shell 명령하면 파이썬 + 장고 쉘 실행된다.
 
+(python manage.py shell_plus는 장고 익스텐션 설치 후 가능
+
+import 자동으로 해 준다.)
+
 from articles.models import Article 명령을 통해 원하는 데이터베이스 클래스(articles 앱의 models.py에서Article 테이블)를 불러온다
 
 Article 테이블의 모든 객체 불러오기: Article.objects.all()
@@ -543,4 +547,244 @@ urlpatterns = [
 ```
 
 위와 같이 사용할 수 있다.
+
+
+
+### 게시글에 덧글 달기
+
+articles의 models.py에 아래와 같이 작성해 준다.
+
+```python
+class Comment(models.Model):
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
+    content = models.CharField(max_length=30)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['-pk', ]
+    
+    def __str__(self):
+        return f'댓글: {self.content}'
+```
+
+마이그레이션 후 장고 쉘에서 모델을 확인해 본다.
+
+```bash
+
+In [2]: article=Article.objects.get(pk=18)
+
+In [3]: article
+Out[3]: <Article: 제목: dfs, 내용: qg>
+
+In [5]: comment = Comment()
+In [6]: comment.content = 'frist comment'
+In [8]: comment.article=article
+In [9]: comment.save()
+
+In [10]: comment.pk
+Out[10]: 1
+
+In [11]: comment.content
+Out[11]: 'frist comment'
+
+In [12]: comment.article
+Out[12]: <Article: 제목: dfs, 내용: qg>
+
+In [13]: comment.article.id
+Out[13]: 18
+
+In [14]: comment.article_id
+Out[14]: 18
+###############
+In [16]: comment = Comment(article=article, content='second comment')
+In [17]: comment.save()
+
+In [18]: comment
+Out[18]: <Comment: 댓글: second comment>
+
+In [19]: comment.article.title
+Out[19]: 'dfs'
+
+In [20]: comment.article
+Out[20]: <Article: 제목: dfs, 내용: qg>
+
+In [21]: comment.article.id
+Out[21]: 18
+
+#################
+In [22]: comment = Comment(article_id=article.pk, content='third comment')
+In [23]: comment.save()
+```
+
+
+
+comment admin페이지 설정
+
+```python
+
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ('pk', 'content', 'created_at', 'updated_at',)
+    list_filter = ('created_at',)
+    list_editable = ('content',)
+
+admin.site.register(Comment, CommentAdmin)
+```
+
+
+
+```python
+In [4]: article = Article.objects.get(pk=18)
+
+In [5]: article.comment_set.all()
+Out[5]: <QuerySet [<Comment: 댓글: third comment>, <Comment: 댓글: second comment>, <Comment: 댓글: frist comment>]>
+
+In [6]: dir(article)
+Out[6]: 
+['DoesNotExist',
+ 'MultipleObjectsReturned',
+ '__class__',
+ '__delattr__',
+ '__dict__',
+ '__dir__',
+ '__doc__',
+ '__eq__',
+ '__format__',
+ '__ge__',
+ '__getattribute__',
+ '__getstate__',
+ '__gt__',
+ '__hash__',
+ '__init__',
+ '__init_subclass__',
+ '__le__',
+ '__lt__',
+ '__module__',
+ '__ne__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__setstate__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ '__weakref__',
+ '_check_column_name_clashes',
+ '_check_constraints',
+ '_check_field_name_clashes',
+ '_check_fields',
+ '_check_id_field',
+ '_check_index_together',
+ '_check_indexes',
+ '_check_local_fields',
+ '_check_long_column_names',
+ '_check_m2m_through_same_relationship',
+ '_check_managers',
+ '_check_model',
+ '_check_model_name_db_lookup_clashes',
+ '_check_ordering',
+ '_check_property_name_related_field_accessor_clashes',
+ '_check_single_primary_key',
+ '_check_swappable',
+ '_check_unique_together',
+ '_do_insert',
+ '_do_update',
+ '_get_FIELD_display',
+ '_get_next_or_previous_by_FIELD',
+ '_get_next_or_previous_in_order',
+ '_get_pk_val',
+ '_get_unique_checks',
+ '_meta',
+ '_perform_date_checks',
+ '_perform_unique_checks',
+ '_save_parents',
+ '_save_table',
+ '_set_pk_val',
+ '_state',
+ 'check',
+ 'clean',
+ 'clean_fields',
+ 'comment_set',
+ 'content',
+ 'created_at',
+ 'date_error_message',
+ 'delete',
+ 'from_db',
+ 'full_clean',
+ 'get_deferred_fields',
+ 'get_next_by_created_at',
+ 'get_next_by_updated_at',
+ 'get_previous_by_created_at',
+ 'get_previous_by_updated_at',
+ 'id',
+ 'objects',
+ 'pk',
+ 'prepare_database_save',
+ 'refresh_from_db',
+ 'save',
+ 'save_base',
+ 'serializable_value',
+ 'title',
+ 'unique_error_message',
+ 'updated_at',
+ 'validate_unique']
+```
+
+
+
+```python
+In [20]: comments = article.comment_set.all()
+
+In [21]: comments.first()
+Out[21]: <Comment: 댓글: third comment>
+
+In [22]: comments.last()
+Out[22]: <Comment: 댓글: frist comment>
+
+#인덱싱으로 접근하는 것도 가능하다.(-1인덱스는 불가능)
+In [37]: comments[0].content
+Out[37]: 'third comment'
+
+In [23]: for comment in comments.iterator():
+    ...:     print(comment)
+    ...: 
+댓글: third comment
+댓글: second comment
+댓글: frist comment
+    
+In [30]: for comment in comments:
+    ...:     print(comment)
+    ...: 
+댓글: third comment
+댓글: second comment
+댓글: frist comment
+
+```
+
+
+
+models에 related name을 설정하면
+
+```python
+
+class Comment(models.Model):
+    article = models.ForeignKey(Article, on_delete=models.CASCADE, related_name='comments')
+    content = models.CharField(max_length=30)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['-pk', ]
+    
+    def __str__(self):
+        return f'댓글: {self.content}'
+```
+
+article.comment_set.all() 가 불가능해지고
+
+article.comments 로 사용해야 함(comments 는 related_name='comments' 에서 설정한 것)
+
+쿼리셋의 경우 인덱싱, 슬라이싱 가능하다.
 
