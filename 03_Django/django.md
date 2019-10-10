@@ -788,3 +788,10 @@ article.comments 로 사용해야 함(comments 는 related_name='comments' 에�
 
 쿼리셋의 경우 인덱싱, 슬라이싱 가능하다.
 
+
+
+### 업데이트
+
+현재 페이지에서 현재 페이지로 다시 post요청을 보낼 경우 url을 작성하지 않아도 된다.
+
+그리고 이미 해당 페이지에서 갖고 있었던 데이터(article, comment 등)을 다시 보내지 않아도 된다.
