@@ -795,3 +795,70 @@ article.comments 로 사용해야 함(comments 는 related_name='comments' 에�
 현재 페이지에서 현재 페이지로 다시 post요청을 보낼 경우 url을 작성하지 않아도 된다.
 
 그리고 이미 해당 페이지에서 갖고 있었던 데이터(article, comment 등)을 다시 보내지 않아도 된다.
+
+
+
+## 이미지 업로드
+
+업로드를 하기 위해서는 models.py에
+
+models.ImageField(blank=True)를 추가해준다.
+
+pip install Pillow 해서 Pillow도 설치 해 줘야 한다.
+
+
+
+view.py 에서
+
+image = request.FILES.get('image') 이런 식으로 파일을 받아올 수 있다.
+
+
+
+html파일에서
+
+<input type="file" name="image" id="image" accept="image/*">
+
+이런식으로 인풋태그를 활용하면 된다. accept="image/*" 라고 해 놓으면 파일업로드 창에서 기본적으로 이미지만 볼 수 있게 띄워줌.
+
+
+
+폼 태그는
+
+```
+<form action="{% url 'articles:create' %}" method="POST" enctype="multipart/form-data">
+```
+
+이런식으로 enctype를 입력해줘야 함.
+
+
+
+
+
+## 배포 시 주의사항
+
+settings 파일의 DEBUG = True를 없애 줘야 사용자가 오류 메세지를 못 본다. 배포 시 DEBUG 옵션을 꺼 줄 것.
+
+
+
+
+
+## static
+
+스태틱 자원 사용하려면 {% load static %}을 입력해 줘야 한다.
+
+img 태그의 src에 {% static 'image.확장자' %}
+
+동일한 파일명 업로드하면 임의의 문자열을 추가해 준다.
+
+
+
+
+
+
+
+
+
+
+
+
+
