@@ -852,13 +852,153 @@ img 태그의 src에 {% static 'image.확장자' %}
 
 
 
+## 미디어
+
+미디어 파일은 {% load static %}처럼 태그를 추가해 줄 필요는 없다.
+
+아래처럼 settings.py에 추가해 준다.
+
+```python
+# STATIC_URL과 비슷.
+# 업로드된 파일의 주소(URL)를 만들어 줌
+# 실제 이미지 파일이 업로드 된 디렉토리는 아님
+MEDIA_URL = '/media/'
+
+# 사용자가 업로드한 이미지 파일의 저장 위치
+# 업로드가 끝난 이미지 파일을 위치 시킬 최상위 경로
+# BASE_DIR은 프로젝트폴더가 저장되어 있는 폴더.
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+```
 
 
 
+프로젝트 폴더의 urls.py에 
+
+```python
+from django.conf import settings
+from django.conf.urls.static import static
+
+# 파일이 업로드 된 이후에 프로젝트 내부에 존재하는 파일의 주소를 만들어 줌
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
+
+를 추가해 준다.
 
 
 
+html 파일에서
+
+```html
+<img src="{{ article.image.url }}" alt="{{ article.image }}">
+```
+
+이렇게 입력해서 사용 가능하다.
 
 
 
+## 게시글의 수정
+
+수정할 때 원래 있던 이미지를 변경하지 않는 경우엔 원래 있던 이미지를 수정하지 않음.
+
+
+
+## 이미지 예외 처리
+
+이미지가 없으면 에러가 나는 문제를 방지하기 위해
+
+html 파일에서
+
+```html
+{% load static %}
+
+	{% if article.image %}
+    	<img src="{{ article.image.url }}" alt="{{ article.image }}">
+    {% else %}
+```
+
+로 이미지를 불러와준다.
+
+
+
+## 이미지를 리사이징
+
+트래픽 절감을 위해서 리사이징 한다.
+
+django-imagekit과 pilkit을 설치해 준다.
+
+settings.py의 installapps에 imagekit 추가
+
+models.py에 
+
+```python
+from imagekit.models import ProcessedImageField
+from imagekit.processors import Thumbnail
+```
+
+추가해주기
+
+그러면 models.py에서 이미지 필드를
+
+```python
+image = ProcessedImageField(
+    processors=[Thumbnail(200, 300)], # 썸네일 이미지 사이즈
+    format='JPEG', # 저장할 썸네일 이미지 포맷
+    options={'quality': 90}, # 추가 옵션. 원본의 90%로 압축
+    upload_to='articles/images', # MEDIA_ROOT(media)/articles/images
+)
+```
+
+이렇게 사용할 수 있다.
+
+혹은
+
+```python
+from imagekit.models import ProcessedImageField, ImageSpecField
+from imagekit.processors import Thumbnail
+
+    image = models.ImageField(blank=True)
+    image_thumbnail = ImageSpecField(
+        source='image', # 원본 이미지 필드 명
+        processors=[Thumbnail(200, 300)],
+        format='JPEG',
+        options={'quality': 90},
+    )
+```
+
+이런식으로 입력하면
+
+html 파일에서
+
+```html
+원본 이미지<img src="{{ article.image.url }}" alt="{{ article.image }}">
+썸네일 이미지<img src="{{ article.image_thumbnail.url }}" alt="{{ article.image }}">
+```
+
+이렇게 사용할 수 있다.
+
+
+
+## embed의 활용법
+
+embed()가 걸리고 나서 컨트롤 d 누르면 멈춘다
+
+embed()를 주석처리하고 저장하면 자동으로 서버를 실행해 준다.
+
+
+
+## 404에러(없는 자원을 불러오려고 함)를 일으키는 방법
+
+view.py에 get_object_or_404를 불러온다
+
+```python
+from django.shortcuts import render, redirect, get_object_or_404
+
+def detail(request, article_pk):
+    # Article에 해당하는 pk가 있으면 아티클 반환 아니면 404에러 일으킴
+    article = get_object_or_404(Article, pk=article_pk)
+    context = {
+        'article': article,
+    }
+    return render(request, 'articles/detail.html', context)
+```
 

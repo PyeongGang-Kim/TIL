@@ -229,3 +229,8 @@ ALTER TABLE news ADD COLUMN date DATETIME;
 ALTER TABLE news RENAME date TO created_at;
 ```
 
+
+
+테이블.objects.all().query
+
+이런식으로 .query를 붙여주면 sql명령어를 볼 수 있다.
