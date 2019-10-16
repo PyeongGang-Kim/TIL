@@ -1,31 +1,56 @@
-def solve(s, dep=1):
-    global rmin, rmax
-    if dep == N:
-        rmin = min(rmin, s)
-        rmax = max(rmax, s)
-        return
-    for i in ra4:
-        if ol[i]:
-            ol[i] -= 1
-            if i == 3 and nl[dep] != 0:
-                solve(int(s/nl[dep]), dep+1)
-            elif i == 0:
-                solve(s+nl[dep], dep+1)
-            elif i == 1:
-                solve(s-nl[dep], dep+1)
-            elif i == 2:
-                solve(s*nl[dep], dep+1)
-            ol[i] += 1
+from collections import deque
 
-ra4 = range(4)
-
-tc = int(input())
-
-for t in range(1, tc+1):
+T = int(input())
+for t in range(1, T + 1):
     N = int(input())
-    ol = list(map(int, input().split()))
-    nl = list(map(int, input().split()))
-    rmin = 100000000
-    rmax = -100000000
-    solve(nl[0])
-    print('#%d %d' %(t, rmax-rmin))
+    nl = [list(map(int, input().split())) for _ in range(N)]
+    vl = [[False for _ in range(N)] for _ in range(N)]
+    tmp = []
+    for j in range(N):
+        for i in range(N):
+            if nl[j][i] and not vl[j][i]:
+                Q = deque([[i, j]])
+                vl[j][i] = True
+                while Q:
+                    x, y = Q.popleft()
+                    tx = x + 1
+                    ty = y + 1
+                    if tx < N and nl[y][tx] and not vl[y][tx]:
+                        vl[y][tx] = True
+                        Q.append([tx, y])
+                    if ty < N and nl[ty][x] and not vl[ty][x]:
+                        vl[ty][x] = True
+                        Q.append([x, ty])
+                tmp.append([y-j+1, x-i+1])
+    cnt = len(tmp)
+    ml = deque()
+    ml.append(tmp.pop())
+    i = 0
+    while tmp:
+        if tmp[i][0] == ml[-1][1]:
+            ml.append(tmp[i])
+            tmp[i], tmp[-1] = tmp[-1], tmp[i]
+            tmp.pop()
+            i = -1
+            continue
+        elif tmp[i][1] == ml[0][0]:
+            ml.appendleft(tmp[i])
+            tmp[i], tmp[-1] = tmp[-1], tmp[i]
+            tmp.pop()
+            i = -1
+            continue
+        i += 1
+    arl = [ml[0][0]]
+    for v in ml:
+        arl.append(v[1])
+    D = [[0xffffffff for _ in range(len(arl))] for _ in range(len(arl))]
+    for i in range(len(arl)):
+        D[i][i] = 0
+    for k in range(1, cnt):
+        for l in range(1, cnt - k+1):
+            # 가로 k+l 세로l
+            for i in range(l, k+l):
+                D[l][k + l] = min(D[l][k + l], D[l][i] + D[i+1][k + l] + arl[k+l] * arl[i] * arl[l-1])
+            # 0부터 k+l 전까지 & l+1부터
+
+    print('#{} {}'.format(t, D[1][-1]))
