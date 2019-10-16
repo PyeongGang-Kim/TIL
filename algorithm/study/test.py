@@ -1,24 +1,31 @@
+def solve(s, dep=1):
+    global rmin, rmax
+    if dep == N:
+        rmin = min(rmin, s)
+        rmax = max(rmax, s)
+        return
+    for i in ra4:
+        if ol[i]:
+            ol[i] -= 1
+            if i == 3 and nl[dep] != 0:
+                solve(int(s/nl[dep]), dep+1)
+            elif i == 0:
+                solve(s+nl[dep], dep+1)
+            elif i == 1:
+                solve(s-nl[dep], dep+1)
+            elif i == 2:
+                solve(s*nl[dep], dep+1)
+            ol[i] += 1
+
+ra4 = range(4)
+
 tc = int(input())
 
-for t in range(tc) :
-    n = int(input())
-    if n > 10 or n < 1:
-        break
-    print('#',t+1)
-    pa = [[1],[1,1]]
-    if n == 1:
-        print(1)
-    elif n == 2 :
-        print(1)
-        print('1 1')
-    else :
-        for i in range(2,n):
-            i_list = [1]
-            for j in range(i-1):
-                i_list.append(pa[i-1][j]+pa[i-1][j+1])
-            i_list.append(1)
-            pa.append(i_list)
-        for i in pa :
-            for j in i:
-                print(j, end=' ')
-            print()
+for t in range(1, tc+1):
+    N = int(input())
+    ol = list(map(int, input().split()))
+    nl = list(map(int, input().split()))
+    rmin = 100000000
+    rmax = -100000000
+    solve(nl[0])
+    print('#%d %d' %(t, rmax-rmin))

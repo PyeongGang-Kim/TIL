@@ -11,15 +11,39 @@ $ source venv/Scripts/activate
 (venv)
 ```
 
+
+
 ## 가상환경 종료하기
 
 ```bash
 $deactivate
 ```
 
+
+
 ## 코드에서 자동으로 가상환경 들어가게 만들기
 
 vs코드에서 f1누르고 select interpreter 입력
+
+
+
+
+
+## ???
+
+pip freeze > requirements.txt
+
+설치된 pip들을 txt로 만들어 준다.
+
+이 텍스트 파일을 venv폴더가 있는 폴더로 옮긴 후
+
+venv 실행하고나서 pip install -r requirements.txt 입력하면 그 모듈들이 자동으로 설치된다.
+
+
+
+
+
+
 
 ## 장고 프로젝트 만들기
 
@@ -28,11 +52,15 @@ $ django-admin startproject django_intro .
 							 (프로젝트 명)
 ```
 
+
+
 ## 장고 서버 실행
 
 ```bash
 $ python manage.py runserver
 ```
+
+
 
 ## 장고 앱 실행
 
@@ -44,6 +72,8 @@ $ python manage.py startapp pages
 앱이 만들어진다.
 
 앱이 만들어지고 난 후 장고 프로젝트의 settings에 INSTALLED_APPS리스트에 앱 명을 추가해 준다.
+
+
 
 ## 세팅
 
@@ -1000,5 +1030,99 @@ def detail(request, article_pk):
         'article': article,
     }
     return render(request, 'articles/detail.html', context)
+```
+
+
+
+## 폼
+
+
+
+폼에서 받아온 데이터를 데이터베이스에 기록하는 방법
+
+```python
+if request.method == 'POST':
+    form = ArticleForm(request.POST)
+    if form.is_valid():
+        article.title = form.cleaned_data.get('title')
+        article.content = form.cleaned_data.get('content')
+        article.save()
+        return redirect('articles:detail', article.pk)
+```
+
+
+
+## 폼에 초기값 넣고 만드는 방법
+
+아티클 모델을 불러온다.
+
+```python
+from .models import Article
+```
+
+
+
+방법 1.
+
+```python
+forms = ArticleForm(initial = {
+    'title': article.title,
+    'content': article.content,
+})
+```
+
+방법 2.
+
+```python
+form = ArticleForm(initial=article.__dict__)
+```
+
+
+
+
+
+폼 기본설정하기
+
+```python
+    class Meta:
+        model = Article
+        # fields = '__all__'
+        fields = ('title', 'content', )
+        # widgets = {
+        #     'title': forms.TextInput(
+        #         attrs={
+        #             'class': 'my-title',
+        #             'placeholder': 'Enter the title!',
+        #         }
+        #     )
+        # }
+```
+
+or
+
+```python
+class ArticleForm(forms.ModelForm):
+    title = forms.CharField(
+        max_length=10,
+        label='제목',
+        widget=forms.TextInput(
+            attrs={
+                'class': 'my-title',
+                'placeholder': 'Enter the title',
+            }
+        )
+    )
+    content = forms.CharField(
+        label='내용',
+        widget=forms.Textarea(
+            attrs={
+                'class': 'my-content',
+                'placeholder': 'Enter the content',
+                'rows': 5,
+                'cols': 50,
+            }
+
+        )
+    )
 ```
 
