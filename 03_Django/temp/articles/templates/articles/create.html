@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+{% if article %}
+<h2>update</h2>
+{% else %}
+<h2>create</h2>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ article_form.as_p }}
+    <input type="submit">
+</form>
+{% endif %}
+
+{% endblock %}

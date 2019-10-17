@@ -1126,3 +1126,70 @@ class ArticleForm(forms.ModelForm):
     )
 ```
 
+
+
+
+
+## 부트스트랩 자동으로 입히기
+
+부트스트랩4를 설치
+
+```bash
+pip install django-bootstrap4
+```
+
+settings.py에 'bootstrap4'를 추가해 준다.
+
+html문서에서 {% load bootstrap4 %},  {% bootstrap_css %}추가
+
+```html
+{% load bootstrap4 %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% bootstrap_css %}
+    <title>Document</title>
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
+```
+
+사용할 html 파일에서
+
+```html
+{% load bootstrap4 %}
+
+<form action="" method="post">
+    {% csrf_token %}        
+    {% bootstrap_form form layout='horizontal' %}
+    {% buttons submit="Submit" reset="Cancel" %}
+    {% endbuttons %}
+</form>
+```
+
+이런식으로 폼을 새로 만들 수 있다.
+
+
+
+## views의 함수가 POST 요청만 받게 하는 방법
+
+```python
+from django.views.decorators.http import require_POST
+
+@require_POST
+def 함수():
+```
+
+이런식으로 @태그 붙여주면 post만 들어감
+
+import 해줘야 함.
+
+
+

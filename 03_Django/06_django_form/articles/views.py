@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Article, Comment
+from django.views.decorators.http import require_POST
 from .forms import ArticleForm, CommentForm
 from IPython import embed
 # Create your views here.
@@ -48,18 +49,19 @@ def create(request):
 def detail(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
     comment_form = CommentForm()
+    comments = article.comments.all()
     context = {
         'article': article,
         'comment_form': comment_form,
+        'comments': comments,
     }
     return render(request, 'articles/detail.html', context)
 
+@require_POST
 def delete(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
-    if request.method == 'POST':
-        article.delete()
-        return redirect('articles:index')
-    return redirect('articles:detail', article_pk)
+    article.delete()
+    return redirect('articles:index')
 
 def update(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
@@ -78,23 +80,52 @@ def update(request, article_pk):
     }
     return render(request, 'articles/form.html', context)
 
-
+@require_POST
 def comments_create(request, article_pk):
-    if request.method == 'POST':
-        comment_form = CommentForm(request.POST)
-        
-        # embed()
-        if comment_form.is_valid():
-            comment = comment_form.save(commit=False)
-            comment.article_id = article_pk
-            comment.save()
+    comment_form = CommentForm(request.POST)
+    
+    # embed()
+    if comment_form.is_valid():
+        # commit=False는 바로 저장하진 않는다는 말임 (기본값 True)
+        # comment에 id가 없기때문에 저장되지 않으므로 articleid를 추가해 줄 수 있다.
+        # 그 후 저장.
+        comment = comment_form.save(commit=False)
+        comment.article_id = article_pk
+        comment.save()
     return redirect('articles:detail', article_pk)
 
 
-def comments_update(request, article_pk):
-    
+def comments_update(request, article_pk, comment_pk):
+    # if request.method == 'POST':
+        
+    #     article = get_object_or_404(Article, pk=article_pk)
+    #     comment_form = CommentForm(initial = {
+    #         'content'=content,
+    #     })
 
-def comments_delete()
+    #     comments = article.comments.all()
+    #     context = {
+    #         'article': article,
+    #         'comment_form': comment_form,
+    #         'comments': comments,
+    #     }
+    #     return render(request, 'articles/detail.html', context)
+
+
+
+
+    #     comment = get_object_or_404(Comment, pk=comment_pk)
+    #     context = {
+    #         'comment': comment)
+    #     }
+    pass
+
+@require_POST
+def comments_delete(request, article_pk, comment_pk):
+    comment = get_object_or_404(Comment, pk=comment_pk)
+    comment.delete()
+    return redirect('articles:detail', article_pk)
+
 
 '''
 create 로직

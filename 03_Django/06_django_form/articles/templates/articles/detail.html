@@ -10,15 +10,21 @@
     <p>글 내용: {{ article.content }}</p>
     <hr>
     
-    <form action="{% url 'articles:comments_create' article.pk %}" method="post">
+    <form action="{% url 'articles:comments_create' article.pk %}" method="POST">
         {% csrf_token %}
         {{ comment_form.as_p }}
         <input type="submit">
     </form>
-    {% for comment in article.comments.all %}
+    {% for comment in comments %}
         <hr>
-        <p>댓글 번호: {{ comment.id }}</p>
+        <p>댓글 번호: {{ forloop.revcounter }}</p>
         <p>댓글 내용: {{ comment.content}}</p>
+        <form action="{% url 'articles:comments_delete' article.pk comment.id %}" method="post">
+            {% csrf_token %}
+            <input type="submit" value="댓글 삭제">
+        
+        </form>
+        <a href="{% url 'articles:comments_update' article.pk comment.pk %}">댓글 수정</a>
         {% empty %}
             <p><b>댓글이 없습니다. 댓글을 작성해주세요.</b></p>
     {% endfor %}
