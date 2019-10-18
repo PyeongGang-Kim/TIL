@@ -3,6 +3,8 @@ from collections import deque
 각 명령어들에 대해서 bfs(값, 명령어리스트)
 
 시간초과
+%%
+str로 변환하지 않고 숫자를 계속 활용할 방법 찾아보기
 '''
 def solve():
     tmpset = {A}
@@ -13,8 +15,11 @@ def solve():
         if nu == B:
             print(ops)
             return
-        nnu = int(nu)
-        tmp = str(nnu*2%10000)
+        nnu = int(nu)*2
+        if nnu >= 10000:
+            nnu -= 10000
+
+        tmp = str(nnu)
         if len(tmp) != 4:
             tmp = '0'*(4-len(tmp)) + tmp
         if tmp not in tmpset:

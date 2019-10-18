@@ -1,24 +1,18 @@
-def Stupid(arr):
+def Stupid(s, e):
     global r
     r += 1
-    if len(arr) == 2:
-        if arr[0] > arr[1]:
-            arr[0], arr[1] = arr[1], arr[0]
-
-
+    if s+1 == e or s == e:
+        if arr[s] > arr[e]:
+            arr[s], arr[e] = arr[e], arr[s]
     else:
-        m = len(arr) * 2 // 3
-        for idx, n in enumerate(Stupid(arr[:m])):
-            arr[idx] = n
-        for idx, n in enumerate(Stupid(arr[len(arr)-m:])):
-            arr[idx+len(arr)-m] = n
-        for idx, n in enumerate(Stupid(arr[:m])):
-            arr[idx] = n
-    return arr
+        m = s + (e - s) * 2 // 3
+        Stupid(s, m)
+        Stupid(e-m+s, e)
+        Stupid(s, m)
 
 
 arr = [3, 2, 6, 1, 3, 2, 6, 8, 6, 8]
 r = 0
-Stupid(arr)
+Stupid(0, len(arr)-1)
 print(arr)
 print(r)

@@ -1,7 +1,13 @@
 from collections import deque
 import sys
 from copy import deepcopy
+'''
+말처럼 움직일 수 있는 횟수에 따라서 맵 높이를 다르게 들어간다.
+이미 밟은 곳은 못 밟지만 말처럼 움직일 때에는 그 다음번째 맵을 밟기 때문에 계속 탐색이 가능.
 
+%%
+맵을 여러개 만들지 않고 하나의 맵에서 비짓체크만 높이로 해 줄 수도 있다.
+'''
 
 def bfs():
     Q = deque([(0, 0, 0, K)])
