@@ -1,7 +1,12 @@
 {% extends 'base.html' %}
 {% block body %}
-{% if article %}
+{% if article_form %}
 <h2>update</h2>
+<form action="{% url 'articles:update' article_form.id %}" method="post">
+    {% csrf_token %}
+{{ article_form.as_p }}
+<input type="submit" value="글 수정하기">
+</form>
 {% else %}
 <h2>create</h2>
 <form action="" method="post">
