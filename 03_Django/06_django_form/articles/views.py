@@ -1,17 +1,35 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Article, Comment
 from django.views.decorators.http import require_POST
+from django.contrib.auth.decorators import login_required
 from .forms import ArticleForm, CommentForm
 from IPython import embed
+import hashlib
 # Create your views here.
 
 def index(request):
+    # 1. 세션 정보에서 visits_num 이라는 키로 접근해 값을 가져옴
+    # 해당하는 키가 없으면 0 을 가져옴
+    visits_num = request.session.get('visits_num', 0)
+
+    # 2. 가져온 값을 session에 'visits_num'이라는 새로운 키의 값으로 1씩 증가
+    request.session['visits_num'] = visits_num+1
+
+    # 3. 세션 데이타를 수정하면 장고는 수정한 내용을 알 수 없어서 작성하는 코드
+    request.session.modified = True
+    # embed()
+
+
+
     articles = Article.objects.all()
     context = {
+        'visits_num': visits_num,
         'articles': articles,
     }
     return render(request, 'articles/index.html', context)
 
+
+@login_required()
 def create(request):
     '''
     Form class
@@ -35,12 +53,16 @@ def create(request):
 
             # 폼에 article을 로드하고 meta에 불러왔기 때문에 가능한 방법
             # form.save()를 하면 article 객체를 반환해 준다.
-            article = form.save()
+            article = form.save(commit=False)
+            article.user_id = request.user.id
+            article.save()
             # embed()
             return redirect('articles:detail', article.pk)
     else:
         form = ArticleForm()
         # embed()
+
+    
     context = {
         'form': form,
     }
@@ -55,25 +77,32 @@ def detail(request, article_pk):
         'comment_form': comment_form,
         'comments': comments,
     }
+    # embed()
     return render(request, 'articles/detail.html', context)
 
 @require_POST
 def delete(request, article_pk):
-    article = get_object_or_404(Article, pk=article_pk)
-    article.delete()
+    if request.user.is_authenticated:
+        article = get_object_or_404(Article, pk=article_pk)
+        if request.user == article.user:
+            article.delete()
     return redirect('articles:index')
 
+@login_required
 def update(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
-    if request.method == 'POST':
-        form = ArticleForm(request.POST)
-        if form.is_valid():
-            # article.title = form.cleaned_data.get('content')
-            # form.save()
-            return redirect('articles:detail', article.pk)
+    if request.user == article.user:
+        if request.method == 'POST':
+            form = ArticleForm(request.POST)
+            if form.is_valid():
+                # article.title = form.cleaned_data.get('content')
+                form.save()
+                return redirect('articles:detail', article.pk)
+        else:
+            form = ArticleForm(instance=article)
+        # embed()
     else:
-        form = ArticleForm(instance=article)
-    # embed()
+        return redirect('articles:index')
     context = {
         'form': form,
         'article': article,
@@ -82,19 +111,21 @@ def update(request, article_pk):
 
 @require_POST
 def comments_create(request, article_pk):
-    comment_form = CommentForm(request.POST)
-    
-    # embed()
-    if comment_form.is_valid():
-        # commit=False는 바로 저장하진 않는다는 말임 (기본값 True)
-        # comment에 id가 없기때문에 저장되지 않으므로 articleid를 추가해 줄 수 있다.
-        # 그 후 저장.
-        comment = comment_form.save(commit=False)
-        comment.article_id = article_pk
-        comment.save()
+    if request.user.is_authenticated:
+        comment_form = CommentForm(request.POST)
+        
+        # embed()
+        if comment_form.is_valid():
+            # commit=False는 바로 저장하진 않는다는 말임 (기본값 True)
+            # comment에 id가 없기때문에 저장되지 않으므로 articleid를 추가해 줄 수 있다.
+            # 그 후 저장.
+            comment = comment_form.save(commit=False)
+            comment.article_id = article_pk
+            comment.user_id = request.user.id
+            comment.save()
     return redirect('articles:detail', article_pk)
 
-
+@login_required()
 def comments_update(request, article_pk, comment_pk):
     # if request.method == 'POST':
         
@@ -122,8 +153,10 @@ def comments_update(request, article_pk, comment_pk):
 
 @require_POST
 def comments_delete(request, article_pk, comment_pk):
-    comment = get_object_or_404(Comment, pk=comment_pk)
-    comment.delete()
+    if request.user.is_authenticated:
+        comment = get_object_or_404(Comment, pk=comment_pk)
+        if comment.user == request.user:
+            comment.delete()
     return redirect('articles:detail', article_pk)
 
 

@@ -1193,3 +1193,163 @@ import 해줘야 함.
 
 
 
+## 세션작업
+
+세션에 데이터를 넣을 수도, 수정할 수도 있다.
+
+
+
+## 회원가입
+
+views.py에서 
+
+```python
+from django.contrib.auth.forms import UserCreationForm
+```
+
+로 유저가입 폼 불러오기
+
+
+
+## 회원 정보 확인
+
+```python
+# 익명의 이용자인지 확인
+request.user.is_anonymous
+# 권한이 있는지 확인
+request.user.is_authenticated
+# superuser인지 확인
+request.user.is_superuser
+```
+
+
+
+## 로그인 정보 확인하는 데코레이터
+
+```python
+from django.contrib.auth.decorators import login_required
+
+@login_required(redirect_field_name='my_redirect_field')
+```
+
+데코레이터를 붙이면 로그인 정보를 확인한 후 로그인 안한 상태면 갈 주소 저장해놓고
+
+request.GET에 'next: [원래유알엘]' 형태로 담아 보냄.
+
+로그인 하고 나면 원래 갈 주소로 보내준다.
+
+
+
+- UserChangeForm.
+
+  views.py에 UserChangeForm추가
+
+```python
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, UserChangeForm
+```
+
+​	forms.py 생성 후
+
+```python
+from django.contrib.auth.forms import UserChangeForm
+from django.contrib.auth import get_user_model
+
+class CustomUserChangeForm(UserChangeForm):
+    class Meta:
+        model = get_user_model()
+```
+
+
+
+로그인된사람만 받는 데코레이터
+
+```python
+from django.contrib.auth.decorators import login_required
+@login_required
+```
+
+
+
+비밀번호가 변경된 후에 로그인을 계속 유지하려면 세션의 정보를 업데이트 해 줘야 함.
+
+update_session_auth_hash를 이용하면 된다.
+
+```python
+
+```
+
+
+
+
+
+## gravatar
+
+ ko.gravatar.com/site/check
+
+```python
+import hashlib
+image_url=hashlib.md5('pyeonggangkim@gmail.com'.encode('utf-8').lower().strip()).hexdigest()
+url = f'https://www.gravatar.com/avatar/{image_url}'
+```
+
+hashlib.md5('pyeonggangkim@gmail.com'.encode('utf-8').lower().strip()).hexdigest()을 입력하면 
+
+'31308b759196a5cdfebb1a220e431baa'이 출력된다.
+
+
+
+
+
+## 커스텀 템플릿 만들기
+
+templatetags폴더를 만들고 그 폴더에 
+
+```python
+__init__.py
+```
+
+파일을 만든다.
+
+그 후 원하는 파일명.py를 만들고
+
+html에서 {% load gravatar %}를 하면 {{ user.email|makemd5 }} 이런식으로 파일명.py의 makemd5함수에 user.email을 인자로 넘긴 값을 받아오게 할 수 있다.
+
+이렇게 템플릿을 새로 만들었을 때에는 서버를 다시 켜 줘야 한다.
+
+gravatar.py파일의 
+
+```python
+import hashlib
+from django import template
+
+register = template.Library()
+
+@register.filter
+def makemd5(email):
+    return  hashlib.md5(email.strip().lower().encode('utf-8')).hexdigest()
+```
+
+
+
+# N:M
+
+N과 M을 잇기 위하여 추가 테이블을 하나 더 만들어서 연결한다.
+
+그러고 난 다음에 N과 M에 아래와 같이 manytomany필드를 만들어준다.
+
+```python
+class Patient(models.Model):
+    name = models.TextField()
+    doctors = models.ManyToManyField(Doctor, through="Reservation")
+
+    def __str__(self):
+        return f'{self.pk}번 환자 {self.name}'
+```
+
+이러고 나면 
+
+```python
+patient1.doctors.all()
+```
+
+을 사용할 수 있게 된다.

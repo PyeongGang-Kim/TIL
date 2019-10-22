@@ -9,30 +9,39 @@
     <p>글 제목: {{ article.title }}</p>
     <p>글 내용: {{ article.content }}</p>
     <hr>
-    
+    {% if not request.user.is_anonymous %}
+    <p>댓글 작성</p>
     <form action="{% url 'articles:comments_create' article.pk %}" method="POST">
         {% csrf_token %}
         {{ comment_form.as_p }}
         <input type="submit">
     </form>
+    {% else %}
+        <p>덧글을 작성하려면 로그인 해 주세요. <a href="{% url 'accounts:login' %}">[로그인]</a></p>
+    {% endif %}
     {% for comment in comments %}
         <hr>
+        <p>댓글 작성자: {{ comment.user }}</p>
         <p>댓글 번호: {{ forloop.revcounter }}</p>
         <p>댓글 내용: {{ comment.content}}</p>
-        <form action="{% url 'articles:comments_delete' article.pk comment.id %}" method="post">
-            {% csrf_token %}
-            <input type="submit" value="댓글 삭제">
-        
-        </form>
-        <a href="{% url 'articles:comments_update' article.pk comment.pk %}">댓글 수정</a>
+        {% if comment.user == request.user %}
+            <form action="{% url 'articles:comments_delete' article.pk comment.id %}" method="post">
+                {% csrf_token %}
+                <input type="submit" value="댓글 삭제">
+            
+            </form>
+            <a href="{% url 'articles:comments_update' article.pk comment.pk %}">댓글 수정</a>
+        {% endif %}
         {% empty %}
             <p><b>댓글이 없습니다. 댓글을 작성해주세요.</b></p>
     {% endfor %}
     <hr>
     <a href="{% url 'articles:index' %}">[메인 페이지로]</a>
-    <form action="{% url 'articles:delete' article.pk %}" method="post">
-        {% csrf_token %}
-        <input type="submit" value="글 삭제">
-    </form>
-    <a href="{% url 'articles:update' article.pk %}">[글 수정]</a>
+    {% if request.user.id == article.user_id %}
+        <form action="{% url 'articles:delete' article.pk %}" method="post">
+            {% csrf_token %}
+            <input type="submit" value="글 삭제">
+        </form>
+        <a href="{% url 'articles:update' article.pk %}">[글 수정]</a>
+    {% endif %}
 {% endblock %}
