@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="10/19">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/16234.py" afterDir="false" />
+    <list default="true" id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/migrations/0002_comment_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/templates/articles/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/templates/articles/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/articles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/06_django_form/myform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/06_django_form/myform/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/manytomany/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/07_model_relation/manytomany/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/manytomany/migrations/0002_patient_doctors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/manytomany/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/07_model_relation/manytomany/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/modelrelation/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/07_model_relation/modelrelation/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/07_model_relation/onetomany/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/django.md" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/django.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/월말평가/2시간동안 오류 해결.md" beforeDir="false" afterPath="$PROJECT_DIR$/월말평가/2시간동안 오류 해결.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +16,8 @@
         <counts>
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="6" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,10 +33,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="2393" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="2393" />
         </counts>
       </usages-collector>
@@ -122,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/algorithm/study/16234.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -234,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,7 +230,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -603,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571466361836</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="10/23">
+      <created>1571825194733</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1571825194733</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -687,7 +667,8 @@
     <MESSAGE value="10/17" />
     <MESSAGE value="10/18" />
     <MESSAGE value="10/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="10/19" />
+    <MESSAGE value="10/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="10/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1679,7 +1660,7 @@
     <entry file="file://$PROJECT_DIR$/algorithm/study/16234.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
