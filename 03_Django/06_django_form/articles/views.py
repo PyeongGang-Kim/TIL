@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import Article, Comment
 from django.views.decorators.http import require_POST
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import get_user_model
 from .forms import ArticleForm, CommentForm
 from IPython import embed
 import hashlib
@@ -71,11 +72,13 @@ def create(request):
 def detail(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
     comment_form = CommentForm()
+    person = get_object_or_404(get_user_model(), pk=article.user.pk)
     comments = article.comments.all()
     context = {
         'article': article,
         'comment_form': comment_form,
         'comments': comments,
+        'person': person,
     }
     # embed()
     return render(request, 'articles/detail.html', context)
@@ -159,6 +162,37 @@ def comments_delete(request, article_pk, comment_pk):
             comment.delete()
     return redirect('articles:detail', article_pk)
 
+
+@login_required
+def like(request, article_pk):
+    article = get_object_or_404(Article, pk=article_pk)
+    user = request.user
+
+    # 해당 게시글에 좋아요를 누른 사람들 중에서
+    # user.pk(현재 요청 유저)를 가진 user가 존재하면
+    # 좋아요 취소
+    #아니면 좋아요 목록에 유저 추가
+    if article.like_users.filter(pk=user.pk).exists():
+        article.like_users.remove(user)
+    else:
+        article.like_users.add(user)
+    return redirect('articles:index')
+
+
+@login_required
+def follow(request, article_pk, user_pk):
+    # 게시글을 작성한 유저
+    person = get_object_or_404(get_user_model(), pk=user_pk)
+    # 해당 경로로 요청을 보낸 사람
+    user = request.user
+
+    # 해당 person의 팔로워 중에서 요청을 보낸 사람이 존재 하면 언팔로우
+    if person.followers.filter(pk=user.pk):
+        person.followers.remove(user)
+    # 존재하지 않으면 팔로우
+    else:
+        person.followers.add(user)
+    return redirect('articles:detail', article_pk)
 
 '''
 create 로직

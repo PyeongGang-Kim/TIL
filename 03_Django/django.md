@@ -1335,7 +1335,7 @@ def makemd5(email):
 
 N과 M을 잇기 위하여 추가 테이블을 하나 더 만들어서 연결한다.
 
-그러고 난 다음에 N과 M에 아래와 같이 manytomany필드를 만들어준다.
+그러고 난 다음에 M에 아래와 같이 manytomany필드를 만들어준다.
 
 ```python
 class Patient(models.Model):
@@ -1353,3 +1353,119 @@ patient1.doctors.all()
 ```
 
 을 사용할 수 있게 된다.
+
+반대로
+
+```python
+doctor1.patient_set.all()
+```
+
+혹은 
+
+```python
+models.ManyToManyField(Doctor, through="Reservation", related_name="patients")
+```
+
+로 만들경우엔
+
+```python
+doctor1.patients.all()
+```
+
+로 부를 수 있다.
+
+
+
+```python
+from django.db import models
+
+# Create your models here.
+class Doctor(models.Model):
+    name = models.TextField()
+
+    def __str__(self):
+        return f'{self.pk}번 의사 {self.name}'
+
+class Patient(models.Model):
+    name = models.TextField()
+
+    # 매니투매니필드는 테이블이 하나 만들어진다.
+    doctors = models.ManyToManyField(Doctor, related_name="patients")
+
+    def __str__(self):
+        return f'{self.pk}번 환자 {self.name}'
+```
+
+이렇게 만들면
+
+doctor1.patients.add(patient1)로 예약을 할 수 있다.
+
+doctor1.patients.remove(patient1)로 예약을 지울 수 있다.
+
+하지만 중복 예약은 불가능 하기 때문에 중개 테이블이 필요함
+
+
+
+
+
+## models.py에선 
+
+settings.AUTH_USER_MODEL로
+
+그 외에선 get.user.model로 호출한다.
+
+mtm 모델에선 related_name를 설정해야 충돌이 일어나지 않는다.
+
+
+
+
+
+user.article_set.all() 유저가 쓴 게시글을 전부(1:N)
+
+user.like_articles.all() 유저가 좋아요 누른 게시글들 전부(M:N)
+
+article.like_users.all() 게시글에 좋아요를 누른 유저 전부(M:N)
+
+article.user 게시글을 작성한 유저 (1:N)
+
+
+
+{% for article in person.article_set.all|dictsortreversed:"pk" %}
+
+pk 역순 정렬
+
+
+
+
+
+세팅에 아래와 같이 추가한 후
+
+```python
+AUTH_USER_MODEL = 'accounts.User'
+```
+
+모델을 아래와 같이 작성한다.
+
+```python
+from django.db import models
+from django.conf import settings
+from django.contrib.auth.models import AbstractUser
+
+class User(AbstractUser):
+    
+    followers = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='followings')
+```
+
+
+
+이렇게하면 forms.py에서 
+
+```python
+class CustomUserCreationForm(UserCreationForm):
+    # UserCreationForm의 메타를 상속
+    class Meta:
+        model = get_user_model()
+        fields = ('username', 'password1', 'password2', 'email', )
+```
+
+위와 같이 get_user_model 해줘야 함

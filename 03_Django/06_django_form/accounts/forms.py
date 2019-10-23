@@ -8,6 +8,6 @@ class CustomUserChangeForm(UserChangeForm):
 
 class CustomUserCreationForm(UserCreationForm):
     # UserCreationForm의 메타를 상속
-    class Meta(UserCreationForm.Meta):
-        # UserCreationForm의 필드에 email을 추가
-        fields = UserCreationForm.Meta.fields + ('email', )
+    class Meta:
+        model = get_user_model()
+        fields = ('username', 'password1', 'password2', 'email', )
