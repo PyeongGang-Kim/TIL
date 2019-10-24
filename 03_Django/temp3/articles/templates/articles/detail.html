@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h2>detail</h2>
+    {{ article.title }}
+    {{ article.content }}
+    <a href="{% url 'articles:update' article.pk %}">글 수정</a>
+    <form action="{% url 'articles:delete' article.pk %}" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="글 삭제">
+    </form>
+
+{% endblock %}
