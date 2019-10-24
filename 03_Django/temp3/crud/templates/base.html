@@ -8,6 +8,16 @@
 </head>
 <body>
     <h1>base</h1>
+
+    {% if user.is_authenticated %}
+        hello {{ user.username }}
+        <form action="{% url 'accounts:logout' %}" method="post">
+            {% csrf_token %}
+            <input type="submit">
+        </form>
+    {% else %}
+        <a href="{% url 'accounts:login' %}">login</a>
+    {% endif %}
     {% block body %}
     
     {% endblock %}
