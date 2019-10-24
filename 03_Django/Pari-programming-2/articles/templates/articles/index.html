@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1> Article </h1>
+{% for article in articles %}
+<h3>{{ article.pk }}번째 {{ article.title }} </h3>
+<h3>{{ article.content }}</h3>
+<p>{{ article.like_users.count }}명이 이 글을 좋아합니다!</p>
+<a href="{% url 'articles:likearticle' article.pk %}">좋아요</a>
+<hr>
+<a href="{% url 'articles:detail' article.pk %}" class='btn btn-info'>[상세글 보기]</a>
+{% endfor %}
+<hr>
+<a href="{% url 'articles:create'  %}" class='btn btn-success'>[글작성]</a>
+{% endblock %}

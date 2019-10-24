@@ -1522,6 +1522,8 @@ installed_apps에
 
 그 밑에 SITE_ID = 1 추가
 
+그 밑에 LOGIN_REDIRECT_URL = 'articles:index' 추가
+
 urlpatterns의
 
 프로젝트의 urls.py의 accounts.urls 밑에
