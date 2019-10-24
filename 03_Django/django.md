@@ -219,6 +219,14 @@ python manage.py showmigrations를 하면 볼 수 있다.
 
 
 
+content = models.TextField(unique=True)
+
+유일하게 하나만 존재해야하는 옵션
+
+
+
+
+
 ## 장고 쉘
 
 python manage.py shell 명령하면 파이썬 + 장고 쉘 실행된다.
@@ -1469,3 +1477,72 @@ class CustomUserCreationForm(UserCreationForm):
 ```
 
 위와 같이 get_user_model 해줘야 함
+
+
+
+
+
+cascade 대신 do_nothing하면 연동되서 사라지는게 아니라 그냥 남아있는다.
+
+
+
+
+
+장고 소셜 로그인
+
+pip install django-allauth
+
+
+
+settings에 
+
+AUTHENTICATION_BACKENDS = (
+
+  'django.contrib.auth.backends.ModelBackend',
+
+)
+
+추가
+
+
+
+installed_apps에 
+
+  'django.contrib.sites',
+
+  'allauth',
+
+  'allauth.account',
+
+  'allauth.socialaccount',
+
+  'allauth.socialaccount.providers.kakao',
+
+추가
+
+그 밑에 SITE_ID = 1 추가
+
+urlpatterns의
+
+프로젝트의 urls.py의 accounts.urls 밑에
+
+ path('accounts/', include('allauth.urls')),
+
+
+
+admin 페이지에서 소셜 어플리케이션 추가 창에서 제공자 선택
+
+rest api키를 클라이언트 아이디에 붙여넣기
+
+개발자센터의 고급 설정에서 client secret 받아와서 비밀 키에 붙여넣기
+
+이용 가능한 사이트를 추가해주기
+
+
+
+html문서에서 {% load socialaccount %}로 불러온다.
+
+```html
+<a href="{% provider_login_url 'kakao' %}" class="btn btn-warning">KAKAO LOGIN</a>
+```
+

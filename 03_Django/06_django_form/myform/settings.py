@@ -29,7 +29,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+)
 INSTALLED_APPS = [
     'accounts',
     'articles',
@@ -41,7 +43,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap4',
     'django_extensions',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.kakao',
 ]
+
+SITE_ID = 1
+LOGIN_REDIRECT_URL = 'articles:index'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

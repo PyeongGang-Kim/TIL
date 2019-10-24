@@ -1,5 +1,6 @@
 {% extends 'articles/base.html' %}
 {% load bootstrap4 %}
+{% load socialaccount %}
 {% block body %}
 <h1>LOGIN</h1>
 <form action="" method="POST">
@@ -8,4 +9,5 @@
     {% buttons submit="로그인" reset="Cancel" %}
     {% endbuttons %}
 </form>
+<a href="{% provider_login_url 'kakao' %}" class="btn btn-warning">KAKAO LOGIN</a>
 {% endblock %}
