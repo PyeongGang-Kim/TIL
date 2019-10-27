@@ -70,23 +70,19 @@ CREATE TABLE classmates (
 
 ```bash
 <여러개의 값 한번에 넣기>
-sqlite> INSERT INTO classmates (name, age, address) VALUES ('홍길동', 30, '서울')
-   ...> ;
-sqlite> SELECT * FROM classmates
-   ...> ;
+sqlite> INSERT INTO classmates (name, age, address) VALUES ('홍길동', 30, '서울');
+sqlite> SELECT * FROM classmates;
 id          name        age         address
 ----------  ----------  ----------  ----------
 1           홍길동         30          서울
-sqlite> DROP TABLE classmates
-   ...> ;
+sqlite> DROP TABLE classmates;
 sqlite> .tables
 examples
 sqlite> CREATE TABLE classmates (
    ...> name TEXT NOT NULL,
    ...> age INT NOT NULL,
    ...> address TEXT NOT NULL );
-sqlite> INSERT INTO classmates VALUES ('홍길동', 30, '서울'), ('김철수', 23, '대전'), ('
-박나래', 23, '광주'), ('이요셉', 33, '구미');
+sqlite> INSERT INTO classmates VALUES ('홍길동', 30, '서울'), ('김철수', 23, '대전'), ('박나래', 23, '광주'), ('이요셉', 33, '구미');
 sqlite> SELECT rowid, * FROM classmates;
 rowid       name        age         address
 ----------  ----------  ----------  ----------
@@ -234,3 +230,4 @@ ALTER TABLE news RENAME date TO created_at;
 테이블.objects.all().query
 
 이런식으로 .query를 붙여주면 sql명령어를 볼 수 있다.
+

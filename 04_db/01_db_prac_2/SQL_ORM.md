@@ -301,17 +301,19 @@
    SELECT * FROM users_user ORDER BY balance, age DESC LIMIT 10;
    ```
    
-   성, 이름 내림차순 순으로 5번째 있는 사람
-4. ```python
-# orm
-   User.objects.order_by('balance', '-age')[4]
-   ```
-   
-   ```sql
-   -- sql
-   SELECT * FROM users_user ORDER BY balance, age DESC LIMIT 1 OFFSET 4;
-   ```
-### 표현식
+4. 성, 이름 내림차순 순으로 5번째 있는 사람
+
+      ```python
+      # orm
+      User.objects.order_by('balance', '-age')[4]
+      ```
+
+      ```sql
+      SELECT * FROM users_user ORDER BY balance, age DESC LIMIT 1 OFFSET 4;
+      ```
+
+      
+## 표현식
 
 ORM: `aggregate` 사용
 
