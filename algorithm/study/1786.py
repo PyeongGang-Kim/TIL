@@ -32,7 +32,7 @@ for i in range(1, len(B)):
     if B[i] == B[j]:
         j += 1
         P[i] = j
-
+j = 0
 for i in range(len(A)):
     while j > 0 and B[j] != A[i]:
         j = P[j-1]

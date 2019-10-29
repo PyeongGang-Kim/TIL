@@ -1546,3 +1546,107 @@ html문서에서 {% load socialaccount %}로 불러온다.
 <a href="{% provider_login_url 'kakao' %}" class="btn btn-warning">KAKAO LOGIN</a>
 ```
 
+
+
+
+
+
+
+더미데이터
+
+더미 만들기
+
+```bash
+python manage.py dumpdata --indent 2 musics > dummy.json
+```
+
+앱폴더에 fixtures/앱이름/ 경로를 만들고 여기에 dummy.json을 넣어준다.
+
+
+
+
+
+Json파일 출력해주기
+
+pip install djangorestframework
+
+installed_apps에 'rest_framework' 추가
+
+serializers.py
+
+```python
+from rest_framework import serializers
+from .models import Music
+
+class MusicSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Music
+        fields = ('id', 'title', 'artist_id', )
+```
+
+views.py
+
+```python
+from django.shortcuts import render
+from .models import Music
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from .serializers import MusicSerializer
+
+@api_view(['GET'])
+def music_list(request):
+    musics = Music.objects.all()
+    serializer=MusicSerializer(musics, many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
+def music_detail(request, music_pk):
+    music = get_object_or_404(Music, pk=music_pk)
+    serializer = MusicSerializer(music)
+    return Response(serializer.data)
+```
+
+
+
+
+
+pip install drf-yasg
+
+installed_apps에 'drf_yasg' 추가
+
+urls.py에
+
+```python
+from django.urls import path
+from . import views
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+schema_view = get_schema_view(
+    openapi.Info(
+        #필수인자
+        title="Music API",
+        default_version="v1",
+        #선택인자
+        description="음악관련 API 서비스입니다.",
+        terms_of_service='https://www.google.com/policies/terms/', # 약관 예시
+        contact=openapi.Contact(email="pyeonggangkim@gmail.com"),
+        license=openapi.License(name="SSAFY License"), 
+    )
+)
+
+app_name = 'musics'
+
+urlpatterns = [
+    path('musics/', views.music_list, name='music_list'),
+    path('musics/<int:music_pk>/', views.music_detail, name='music_detail'),
+    path('docs/', schema_view.with_ui('redoc'), name='api_docs'),
+    path('swagger/', schema_view.with_ui('swagger'), name='api_swagger'),
+]
+```
+
+
+
+ http://127.0.0.1:8000/api/v1/docs/ 
+
+ http://127.0.0.1:8000/api/v1/swagger/ 
