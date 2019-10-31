@@ -8,6 +8,18 @@ console.log(numbers.length)
 
 // push
 
+
+
+// 오브젝트 접근법
+const myObject = {
+  'asd': 1
+}
+console.log(myObject.asd)
+console.log(myObject["asd"])
+
+
+
+
 // pop
 console.log(numbers.pop())
 console.log(numbers)
@@ -40,6 +52,9 @@ console.log(numbers)
 
 
 
+
+
+
 const me = {
   name: 'ssafy',
   'phone number': '0101234568',
@@ -49,6 +64,14 @@ const me = {
     macbook: '2018pro'
     }
 }
+
+// 오브젝트는 
+console.log(me.name)
+console.log(me["name"])
+console.log(me['phone number'])
+// 띄어쓰기가 있는 변수는 .으로 접근 불가
+console.log(me.phone number)
+
 
 const books = ['사서삼경', '천자문']
 const movies = {

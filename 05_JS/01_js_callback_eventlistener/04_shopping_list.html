@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>my shopping list</h1>
+  enter a new item: <input type="text" id="item-input">
+  <button id="add-button">add item</button>
+  <ul id="shopping-list">
+
+  </ul>
+  <script>
+    let number = 0
+    const myButton = document.querySelector('#add-button')
+    // 버튼을 눌렀을 때 li와 button 들어가게 만들기
+    // li와 button에 고유 아이디 만들어 주기.
+
+    // 고장남 제대로 만들어 볼 것
+    myButton.addEventListener('click', function(){
+      const ul = document.querySelector('#shopping-list')
+      const mytext = document.querySelector('#item-input')
+      const item = document.createElement("li")
+      const deleteButton = document.createElement('button')
+      deleteButton.innerText = 'delete'
+      ul.append(item)
+      item.append(deleteButton)
+      deleteButton.addEventListener('click', function(){
+        item.remove()
+      })
+
+
+
+      // ul.innerHTML = ul.innerHTML + `<li id="item-${number}">${mytext.value}</li><button id="button-${number}" for="item-${number}">제거</button>`
+      // const newButton = document.body.querySelector(`#button-${number}`)
+      // newButton.addEventListener('click', function(){
+
+      //   newButton.remove()
+      // })
+    })
+
+  </script>
+</body>
+</html>

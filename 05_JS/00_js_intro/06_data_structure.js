@@ -279,8 +279,30 @@ console.log(result2)
 
 */
 
-const myObject = {
-  'asd': 1
-}
-console.log(myObject.asd)
-console.log(myObject["asd"])
+// some every
+// 사람 중 admin 권한을 가진 사람
+const PEOPLE = [
+  { id: 1, admin: false},
+  { id: 2, admin: false},
+  { id: 3, admin: true},
+]
+
+let r1 = PEOPLE.find(function(x){
+  return x.admin
+})
+console.log(r1)
+
+// some & every Ex1.
+const COUPUTERS = [
+  { name: 'macbook', ram: 16  },
+  { name: 'gram', ram: 8 },
+  { name: 'series9', ram: 32 }
+]
+
+let r2 = COUPUTERS.some(computer => (computer.ram === 8))
+
+console.log(r2)
+
+let r3 = COUPUTERS.every(computer => (computer.ram === 8))
+
+console.log(r3)
