@@ -95,3 +95,136 @@ switch(userName){
 }
 ```
 
+
+
+
+
+
+
+## axios
+
+콘솔창에서 npm install axios로 엑시오스 설치하기
+
+
+
+랜덤 json파일 받기(100개)
+
+jsonplaceholder.typicode.com
+
+ https://jsonplaceholder.typicode.com/posts 
+
+```js
+const axios = require('axios')
+axios
+.get('https://jsonplaceholder.typicode.com/posts').then(response => {
+  console.log(response)
+})
+.catch(err => {
+  console.log(err)
+})
+```
+
+
+
+dog.ceo 사이트에 개 사진 api
+
+
+
+
+
+lower camel case 첫번째만 소문자 나머지 단어는 대문자로 시작
+
+파스칼 케이스 == upper cammel case
+
+스네이크 케이스 언더바 사용
+
+null 과 undefined는 같은 것이다.
+
+typeof null -> object
+
+typeof undefined -> undefined
+
+nan이 나오는 경우를 알기
+
+문자를 표현하는 방법 세가지 싱글 더블 빽틱
+
+==과 ===의 차이는 자동으로 형변환 해서 비교를 해 주는것이다.
+
+1과 == '1'일 때는 true
+
+1과 ==='1' 일 때는 false
+
+
+
+
+
+에로우 펑션 괄호 지울 수 있는 경우
+
+기본값 주면 괄호 꼭 필요함
+
+안주면 
+
+뒤의 값 생략하는 방법또한 있다.
+
+
+
+인자가 하나도 없을 경우 () => 
+
+혹은 _ =>
+
+이렇게 생략할 수 있다.
+
+
+
+익명함수 인자 없이 쓰려면 즉시실행
+
+오브젝트에서 키로 밸류 뽑을 때
+
+오브젝트.키
+
+오브젝트["키"]
+
+두글자 이상일 때에는 대괄호를 사용해야만 한다.
+
+
+
+어레이 헬퍼
+
+foreach
+
+filter
+
+some, every
+
+reduce
+
+map
+
+
+
+
+
+setTime 일정 시간 후 실행하기
+
+콜백을 주로 사용함
+
+비동기방식(none blocking) 독립적으로 
+
+
+
+1급 객체가 되는 조건
+
+다른 함수에 인자로 넘길 수 있는가
+
+변수에 담을 수 있는가
+
+리턴값이 될 수 있는가
+
+이 세가지를 만족해야 함
+
+
+
+돔 조작
+
+이벤트리스너
+

@@ -59,3 +59,19 @@
 // console.log(numbersEach(NUMBERS, addEach))
 // console.log(numbersEach(NUMBERS, subEach))
 // console.log(numbersEach(NUMBERS, mulEach))
+
+
+
+// 마지막 리팩토링
+const NUMBERS = [1, 2, 3, 4, 5]
+const numbersEach = (numbers, callback) => {
+  let acc
+  for (const number of numbers){
+    acc = callback(number, acc)
+  }
+  return acc
+}
+
+console.log(numbersEach(NUMBERS, (number, add=0) => add + number))
+console.log(numbersEach(NUMBERS, (number, add=0) => add - number))
+console.log(numbersEach(NUMBERS, (number, add=1) => add * number))

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>0</h1>
+  <button id="change-btn">aad</button>
+  <script>
+    button = document.body.querySelector('#change-btn')
+    header = document.body.querySelector('h1')
+    let clickCount = 0
+    const click = () => {
+      clickCount += 1
+      header.innerHTML = `${clickCount}`
+    }
+
+    button.addEventListener('click', click)
+  </script>
+</body>
+</html>
