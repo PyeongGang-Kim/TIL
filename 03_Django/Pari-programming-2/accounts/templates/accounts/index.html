@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block body %}
+    {% for user in users %}
+    {{ user.id }}
+    {% endfor %}
+{% endblock %}

@@ -3,6 +3,7 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from .forms import CustomUserCreationForm
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
+from django.contrib.auth import get_user_model
 
 
 def signin(request):
@@ -42,3 +43,10 @@ def delete(request):
     user = request.user
     user.delete()
     return redirect('articles:index')
+
+def index(request):
+    users = get_user_model().objects.all()
+    context = {
+        'users': users
+    }
+    return render(request, 'accounts/index.html', context)
