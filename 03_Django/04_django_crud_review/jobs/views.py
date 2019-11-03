@@ -26,7 +26,7 @@ def past_life(request):
     # GIPHY
     #1. API키 가져오기
     GIPHY_API_KEY = config('GIPHY_API_KEY')
-    url = f'http://api.giphy.com/v1/gifs/search?api_key={GIPHY_API_KEY}&q={past_job}&limit=1&'
+    url = 'http://api.giphy.com/v1/gifs/search?api_key={}&q={}&limit=1&'.format(GIPHY_API_KEY, past_job)
     data = requests.get(url).json()
     image = data.get('data')[0].get('images').get('original').get('url')
     #네이버 이미지

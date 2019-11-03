@@ -11,4 +11,4 @@ class Article(models.Model):
     # 업데이트할 때만
     updated_at = models.DateTimeField(auto_now=True)
     def __str__(self):
-        return f'{self.id}번글 - {self.title}: {self.content}'
+        return '{}번글 - {}: {}'.format(self.id, self.title, self.content)

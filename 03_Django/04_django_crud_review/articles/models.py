@@ -8,7 +8,7 @@ from imagekit.processors import Thumbnail
 # filename -> 사용자가 업로드한 파일의 이름
 
 def articles_image_path(instance, filename):
-    return f'articles/{instance.pk}번글/images/{filename}'
+    return 'articles/{}번글/images/{}'.format(instance.pk, filename)
 
 
 class Article(models.Model):
@@ -31,7 +31,7 @@ class Article(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f'제목: {self.title}, 내용: {self.content}'
+        return '제목: {}, 내용: {}'.format(self.title, self.content)
         
 
 class Comment(models.Model):
@@ -44,5 +44,5 @@ class Comment(models.Model):
         ordering = ['-pk', ]
     
     def __str__(self):
-        return f'댓글: {self.content}'
+        return '댓글: {}'.format(self.content)
 

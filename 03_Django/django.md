@@ -1548,10 +1548,6 @@ html문서에서 {% load socialaccount %}로 불러온다.
 
 
 
-
-
-
-
 더미데이터
 
 더미 만들기
