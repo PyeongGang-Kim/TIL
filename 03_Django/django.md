@@ -1646,3 +1646,58 @@ urlpatterns = [
  http://127.0.0.1:8000/api/v1/docs/ 
 
  http://127.0.0.1:8000/api/v1/swagger/ 
+
+
+
+
+
+엑시오스 활용하기
+
+헤드태그에
+
+```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+
+추가하기
+
+views.py에
+
+```python
+from django.http import JsonResponse
+```
+
+후 redirect 대신 return JsonResponse(context)
+
+context에는 liked를 담아준다
+
+이렇게 하면 자바스크립트에서
+
+response.data.liked로 접근할 수 있다.
+
+
+
+axios post사용법
+
+```html
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+axios.post(`/articles/${articleId}/like/`)
+```
+
+
+
+비동기 요청일 경우에만 실행하고 싶으면
+
+```python
+from django.http import JsonResponse, HttpResponseBadRequest
+```
+
+HttpResponseBadRequest 임포트하고
+
+request.is_ajax()
+
+
+
+
+

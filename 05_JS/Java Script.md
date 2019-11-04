@@ -130,8 +130,6 @@ dog.ceo 사이트에 개 사진 api
 
 
 
-
-
 lower camel case 첫번째만 소문자 나머지 단어는 대문자로 시작
 
 파스칼 케이스 == upper cammel case
@@ -202,8 +200,6 @@ map
 
 
 
-
-
 setTime 일정 시간 후 실행하기
 
 콜백을 주로 사용함
@@ -227,4 +223,8 @@ setTime 일정 시간 후 실행하기
 돔 조작
 
 이벤트리스너
+
+
+
+
 

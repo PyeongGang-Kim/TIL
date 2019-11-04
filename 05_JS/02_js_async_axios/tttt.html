@@ -13,12 +13,11 @@
     button = document.body.querySelector('#change-btn')
     header = document.body.querySelector('h1')
     let clickCount = 0
-    const click = () => {
+
+    button.addEventListener('click', function() {
       clickCount += 1
       header.innerHTML = `${clickCount}`
-    }
-
-    button.addEventListener('click', click)
+    })
   </script>
 </body>
 </html>
