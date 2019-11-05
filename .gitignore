@@ -251,6 +251,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+
+# etc
+node_modules/
+
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 

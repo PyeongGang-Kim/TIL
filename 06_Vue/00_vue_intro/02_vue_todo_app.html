@@ -4,47 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    .completed {
+      text-decoration: line-through;
+      opacity: 0.6;
+    }
+  </style>
   <title>Document</title>
 </head>
 <body>
   <div id="app">
+    <select v-model="status">
+      <option value="all">all</option>
+      <option value="active">active</option>
+      <option value="completed">completed</option>
+    </select>
+    <!-- 키는 Vue의 각각의 노드(HTML element)에 대해 고유한 ID를 지정할 때 사용 -->
+    <!-- v-for 디렉티브로 반복되어 렌더링 된 HTML element를 Vue는 :key로 기억한다. -->
+
+    <!-- <div v-bind:style="{ color: activeColor, fontSize: fontSize+'px' }">
+      Styling Test
+    </div> -->
     <img v-bind:src="vueImage">
-    <li v-for="todo in todos" v-if="!todo.completed" v-on:click="check(todo)">
-      {{ todo.content }}
+
+    <!-- <li v-for="todo in todosByStatus()" v-bind:class="{ completed: todo.completed }"> -->
+    <!-- 삼항연산자로도 표현 가능 -->
+    <li v-for="todo in computedTodosByStatus" v-bind:class="todo.completed ? 'completed' : ''" v-bind:key="todo.id">
+      <input type="checkbox" v-model="todo.completed">
+      <span>
+        {{ todo.content }}
+      </span>
     </li>
-    <li v-else v-on:click="check(todo)">[완료!]</li>
     <div>
       <input type="text" v-model="newTodo" v-on:keyup.enter="addTodo">
+      <button v-on:click="addTodo">+</button>
     </div>
+    <footer>
+      <button v-on:click="clearCompleted">Clear Completed</button>
+    </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script>
+    // storoge_key는 임의로 지정 가능
+    const STORAGE_KEY = 'vue-todos'
+    const todoStorage = {
+      fetch: function(){
+        // parse 는 스트링을 json으로
+        // localStorage에서 아이템을 가져옴
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+
+      },
+      save: function(todos){
+        // localStorage에 item을 저장
+        // stringify는 json을 스트링으로
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
+      }
+    }
+
     const app = new Vue({
       // DOM(View)와 Vue instance(View-Model)을 연결(mount)
       el: '#app',
       data: {
+        activeColor: 'red',
+        fontSize: 30,
         todos: [
           {
+            id: 1,
             content: '점심 메뉴 고민하기',
             completed: true,
           },
           
           {
+            id: 2, 
             content: '사다리 타기',
             completed: false,
           },
           
           {
+            id: 3,
             content: '약속의 2시 낮잠자기',
             completed: false,
           },
           
           {
+            id: 4,
             content: '야자하기',
             completed: false,
           },
         ],
         newTodo: '',
+        status: 'all', // all, active(완료되지 않은 일), completed(완료된 일)
+
         vueImage: 'http://webpds.saramin.co.kr/pds/united_company/logo/9310_logo_2.gif'
       },
       methods: {
@@ -52,14 +102,59 @@
           todo.completed = !todo.completed
         },
         addTodo: function() {
+          if (this.newTodo != ""){
           this.todos.push({
+            id: Date.now(),
             content: this.newTodo,
             completed: false,
-          })
+            
+          })}
           
           this.newTodo=''
-        }
-      }
+        },
+        clearCompleted: function(){
+          const notCompletedTodos = this.todos.filter((todo) =>{
+            return !todo.completed
+          })
+          this.todos = notCompletedTodos
+        },
+      },
+      computed:{
+        computedTodosByStatus: function() {
+          // 진행중인 일(완료되지 않은 일)
+          if (this.status === 'active') {
+            return this.todos.filter((todo)=>{
+              return !todo.completed
+            })
+          }
+          // 완료된 일
+          if (this.status === 'completed'){
+            return this.todos.filter((todo)=>{
+              return todo.completed
+            })
+          }
+          // 모두
+          return this.todos
+          },
+      },
+      // watch는 vue 인스턴스의 data 변화를 관찰하고 이에 반응한다
+      // 데이터 변경에 대한 응답으로 비동기식 또는 시간이 많이 소요되는 조작을 수행할 때 적합
+      watch:{
+        todos: {
+          // handler는 특정 데이터가 변경 되었을 때 그걸 관찰하고 있다가 변화가 일어 나면
+          // 실행을 할 함수
+          handler: function(todos){
+            todoStorage.save(todos)
+          }
+        },
+        // deep은 Object의 nested item들도 관찰할 것인지 여부를 기입한다.
+        deep: true,
+      },
+      
+      // 새로고침 했을 때 기본 저장소에서 데이터를 가져온다.
+      mounted: function() {
+        this.todos = todoStorage.fetch()
+      },
     })
   </script>
 </body>

@@ -73,18 +73,67 @@ li태그에  v-on:click="todo.completed = true"추가하면 클릭할 때 값을
 
 
 ```html
-
     <img v-bind:src="vueImage">
-
 뷰 data에 
 vueImage: 'http://webpds.saramin.co.kr/pds/united_company/logo/9310_logo_2.gif'
 ```
+
+
 
 v-on: 은 @으로 대체가능
 
 v-bind는 생략 가능
 
-함수 안에 함수는 화살표함수를 써야 함.
+함수 안에 함수는 화살표함수를 써야 함.(그냥 함수를 정의하면 안의 함수는 window를 바라보기 때문. 화살표함수는 바로 위의 함수를 본다.)
 
 그게 아닌 메서드에서 바로 쓰는 함수는  function() { }이런식으로 사용해야함.
+
+
+
+
+
+```js
+        clearCompleted: function(){
+          const notCompletedTodos = this.todos.filter((todo) =>{
+            return !todo.completed
+          })
+          this.todos = notCompletedTodos
+        }
+```
+
+
+
+
+
+```js
+<input type="checkbox" v-model="todo.completed">
+```
+
+v-model은 반복문 안의 todo의 completed와 동기화 시켜준다.
+
+
+
+
+
+app.$el을 콘솔에 입력하면 app 전체를 가져온다.
+
+```html
+<div id="app">…</div>
+```
+
+app.$el.firstChild은 div app에서 첫번째 차일드를 가져옴
+
+
+
+
+
+npm init을 하면 패키지를 만들 수 있다(package.json에서 패키지에 대한 설정을 할 수 있다.)
+
+npm install vue
+
+npm i webpack webpack-cli -D
+
+
+
+
 

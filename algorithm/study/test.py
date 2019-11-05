@@ -1,25 +1,17 @@
 def perm(arr = []):
-    if len(arr) == M:
-        global r
-        r.add(tuple(arr))
+    if len(arr) == N:
+        global result
+        result.append(sorted(arr[:]))
+        print(arr)
         return
-    for i in range(N):
-        if not vl[i]:
-            vl[i] = True
-            arr.append(nl[i])
-            perm(arr)
-            arr.pop()
-            vl[i] = False
+    for i in range(len(nl)):
+        arr.append(nl[i])
+        perm(arr)
+        arr.pop()
 
 
-N, M = map(int, input().strip().split())
-
-nl = list(map(int, input().strip().split()))
-vl = [False for _ in range(N)]
-r = set()
+N = 3
+nl = [1, 21, 3, 4, 5]
+result = []
 perm()
-r = sorted(list(r))
-for rr in r:
-    for rrr in rr:
-        print(rrr, end=' ')
-    print()
+print(result)

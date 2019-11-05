@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/17780.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Vue/02_vue_webpack/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Vue/02_vue_webpack/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/django.md" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/django.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_JS/02_js_async_axios/04_dogs_and_cats.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_JS/02_js_async_axios/04_dogs_and_cats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_JS/02_js_async_axios/tttt.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_JS/02_js_async_axios/tttt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05_JS/Java Script.md" beforeDir="false" afterPath="$PROJECT_DIR$/05_JS/Java Script.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/00_vue_intro/02_vue_todo_app.html" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/00_vue_intro/02_vue_todo_app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/Vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/Vue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/study/17780.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/17780.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,36 +22,36 @@
     <session id="1336606916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.2" value="9" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3603" />
-          <entry key="txt" value="22" />
+          <entry key="py" value="4811" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="3603" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="4811" />
         </counts>
       </usages-collector>
     </session>
@@ -59,11 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <marker date="1572857039586" expanded="true" signature="19:272" ph="..." />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/study/17822.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -71,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/study/17780.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+            <state relative-caret-position="171">
+              <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -80,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="5852">
               <caret line="308" selection-start-line="308" selection-end-line="308" />
             </state>
           </provider>
@@ -162,10 +170,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="864" />
-    <option name="y" value="40" />
+    <option name="x" value="698" />
+    <option name="y" value="38" />
     <option name="width" value="1119" />
-    <option name="height" value="881" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -628,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572599186714</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="11/04">
+      <created>1572865041260</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1572865041260</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -641,7 +656,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="864" y="40" width="1119" height="881" extended-state="0" />
+    <frame x="698" y="38" width="1119" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18038853" />
@@ -649,8 +664,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42761394" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32841823" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4116129" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32841823" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32841823" />
@@ -719,7 +734,8 @@
     <MESSAGE value="10/30" />
     <MESSAGE value="10/31" />
     <MESSAGE value="11/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/01" />
+    <MESSAGE value="11/04" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1295,8 +1311,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/study/17780.py</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/17780.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/17780.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="452" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1310,6 +1336,7 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="result" language="Python" />
+        <watch expression="d" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1368,6 +1395,21 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>d</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>D[d]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>D[d][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>result</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1399,21 +1441,6 @@
       </expression>
       <expression>
         <expression-string>M</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[disk, rotate, num_rotate]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nl[ty][tx]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>link</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1708,13 +1735,6 @@
     <entry file="file://$PROJECT_DIR$/월말평가/01.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/17822.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/17779.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-688">
@@ -1725,27 +1745,31 @@
     <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/17822.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1572857039586" expanded="true" signature="19:272" ph="..." />
-          </folding>
+        <state relative-caret-position="817">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5852">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/17780.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+        <state relative-caret-position="171">
+          <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
         </state>
       </provider>
     </entry>

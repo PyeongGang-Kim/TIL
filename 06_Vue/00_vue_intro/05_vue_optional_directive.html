@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- 데이터의 name을 가져오는 두 가지 방법 -->
+    <span v-text="name"></span>
+    <span>{{ name }}</span>
+
+    <!-- html 태그를 포함해서 작성하고 싶으면 v-html을 써야 한다 -->
+    {{ name2 }}
+    <span v-html="name2"></span>
+
+    <!-- 렌더링을 하지 않음 -->
+    <p v-if="false">{{ name3 }}</p>
+    <!-- 렌더링은 하지만 디스플레이 옵션을 none로 해서 안보이게 함 -->
+    <!-- <p style="display: none;">jason</p> -->
+    <p v-show="false">{{ name3 }}</p>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        name: 'Justin',
+        name2: '<h1>h1태그입니다.</h1>',
+        name3: 'jason',
+      }
+
+    })
+  </script>
+</body>
+</html>
