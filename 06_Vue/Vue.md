@@ -133,7 +133,91 @@ npm install vue
 
 npm i webpack webpack-cli -D
 
+webpack.config.js 파일을 만든다.
+
+```js
+const path = require('path')
+
+module.exports = {
+  // entry: 여러개의 js파일의 시작점. 웹팩이 파일을 읽기 시작하는 지점
+  entry: {},
+  // module: 웹팩은 js만 변환이 가능하기 때문에 html, css같은 모듈을 통해서
+  // 웹팩이 이해할 수 있는 것으로 변환을 해 주는 곳
+  module: {},
+  // plugins: 웹팩을 통해서 번들된 결과물을 추가적으로 처리하는 부분(옵션)
+  plugins: [],
+  // 여러 개의 js 파일을 하나로 만들어낸 결과물
+  output: {},
+}
+```
+
+
+
+$ touch src/main.js
+
+```js
+// 뷰 인스턴스를 최종적으로 만드는 파일
+// 연결되어 있는 모든 js파일의 최상단에 존재하는 파일
+
+// 1. npm install vue -> 추가
+import Vue from 'vue'
+// 2. 최상위 컴포넌트 ApplicationCache.vue를 추가(내가 만들 파일)
+import App from './App.vue'
+// 3. 뷰 인스턴스를 돔에 연결
+new Vue({
+  render : h => h(App),
+}).$mount('#app'))
+
+
+/*
+new Vue({
+  render function(createElement){
+    return createElement(App)
+  }
+})
+*/
+```
+
+
+
+$ touch src/App.vue
+
+```vue
+<template>
+  <h1>여기는 최상위 컴포넌트</h1>
+</template>
+
+<script>
+
+</script>
+
+<style>
+
+</style>
+```
+
+
+
+$ npm install vue-loader vue-template-compiler -D
+
+
+
+$ npm run build
 
 
 
 
+
+### vue cli
+
+npm i -g @vue/cli
+
+vue create todo-vue-cli   			(뷰 크리에이트 프로젝트명)
+
+default 선택
+
+이렇게 하고 나면 프로젝트명 폴더 안에서
+
+npm run serve
+
+하면 끝난다.
