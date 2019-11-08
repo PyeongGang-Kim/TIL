@@ -208,6 +208,12 @@ $ npm run build
 
 
 
+원래 패키지가 있을 경우 npm run serve가 되지 않는다.
+
+이 경우 npm install 명령으로 해당파일들 자동으로 설치해 준다.
+
+
+
 ### vue cli
 
 npm i -g @vue/cli
@@ -221,3 +227,29 @@ default 선택
 npm run serve
 
 하면 끝난다.
+
+
+
+
+
+
+
+데이터를 하위 컴포넌트로 보낼 때에는 props로 보낸다
+
+하위에서 상위에는 에밋?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+디렉티브
