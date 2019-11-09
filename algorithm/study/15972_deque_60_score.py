@@ -42,6 +42,8 @@ for x, y in chks:
     Q = deque([[x, y, nl[y][x][0]]])
     while Q:
         x, y, h = Q.popleft()
+        if nl[y][x][0] < h:
+            continue
         for idx, height in enumerate(nl[y][x][1]):
             if height != -1:
                 tx, ty = x + dr[idx][0], y + dr[idx][1]
