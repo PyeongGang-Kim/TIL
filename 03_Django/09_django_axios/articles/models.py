@@ -35,4 +35,4 @@ class Comment(models.Model):
         ordering = ['-pk', ]
     
     def __str__(self):
-        return f'댓글: {self.content}'
+        return '댓글: {}'.format(self.content)

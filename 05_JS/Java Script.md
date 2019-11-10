@@ -136,13 +136,21 @@ lower camel case 첫번째만 소문자 나머지 단어는 대문자로 시작
 
 스네이크 케이스 언더바 사용
 
+
+
 null 과 undefined는 같은 것이다.
 
 typeof null -> object
 
 typeof undefined -> undefined
 
+
+
 nan이 나오는 경우를 알기
+
+'asdf'*3
+
+
 
 문자를 표현하는 방법 세가지 싱글 더블 빽틱
 
@@ -232,7 +240,7 @@ setTime 일정 시간 후 실행하기
 
 
 
-에로우함수에서 this는 호출한 곳의 상위를 가르킨다.
+에로우함수에서 this는 호출한 곳의 상위의 this를 가르킨다.
 
 변수 안에서 호출하면 변수의 상위(윈도우)를 가르킨다.
 
@@ -254,7 +262,7 @@ this 많이 보기
 
 하나의 함수가 실행되면 함수의 실행이 끝날 때까지 다른 작업이 수행될 수 없다.
 
-비동기로 호출되는 함수들은 call stack이 아닌 task queue에 쌓인다
+비동기로 호출되는 함수들은 call stack이 아닌 task queue(콜백 큐)에 쌓인다
 
 
 

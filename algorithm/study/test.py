@@ -1,56 +1,82 @@
-from collections import deque
+import sys
+sys.stdin = open('asdf.txt')
 
-N, M, H = map(int, input().split())
-nl = [[[H, [0, 0, 0, 0]] for _ in range(M)] for _ in range(N)]
-tmp = list(map(int, input().split()))
-chks = set()
-for m in range(M):
-    nl[0][m][1][0] = tmp[m]
-    if tmp[m] != -1:
-        chks.add((m, 0))
-        nl[0][m][0] = min(nl[0][m][0], tmp[m])
-for n in range(1, N):
-    tmp = list(map(int, input().split()))
-    for m in range(M):
-        nl[n-1][m][1][2] = tmp[m]
-        nl[n][m][1][0] = tmp[m]
-tmp = list(map(int, input().split()))
-for m in range(M):
-    nl[-1][m][1][2] = tmp[m]
-    if tmp[m] != -1:
-        chks.add((m, N-1))
-        nl[-1][m][0] = min(nl[-1][m][0], tmp[m])
+def bfs(x, y):
+    global check, cnt, result
+    q = []
+    visited[x][y] += 1
+    q.append((x, y))
+    while len(q) != 0:
+        x, y = q.pop(0)
+        for k in range(4):
+            nx = x + dx[k]
+            ny = y + dy[k]
 
-for n in range(N):
-    tmp = list(map(int, input().split()))
-    nl[n][0][1][3] = tmp[0]
-    if tmp[0] != -1:
-        chks.add((0, n))
-        nl[n][0][0] = min(nl[n][0][0], tmp[0])
+            if nx < 0 or nx >= N or ny < 0 or ny >= M:
+                continue
+            elif visited[nx][ny] != 0:
+                continue
+            elif visited[nx][ny] == 0 and data[nx][ny] == 0:
+                visited[x][y] += 1
+                continue
+            elif visited[nx][ny] == 0 and data[nx][ny] != 0:
+                visited[nx][ny] += 1
+                q.append((nx, ny))
 
-    for m in range(1, M):
-        nl[n][m-1][1][1] = tmp[m]
-        nl[n][m][1][3] = tmp[m]
-    nl[n][-1][1][1] = tmp[-1]
-    if tmp[-1] != -1:
-        chks.add((M-1, n))
-        nl[n][-1][0] = min(nl[n][-1][0], tmp[-1])
+    cnt += 1
+
+    c1 = 0
+    c2 = 0
+    for n in range(N):
+        for m in range(M):
+            if data[n][m]:
+                c1 += 1
+            if visited[n][m]:
+                c2 += 1
+
+    if c1 != c2:
+        result = cnt
+        check = 0
+
+    for n in range(N):
+        for m in range(M):
+            if data[n][m] > 0:
+                data[n][m] -= visited[n][m] - 1
+                if data[n][m] <= 0:
+                    data[n][m] = 0
+                    c1 -= 1
+
+    if c1 == 0:
+        result = 0
+
+N, M = map(int, input().split())
+data = [list(map(int, input().split())) for _ in range(N)]
+visited = [[0]*M for _ in range(N)]
+cnt = 0
+flag = 0
+check = 1
+x = 0
+y = 0
+
+dx = [1, -1, 0, 0]
+dy = [0, 0, 1, -1]
 
 
-dr = [[0, -1], [1, 0], [0, 1], [-1, 0]]
-for x, y in chks:
-    Q = deque([[x, y, nl[y][x][0]]])
-    while Q:
-        x, y, h = Q.popleft()
-        for idx, height in enumerate(nl[y][x][1]):
-            if height != -1:
-                tx, ty = x + dr[idx][0], y + dr[idx][1]
-                if 0 <= tx < M and 0 <= ty < N and nl[ty][tx][0] > height and (h <= height or nl[ty][tx][0] > h):
-                    tmp = max(height, h)
-                    nl[ty][tx][0] = tmp
-                    Q.append([tx, ty, tmp])
-r = 0
-for j in range(N):
-    for i in range(M):
-        r += nl[j][i][0]
-print(r)
+while check:
+    for i in range(N):
+        if flag == 1:
+            flag = 0
+            break
+        for j in range(M):
+            if data[i][j] != 0:
+                x = i
+                y = j
+                flag = 1
+                break
+    visited = [[0] * M for _ in range(N)]
+    bfs(x, y)
+
+
+
+
+print(result)
