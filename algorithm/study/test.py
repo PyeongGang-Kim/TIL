@@ -1,72 +1,82 @@
 import sys
-from collections import deque
-'''
-처음부터 두 덩어리였을 경우
-빙산이 다 녹아버린 경우 바로 끝내야함.
+sys.stdin = open('asdf.txt')
 
-'''
+def bfs(x, y):
+    global check, cnt, result
+    q = []
+    visited[x][y] += 1
+    q.append((x, y))
+    while len(q) != 0:
+        x, y = q.pop(0)
+        for k in range(4):
+            nx = x + dx[k]
+            ny = y + dy[k]
 
-def bfs(k):
-    tmpcnt = 1
-    tmpset = {(k[0], k[1])}
-    Q = deque([[k[0], k[1]]])
-    while Q:
-        x, y = Q.popleft()
-        for dx, dy in d:
-            tp = (x + dx, y + dy)
-            if tp in ml:
-                if tp not in tmpset:
-                    Q.append(tp)
-                    tmpset.add(tp)
-                    tmpcnt += 1
-    if tmpcnt == len(ml):
-        return False
-    else:
-        return True
+            if nx < 0 or nx >= N or ny < 0 or ny >= M:
+                continue
+            elif visited[nx][ny] != 0:
+                continue
+            elif visited[nx][ny] == 0 and data[nx][ny] == 0:
+                visited[x][y] += 1
+                continue
+            elif visited[nx][ny] == 0 and data[nx][ny] != 0:
+                visited[nx][ny] += 1
+                q.append((nx, ny))
 
+    cnt += 1
+
+    c1 = 0
+    c2 = 0
+    for n in range(N):
+        for m in range(M):
+            if data[n][m]:
+                c1 += 1
+            if visited[n][m]:
+                c2 += 1
+
+    if c1 != c2:
+        result = cnt
+        check = 0
+
+    for n in range(N):
+        for m in range(M):
+            if data[n][m] > 0:
+                data[n][m] -= visited[n][m] - 1
+                if data[n][m] <= 0:
+                    data[n][m] = 0
+                    c1 -= 1
+
+    if c1 == 0:
+        result = 0
 
 N, M = map(int, input().split())
-ml = {}
-for n in range(N):
-    tmp = sys.stdin.readline().split()
-    for m in range(M):
-        if tmp[m] != '0':
-            ml[(m, n)] = int(tmp[m])
-d = [[0, 1], [0, -1], [-1, 0], [1, 0]]
+data = [list(map(int, input().split())) for _ in range(N)]
+visited = [[0]*M for _ in range(N)]
+cnt = 0
+flag = 0
+check = 1
+x = 0
+y = 0
 
-tmp = ml.popitem()
-ml[tmp[0]] = tmp[1]
-if bfs(tmp[0]):
-    print(0)
-else:
+dx = [1, -1, 0, 0]
+dy = [0, 0, 1, -1]
 
-    r = 1
-    chk = False
-    while ml:
-        tl = {}
-        for p, v in ml.items():
-            x, y = p
-            cnt = 0
-            for dx, dy in d:
-                tx, ty = x + dx, y + dy
-                if (tx, ty) not in ml:
-                    cnt += 1
-            if cnt:
-                tl[(x, y)] = cnt
 
-        for p, v in tl.items():
-            tmp = ml[p] - v
-            if tmp > 0:
-                ml[p] = tmp
-            else:
-                del ml[p]
-        if ml:
-            tmp = ml.popitem()
-            ml[tmp[0]] = tmp[1]
-            if bfs(tmp[0]):
-                print(r)
-                chk = True
+while check:
+    for i in range(N):
+        if flag == 1:
+            flag = 0
+            break
+        for j in range(M):
+            if data[i][j] != 0:
+                x = i
+                y = j
+                flag = 1
                 break
-            r += 1
-    if not chk:
-        print(0)
+    visited = [[0] * M for _ in range(N)]
+    bfs(x, y)
+
+
+
+
+print(result)
