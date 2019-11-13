@@ -216,7 +216,7 @@ $ npm run build
 
 ### vue cli
 
-npm i -g @vue/cli
+npm i -g @vue/cli			(최초 한번만 컴퓨터에 설치)
 
 vue create todo-vue-cli   			(뷰 크리에이트 프로젝트명)
 
@@ -240,16 +240,58 @@ npm run serve
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 디렉티브
+
+
+
+
+
+유튜브 컴포넌트
+
+console.developers.google.com
+
+프로젝트 만들고 나서 API라이브러리를 검색해본다
+
+왼쪽상단의 햄버거버튼 누르면 볼 수 있음
+
+
+
+youtube dat api v3을 들어가서 사용 설정을 누른다.
+
+사용자 인증 정보 만들기 선택(api키 발급)
+
+App.vue에 발급받은 키 붙여넣는다.
+
+
+
+ https://developers.google.com/youtube 
+
+
+
+const axios = require('axios')
+
+
+
+api키 담을 파일 .env.local을 만든다
+
+$ touch .env.local
+
+이 파일에
+
+VUE_APP_YOUTUBE_API_KEY=asdfasdf
+
+이런식으로 작성
+
+그러면 App에서
+
+const API_KEY = process.env.VUE_APPYOUTUBE_API_KEY
+
+이런 식으로 사용 가능하다
+
+
+
+데이터를 올릴땐 $emit
+
+내릴땐 props
+
+(상위에선 바인드해주고 하위에선 props로 받는다)
