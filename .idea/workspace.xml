@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/2842.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="Revert &quot;11/15&quot;&#10;&#10;This reverts commit 4da4a2ee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
+    <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7">
+      <change beforePath="$PROJECT_DIR$/algorithm/study/2842.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/2842.py">
+        <entry file="vcs://C:/Users/user/TIL/algorithm/study/2842.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -44,6 +47,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/algorithm/study/17144.py" />
         <option value="$PROJECT_DIR$/algorithm/study/9019.py" />
         <option value="$PROJECT_DIR$/SW_Expert_Arcademy/Programming_Advanced/08_dp1/05.py" />
         <option value="$PROJECT_DIR$/algorithm/p01.py" />
@@ -94,15 +98,14 @@
         <option value="$PROJECT_DIR$/algorithm/study/asdf.txt" />
         <option value="$PROJECT_DIR$/algorithm/study/6593.py" />
         <option value="$PROJECT_DIR$/algorithm/study/test.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2842.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="857" />
-    <option name="y" value="47" />
-    <option name="width" value="974" />
-    <option name="height" value="963" />
+    <option name="x" value="1090" />
+    <option name="y" value="12" />
+    <option name="width" value="811" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -112,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +137,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +168,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2842">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="1012" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/1012.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2583" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,27 +203,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/2583.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2842" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/2842.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,19 +275,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.1012" />
       <item itemvalue="Python.2583" />
-      <item itemvalue="Python.6603" />
       <item itemvalue="Python.6593" />
-      <item itemvalue="Python.2842" />
+      <item itemvalue="Python.6603" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2842" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.6593" />
         <item itemvalue="Python.6603" />
         <item itemvalue="Python.2583" />
+        <item itemvalue="Python.1012" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +603,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573642625200</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="11/13">
+      <created>1573747530990</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1573747530991</updated>
+    </task>
+    <task id="LOCAL-00045" summary="11/15">
+      <created>1573747626393</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1573747626393</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -614,14 +631,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="857" y="47" width="974" height="963" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17735043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.309185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40892643" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3253012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3716518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3257329" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32841823" />
@@ -664,7 +682,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9/01" />
     <MESSAGE value="9/04" />
     <MESSAGE value="9/05" />
     <MESSAGE value="9/22" />
@@ -689,7 +706,8 @@
     <MESSAGE value="11/07" />
     <MESSAGE value="11/10" />
     <MESSAGE value="11/13" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/13" />
+    <MESSAGE value="11/15" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1314,29 +1332,9 @@
           <option name="timeStamp" value="536" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/2842.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="540" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/2842.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="548" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/2842.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="549" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/2842.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="550" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/2842.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="554" />
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="537" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1347,11 +1345,6 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="Q" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -1408,11 +1401,6 @@
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>Q</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>nl[y][x]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1457,9 +1445,22 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+      <expression>
+        <expression-string>ml</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/월말평가/no2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/월말평가/01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/p2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1653,6 +1654,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/13549.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/swex/4008.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1741,6 +1749,13 @@
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Python35/Lib/urllib/parse.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/6593.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1751,41 +1766,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/13549.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="29" column="52" lean-forward="true" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="328">
+          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2842.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
