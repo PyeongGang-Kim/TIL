@@ -81,4 +81,4 @@ Max = 1000000
 bs2(Min, Max)
 bs(Min, Max)
 r1.append(Max-Min)
-print(min(r1))
+print(r1)
