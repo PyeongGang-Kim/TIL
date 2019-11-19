@@ -295,3 +295,99 @@ const API_KEY = process.env.VUE_APPYOUTUBE_API_KEY
 내릴땐 props
 
 (상위에선 바인드해주고 하위에선 props로 받는다)
+
+
+
+
+
+vue ui를 입력하면 GUI환경에서 프로젝트를 관리할 수 있게 해 준다.
+
+
+
+
+
+
+
+pip install djangorestframework djangorestframework-jwt django-cors-headers
+
+인스톨 앱스에   'rest_framework',
+
+  'corsheaders',
+
+추가
+
+
+
+ https://jpadilla.github.io/django-rest-framework-jwt/ 에 들어가서
+
+usage부분에 
+
+```python
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+```
+
+이부분을 복사해서
+
+settings.py 의 MIDDLEWARE 위쪽에 붙여넣어 준다.
+
+
+
+## 다른 포트를 허용해 주려면
+
+settings.py의 설치된 앱에 corsheaders 추가
+
+MIDDLEWARE에 다음의 내용 추가
+
+```python
+MIDDLEWARE = [  # Or MIDDLEWARE_CLASSES on Django < 1.10
+    ...
+    # 최 상단에 붙여주는게 좋음.
+    'corsheaders.middleware.CorsMiddleware',
+    ...
+]
+
+# 모든 방식의 접근 허용 옵션
+CORS_ORIGIN_ALLOW_ALL = True
+```
+
+
+
+
+
+## 토큰만들기
+
+urls.py에  **from** rest_framework_jwt.views **import** obtain_jwt_token 추가
+
+urlpatterns에   path('api-token-auth/', obtain_jwt_token) 추가
+
+
+
+모델 작성
+
+```python
+from django.db import models
+from django.contrib.auth.models import AbstractUser
+from django.conf import settings
+# Create your models here.
+class User(AbstractUser):
+    pass
+
+class Todo(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    title = models.CharField(max_length=50)
+    completed = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.title
+```
+
+settings.py의 최하단에 AUTH_USER_MODEL = 'todos.User' 추가
