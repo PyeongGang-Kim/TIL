@@ -51,26 +51,38 @@ export default {
         username: '',
         password: '',
       },
-      loading: false,
+      // store/modules/auth.js에서 로딩을 관리하기 때문에 computed로 접근한다.
+      // loading: false,
       errors: [],
+    }
+  },
+
+  computed:{
+    loading: function(){
+      return this.$store.state.loading
     }
   },
   methods: {
     login() {
       // 로그인 유효성 검사가 끝나면
       if (this.checkForm()){
-        // 로딩의 상태를 true로 변경(spinner-border 돈다.)
-        this.loading = true
 
+        // 로딩의 상태를 true로 변경(spinner-border 돈다.)
+        // store의 startLoading함수 호출해서 loading를 변경하게 바꿈
+        // this.loading = true
+        this.$store.dispatch('startLoading')
         // credentials(username, password) 정보를 담아 Django 서버로 로그인 요청을 보낸다.
         axios.post('http://127.0.0.1:8000/api-token-auth/', this.credentials)
         .then(res => {
-          this.$session.start()
-          this.$session.set('jwt', res.data.token)
+          this.$store.dispatch('endLoading')
+          this.$store.dispatch('login', res.data.token)
+          // this.$session.start()
+          // this.$session.set('jwt', res.data.token)
           router.push('/')
-          console.log(res)
+          // console.log(res)
         })
         .catch(err => {
+          this.$store.dispatch('endLoading')
           console.log(err)
         })
       } else{

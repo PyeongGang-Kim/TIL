@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from'../views/Login.vue'
+import Register from '../views/Register.vue'
 
 
 // vue router를 사용하기 위한 코드
@@ -18,7 +19,12 @@ const routes = [
     path: '/login',
     name: 'login',
     component: Login
-  }
+  },
+  {
+    path: '/register',
+    name: 'regitster',
+    component: Register
+  },
 ]
 
 const router = new VueRouter({

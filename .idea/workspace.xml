@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="11/16">
-      <change afterPath="$PROJECT_DIR$/algorithm/swex/5263.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swex/test.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="11/19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/components/LoginForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/components/LoginForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/components/TodoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/components/TodoList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/05_vue_component_with_drf/todo-front/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06_Vue/Vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/06_Vue/Vue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git설정/설정.md" beforeDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -19,9 +26,9 @@
     <session id="1336606916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,10 +44,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="1001" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="1001" />
         </counts>
       </usages-collector>
@@ -78,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/swex/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="114">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -181,60 +190,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="swex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="SW_Expert_Arcademy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="SW_Expert_Arcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="Programming_Advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="SW_Expert_Arcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="Programming_Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="08_dp1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -646,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573831385384</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="11/19">
+      <created>1574155609216</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155609216</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -666,7 +634,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37077296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37077296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3236715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,7 +681,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9/04" />
     <MESSAGE value="9/05" />
     <MESSAGE value="9/22" />
     <MESSAGE value="9/30" />
@@ -738,7 +705,8 @@
     <MESSAGE value="11/10" />
     <MESSAGE value="11/13" />
     <MESSAGE value="11/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/16" />
+    <MESSAGE value="11/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1811,13 +1779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/asdf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/swex/5263.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1825,10 +1786,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/asdf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/swex/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="114">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>

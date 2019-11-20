@@ -302,6 +302,8 @@ const API_KEY = process.env.VUE_APPYOUTUBE_API_KEY
 
 vue ui를 입력하면 GUI환경에서 프로젝트를 관리할 수 있게 해 준다.
 
+플러그인 설치 가능
+
 
 
 
@@ -391,3 +393,37 @@ class Todo(models.Model):
 ```
 
 settings.py의 최하단에 AUTH_USER_MODEL = 'todos.User' 추가
+
+마이그레이션 후
+
+런 서버후
+
+주소창을  http://127.0.0.1:8000/api-token-auth/ 
+
+이 창에서 로그인을 하면 토큰을 반환해 준다.
+
+```js
+axios.post('http://127.0.0.1:8000/api-token-auth/', this.credentials)
+        .then(res => {
+          this.$session.start()
+          this.$session.set('jwt', res.data.token)
+          router.push('/')
+          console.log(res)
+        })
+        .catch(err => {
+          console.log(err)
+        })
+```
+
+토큰을 받아 세션에 기록한 후 라우터로 / 경로로 이동함.
+
+
+
+
+
+npm i jwt-decode
+
+암호화된 토큰을 해독하기 위한 라이브러리 설치
+
+
+
