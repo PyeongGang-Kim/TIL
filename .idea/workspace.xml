@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="11/26" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="11/27" />
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,23 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1336606916">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/study/9095.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="399">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -107,9 +97,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="915" />
+    <option name="x" value="916" />
     <option name="y" value="75" />
-    <option name="width" value="975" />
+    <option name="width" value="974" />
     <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -120,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,13 +132,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -278,13 +268,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.11000" />
-      <item itemvalue="Python.1517" />
-      <item itemvalue="Python.4796" />
-      <item itemvalue="Python.9095" />
-      <item itemvalue="Python.9657" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.9095" />
@@ -305,13 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00002" summary="8/20">
-      <created>1566291260082</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1566291260082</updated>
     </task>
     <task id="LOCAL-00003" summary="8/22">
       <created>1566467551252</created>
@@ -649,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574697450952</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="11/27">
+      <created>1574786804518</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1574786804518</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -662,9 +645,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="732" y="60" width="780" height="736" extended-state="0" />
+    <frame x="916" y="75" width="974" height="920" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17900404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -676,7 +659,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32810616" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282636" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32810616" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32951653" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3293124" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -712,11 +695,7 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9/22" />
     <MESSAGE value="9/30" />
     <MESSAGE value="10/1" />
     <MESSAGE value="10/2" />
@@ -741,7 +720,8 @@
     <MESSAGE value="11/16" />
     <MESSAGE value="11/24" />
     <MESSAGE value="11/26" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/26" />
+    <MESSAGE value="11/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1889,6 +1869,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="26" selection-start-line="7" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#137#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1901,8 +1884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/9095.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="399">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
