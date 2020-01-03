@@ -1,43 +1,37 @@
-def pos(idx, dep, offset):
-    numNode = 1
-    if nl[idx].lc != -1:
-        numNode += pos(nl[idx].lc, dep + 1, offset)
-    numNode += offset
-    ml[dep][0] = min(ml[dep][0], numNode)
-    ml[dep][1] = max(ml[dep][1], numNode)
-    if nl[idx].rc != -1:
-        numNode += pos(nl[idx].rc, dep + 1, numNode)
-    return numNode-offset
+import sys
+input = sys.stdin.readline
 
-
-class Node:
-    root = -1
+def findset(i):
+    if cl[i]:
+        cl[i] = findset(cl[i])
+    else:
+        return i
+    return cl[i]
 
 
 N = int(input())
-nl = [Node() for _ in range(N+1)]
-ml = [[10001, 0] for _ in range(N+1)]
+M = int(input())
+nl = [[]]
 for _ in range(N):
-    a, b, c = map(int, input().split())
-    nl[a].lc = b
-    nl[a].rc = c
-    if b >= 0:
-        nl[b].root = a
-    if c >= 0:
-        nl[c].root = a
-for i in range(1, N+1):
-    if nl[i].root == -1:
-        pos(i, 1, 0)
+    nl.append([0]+list(map(int, input().split())))
+il = list(map(int, input().split()))
+
+cl = [0 for _ in range(N+1)]
+for j in range(1, N+1):
+    for i in range(1, N+1):
+        if nl[j][i]:
+            tmp1, tmp2 = findset(i), findset(j)
+            if tmp1 != tmp2:
+                cl[tmp2] = tmp1
+tmp1 = findset(il[0])
+chk = False
+for i in range(1, N):
+    tmp2 = findset(il[i])
+    if tmp2 != tmp1:
+        chk = True
         break
-
-tmp = 1
-maxdep = 0
-maxwid = 0
-while tmp <= N and ml[tmp][1]:
-    tmp2 = ml[tmp][1]-ml[tmp][0]+1
-    if tmp2 > maxwid:
-        maxwid = tmp2
-        maxdep = tmp
-    tmp += 1
-
-print(maxdep, maxwid)
+    tmp1 = tmp2
+if chk:
+    print('NO')
+else:
+    print('YES')
