@@ -1,36 +1,29 @@
-import sys
-input = sys.stdin.readline
-sys.setrecursionlimit(200000)
-
-def unionfind(i):
-    if not cl.get(i):
-        cl[i] = [i, 1]
-    if cl[i][0] != i:
-        cl[i][0] = unionfind(cl[i][0])
-        return cl[i][0]
+def caldis(idx):
+    if nl[idx][0]:
+        nl[idx][0], tmp = caldis(nl[idx][0])
+        nl[idx][1] += tmp
+        return nl[idx][0], nl[idx][1]
     else:
-        return i
+        return idx, 0
 
 
-N, M, Q = map(int, input().split())
-nl = [list(map(int, input().split())) if _ else [] for _ in range(M+1)]
-vl = [False for _ in range(M+1)]
-ql = [int(input().strip()) for _ in range(Q)]
-for idx in ql:
-    vl[idx] = True
-cl = dict()
-for idx in range(1, M+1):
-    if not vl[idx]:
-        t1, t2 = unionfind(nl[idx][0]), unionfind(nl[idx][1])
-        if t1 != t2:
-            cl[t2][0] = t1
-            cl[t1][1] += cl[t2][1]
-
-r = 0
-for idx in reversed(ql):
-    t1, t2 = unionfind(nl[idx][0]), unionfind(nl[idx][1])
-    if t1 != t2:
-        cl[t2][0] = t1
-        r += cl[t1][1] * cl[t2][1]
-        cl[t1][1] += cl[t2][1]
-print(r)
+r = []
+T = int(input())
+while T:
+    N = int(input())
+    nl = [[0, 0] for _ in range(N+1)]
+    a = input()
+    while a[0] != 'O':
+        if a[0] == 'E':
+            o, n = a.split()
+            t1, t2 = caldis(int(n))
+            r.append(str(t2))
+        else:
+            o, n1, n2 = a.split()
+            n1 = int(n1)
+            n2 = int(n2)
+            nl[n1][1] = abs(n1-n2)%1000
+            nl[n1][0] = int(n2)
+        a = input()
+    T -= 1
+print('\n'.join(r))
