@@ -2,59 +2,74 @@ import sys
 input = sys.stdin.readline
 
 '''
-민맥스 세그
+민 세그
+첫번째 시험 오름차순 정렬
+세그 좌표는 두번째 시험 순
+거기에 들어가는 값은 세번째 성적
+성적을 넣을 때마다 세그 업데이트하기
+
+나보다 작은 2번째 구간의 최소값이 3번째보다 크면
+나는 굉장한 학생이 된다.
+
+
+
+ Input
+3 
+2 3 1
+3 1 2
+1 2 3
+
+ Output
+ 3
+Note: No contestant is better than any other contestant, hence all three are excellent.
+
+ Input
+10 
+2 5 3 8 10 7 1 6 9 4
+1 2 3 4 5 6 7 8 9 10
+3 8 7 10 5 4 1 2 6 9
+
+ Output
+ 4
+Note: The excellent contestants are those numbered with 1, 2, 3 and 5.
 '''
-def seg(b, c, s, e, idx=1):
-    if b <= s and e <= c:
-        if nl[idx][0] < b or nl[idx][1] > c:
-            return False
-        return True
-    if c < s or b > e:
-        return True
+def seg(s, e, idx = 1):
+    if pos <= s:
+        return 500001
+    if pos > e:
+        return tree[idx]
     m = (s + e) // 2
     idx <<= 1
-    return seg(b, c, s, m, idx) and seg(b, c, m+1, e, idx+1)
+    return min(seg(s, m, idx), seg(m+1, e, idx+1))
 
 
-r = []
-T = int(input())
-while T:
-    T -= 1
-    N, M = map(int, input().split())
-    N2 = 2
-    while N2 < N:
-        N2 <<= 1
-    offset = N2
+N = int(input())
+cnt = 0
+N2 = 2
+while N2 < N:
     N2 <<= 1
-    tmp = offset
-    nl = [[100001, -1] for _ in range(offset)] + [[i, i] for i in range(N)] + [[100001, -1] for _ in range(offset-N)]
-    i = 0
+offset = N2 - 1
+N2 <<= 1
+tree = [500001] * N2
+nl = [[0, 0, 0] for _ in range(N)]
+for i in range(3):
+    for idx, num in enumerate(map(int, input().split())):
+        nl[num-1][i] = idx
+nl.sort()
+i = 0
+while i < N:
+    pos = nl[i][1]
+    val = nl[i][2]
+    if seg(0, offset) > nl[i][2]:
+        cnt += 1
+    i += 1
+    tmp = offset + pos + 1
+    tree[tmp] = val
+    tmp >>= 1
     while tmp:
-        tmp -= 1
-        tmp2 = tmp << 1
-        nl[tmp][0] = min(nl[tmp2][0], nl[tmp2+1][0])
-        nl[tmp][1] = max(nl[tmp2][1], nl[tmp2+1][1])
+        t1 = tmp << 1
+        t2 = t1 + 1
+        tree[tmp] = min(tree[t1], tree[t2])
+        tmp >>= 1
 
-    default = offset - 1
-
-    while M:
-        M -= 1
-        a, b, c = map(int, input().split())
-        if a:
-            # 구간 확인하기
-            r.append('YES' if seg(b, c, 0, default) else 'NO')
-        else:
-            # 바꿔끼우기
-            b = b + offset
-            c = c + offset
-            nl[b], nl[c] = nl[c], nl[b]
-            for t1 in b >> 1, c >> 1:
-                while t1:
-                    t3 = t1 << 1
-                    t4 = t3 + 1
-                    nl[t1][0] = min(nl[t3][0], nl[t4][0])
-                    nl[t1][1] = max(nl[t3][1], nl[t4][1])
-                    t1 >>= 1
-
-
-print('\n'.join(r))
+print(cnt)
