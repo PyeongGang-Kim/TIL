@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="01/15">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1043.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="01/16">
+      <change afterPath="$PROJECT_DIR$/algorithm/study/3896.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/study/4673.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/study/4948.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/study/asdf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/asdf.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
@@ -20,44 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="57">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/1043.py">
+        <entry file="file://$PROJECT_DIR$/algorithm/study/3896.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="699" selection-start-line="699" selection-end-line="699" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-496">
-              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            <state relative-caret-position="285">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -84,10 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/study/11000.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1517.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/4796.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/9657.py" />
         <option value="$PROJECT_DIR$/algorithm/study/1463.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2747.py" />
         <option value="$PROJECT_DIR$/algorithm/study/9461.py" />
@@ -134,12 +104,17 @@
         <option value="$PROJECT_DIR$/algorithm/study/18231.py" />
         <option value="$PROJECT_DIR$/algorithm/study/asdf.txt" />
         <option value="$PROJECT_DIR$/algorithm/study/1043.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/1022.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/4673.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/4948.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/3896.py" />
         <option value="$PROJECT_DIR$/algorithm/study/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1052" />
+    <option name="x" value="954" />
+    <option name="y" value="5" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -247,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2268" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4673" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,7 +234,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/2268.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/4673.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,10 +288,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.4673" />
         <item itemvalue="Python.1043" />
         <item itemvalue="Python.1280" />
         <item itemvalue="Python.t2" />
-        <item itemvalue="Python.2268" />
       </list>
     </recent_temporary>
   </component>
@@ -330,20 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00022" summary="10/11">
-      <created>1570724878749</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1570724878749</updated>
-    </task>
-    <task id="LOCAL-00023" summary="10/17">
-      <created>1571309132641</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1571309132641</updated>
     </task>
     <task id="LOCAL-00024" summary="10/18">
       <created>1571391382930</created>
@@ -674,7 +635,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579091817862</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="01/16">
+      <created>1579101777831</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1579101777833</updated>
+    </task>
+    <task id="LOCAL-00072" summary="01/16">
+      <created>1579101807400</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1579101807400</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TodoView">
@@ -687,7 +662,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1052" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="954" y="5" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15170941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -738,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10/24" />
     <MESSAGE value="10/28" />
     <MESSAGE value="10/29" />
     <MESSAGE value="10/30" />
@@ -763,7 +738,8 @@
     <MESSAGE value="01/12" />
     <MESSAGE value="01/13" />
     <MESSAGE value="01/15" />
-    <option name="LAST_COMMIT_MESSAGE" value="01/15" />
+    <MESSAGE value="01/16" />
+    <option name="LAST_COMMIT_MESSAGE" value="01/16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1487,21 +1463,6 @@
           <line>17</line>
           <option name="timeStamp" value="622" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="652" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="653" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="654" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1517,6 +1478,8 @@
         <watch expression="tree[idx]" language="Python" />
         <watch expression="pos" language="Python" />
         <watch expression="tree" language="Python" />
+        <watch expression="save[k//2::i]" language="Python" />
+        <watch expression="save[i//2]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1575,6 +1538,21 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>save[i//2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>save[k//2::i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>k//2::i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>tree</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1609,50 +1587,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>tree[idx] + sumnum</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>x</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11000.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="7" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#137#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/9461.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/9095.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11725.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/11404.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1951,36 +1888,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/1043.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="361">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        <state relative-caret-position="13243">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1022.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        <state relative-caret-position="589">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/4673.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/4948.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3896.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="57">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
