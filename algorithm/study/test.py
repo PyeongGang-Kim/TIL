@@ -1,4 +1,10 @@
-s = [i for i in range(100)]
-s[9//2::3] = [0] * ((200 - 9 - 1) // 6 + 1)
-print(s[9//2::3])
-print(s)
+import math
+
+a, b = map(int, input().split())
+if a == b:
+    if int(math.sqrt(a)) == math.sqrt(b):
+        print(1)
+    else:
+        print(0)
+else:
+    print(b - a - (int(math.sqrt(b)) - math.ceil(math.sqrt(a))+1)+1)
