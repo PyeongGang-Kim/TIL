@@ -1,6 +1,8 @@
 import sys
 sys.setrecursionlimit(1000000)
 input = sys.stdin.readline
+
+
 def dfs(x, y):
     if vl[y][x]:
         return vl[y][x]
@@ -12,7 +14,6 @@ def dfs(x, y):
                 tmp = max(tmp, dfs(tx, ty))
         vl[y][x] = tmp + 1
         return vl[y][x]
-
 
 
 D = [[0, 1], [0, -1], [-1, 0], [1, 0]]
