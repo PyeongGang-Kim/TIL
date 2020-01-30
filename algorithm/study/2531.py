@@ -23,8 +23,6 @@ else:
             r = max(cnt + 1, r)
         else:
             r = max(cnt, r)
-        if r == k+1:
-            break
         vl[nl[i]] -= 1
         if not vl[nl[i]]:
             cnt -= 1
