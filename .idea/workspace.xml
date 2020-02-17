@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="02/13">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1219.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/13168.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1507.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1613.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/2775.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="02/16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
     </list>
@@ -23,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="29" lean-forward="true" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="203">
+              <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#4#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,16 +98,16 @@
         <option value="$PROJECT_DIR$/algorithm/study/13168.py" />
         <option value="$PROJECT_DIR$/algorithm/study/1613.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2775.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/test.py" />
         <option value="$PROJECT_DIR$/algorithm/study/1507.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="844" />
-    <option name="y" value="26" />
+    <option name="x" value="961" />
+    <option name="y" value="7" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -298,13 +296,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00036" summary="10/31">
-      <created>1572518930112</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1572518930112</updated>
     </task>
     <task id="LOCAL-00037" summary="10/31">
       <created>1572518982096</created>
@@ -642,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581605154171</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="02/16">
+      <created>1581863561530</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1581863561530</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView">
@@ -655,7 +653,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="844" y="26" width="974" height="1047" extended-state="0" />
+    <frame x="961" y="7" width="974" height="1033" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15170941" />
@@ -663,13 +661,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21467689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3253012" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21357064" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32480535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32810616" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282636" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3274918" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32703003" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32858709" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -707,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11/13" />
     <MESSAGE value="11/16" />
     <MESSAGE value="11/24" />
     <MESSAGE value="11/26" />
@@ -732,7 +729,8 @@
     <MESSAGE value="01/30" />
     <MESSAGE value="02/09" />
     <MESSAGE value="02/13" />
-    <option name="LAST_COMMIT_MESSAGE" value="02/13" />
+    <MESSAGE value="02/16" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1478,23 +1476,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="691" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="695" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="700" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="701" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="702" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="703" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="704" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
           <line>14</line>
-          <option name="timeStamp" value="686" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="687" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="689" />
+          <option name="timeStamp" value="705" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
           <line>11</line>
-          <option name="timeStamp" value="690" />
+          <option name="timeStamp" value="706" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1507,8 +1530,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="ml" language="Python" />
         <watch expression="nl" language="Python" />
+        <watch expression="ml" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1567,12 +1590,17 @@
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>nl</expression-string>
+        <expression-string>ml</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ml</expression-string>
+        <expression-string>Q</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nl</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1603,11 +1631,6 @@
       </expression>
       <expression>
         <expression-string>D[5368]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nl1</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1977,8 +2000,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="29" lean-forward="true" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="203">
+          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#4#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
