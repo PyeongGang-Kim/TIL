@@ -1,93 +1,48 @@
-from collections import deque
 import sys
 input = sys.stdin.readline
-
-def printroute():
-    if nl[n] != inf:
-        ml2 = [[] for _ in range(n + 1)]
-        for u in range(1, n+1):
-            for v, w in ml[u]:
-                ml2[v].append([u, w])
-        pos = n
-        r = []
-        vl = [0] * (n+1)
-        vl[n] = 1
-        while 1:
-            tmp = pos
-            for u, w in ml2[pos]:
-                if not vl[u] and w + nl[u] == nl[pos]:
-                    r.append(str(pos))
-                    pos = u
-                    vl[u] = True
-                    break
-            if pos == 1:
-                r.append('1')
-                break
-            if tmp == pos:
-                print(-1)
-                return
-        print(' '.join(reversed(r)))
-    else:
-        print(-1)
-
-
-def check():
-    ml2 = [[] for _ in range(n + 1)]
-    for u in range(1, n+1):
-        for v, w in ml[u]:
-            ml2[u].append([v, w])
-    while Q:
-        pos = Q.popleft()
-        if pos == n:
-            return True
-        vl[pos] = 1
-        for v, w in ml2[pos]:
-            if not vl[v]:
-                vl[v] = 1
-                Q.append(v)
-    return False
-
 inf = 0xfffffff
-n, m = map(int, input().split())
-nl = [inf for _ in range(n+1)]
-ml = [[] for _ in range(n + 1)]
-while m:
-    m -= 1
-    u, v, w = map(int, input().split())
-    ml[u].append([v, w])
+N = int(input())
+M = int(input())
+nl = [[inf for _ in range(N+1)] for _ in range(N+1)]
+for i in range(1, N+1):
+    nl[i][i] = 0
 
-i = n - 1
-nl[1] = 0
-while i:
-    i -= 1
-    update = False
-    for u in range(1, n):
-        for v, w in ml[u]:
-            if nl[u] != inf:
-                if nl[v] != inf:
-                    if nl[u] + w > nl[v]:
-                        nl[v] = nl[u] + w
-                        update = True
-                else:
-                    nl[v] = nl[u] + w
-    if not update:
-        break
+while M:
+    M -= 1
+    a, b = map(int, input().split())
+    nl[a][b] = 1
+    nl[b][a] = 1
 
-Q = deque()
+for k in range(1, N+1):
+    for i in range(1, N+1):
+        for j in range(1, N+1):
+            nl[i][j] = min(nl[i][k] + nl[k][j], nl[i][j])
+r = []
+cnt = 0
+vl = [0 for _ in range(N+1)]
+for j in range(1, N+1):
+    if vl[j]:
+        continue
+    tmp = [j]
+    cnt += 1
+    vl[j] = 1
+    for i in range(j+1, N+1):
+        if nl[j][i] != inf:
+            vl[i] = 1
+            tmp.append(i)
 
-vl = [0] * (n + 1)
-if update:
-    for i in range(1, n):
-        for v, w in ml[u]:
-            if nl[u] != inf:
-                if nl[u] + w > nl[v]:
-                    Q.append(u)
-                    vl[u] = 1
-
-    if check():
-        print(-1)
-    else:
-        printroute()
-else:
-    printroute()
-
+    tmp2 = 0 # 최대 경로 인덱스 저장
+    tmp3 = 0xfffffff # 최대 경로 저장
+    for k in tmp:
+        tmp4 = -1
+        for i in range(1, N+1):
+            if nl[k][i] != inf:
+                if tmp4 < nl[k][i]:
+                    tmp4 = nl[k][i]
+        if tmp3 > tmp4:
+            tmp3 = tmp4
+            tmp2 = k
+    r.append(tmp2)
+print(cnt)
+r.sort()
+print('\n'.join(map(str, r)))
