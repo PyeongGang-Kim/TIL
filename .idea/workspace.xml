@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="02/24">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1647.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1922.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/2406.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/4386.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/6497.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="02/25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/study/asdf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/asdf.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
@@ -23,11 +19,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="399">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -81,7 +86,6 @@
         <option value="$PROJECT_DIR$/algorithm/study/B.txt" />
         <option value="$PROJECT_DIR$/algorithm/study/1261.py" />
         <option value="$PROJECT_DIR$/algorithm/study/4485.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/asdf.txt" />
         <option value="$PROJECT_DIR$/algorithm/study/15422.py" />
         <option value="$PROJECT_DIR$/algorithm/study/10473.py" />
         <option value="$PROJECT_DIR$/algorithm/study/10282.py" />
@@ -104,14 +108,15 @@
         <option value="$PROJECT_DIR$/algorithm/study/1647.py" />
         <option value="$PROJECT_DIR$/algorithm/study/4386.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2406.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/asdf.txt" />
         <option value="$PROJECT_DIR$/algorithm/study/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1107" />
-    <option name="y" value="54" />
-    <option name="width" value="787" />
+    <option name="x" value="107" />
+    <option name="y" value="74" />
+    <option name="width" value="909" />
     <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -301,13 +306,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00039" summary="11/05">
-      <created>1572944514073</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1572944514073</updated>
     </task>
     <task id="LOCAL-00040" summary="11/05">
       <created>1572951123675</created>
@@ -645,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582476646254</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="02/25">
+      <created>1582639664952</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1582639664952</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TodoView">
@@ -658,16 +663,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1107" y="54" width="787" height="793" extended-state="0" />
+    <frame x="107" y="74" width="909" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18958612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.163031" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2124431" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42033383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29590288" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2989378" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32810616" />
@@ -710,7 +715,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11/26" />
     <MESSAGE value="11/27" />
     <MESSAGE value="12/30" />
     <MESSAGE value="01/03" />
@@ -735,7 +739,8 @@
     <MESSAGE value="02/16" />
     <MESSAGE value="02/18" />
     <MESSAGE value="02/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="02/24" />
+    <MESSAGE value="02/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1506,8 +1511,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="692" />
+          <line>24</line>
+          <option name="timeStamp" value="698" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1520,7 +1525,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="nl" language="Python" />
+        <watch expression="vl" language="Python" />
         <watch expression="ml" language="Python" />
       </configuration>
     </watches-manager>
@@ -1579,6 +1584,11 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>vl</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>ml</expression-string>
         <language-id>Python</language-id>
@@ -1817,13 +1827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="2101" selection-start-line="2101" selection-end-line="2101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/11657.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1987,10 +1990,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="399">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
