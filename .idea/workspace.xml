@@ -2,20 +2,12 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/algorithm/study/test.py" />
+    <bookmark url="file://$PROJECT_DIR$/algorithm/swex/3752.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/04">
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3/04/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3/04/d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3/04/f.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/1516.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/2848.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swex/5684.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swex/7396.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swex/벽돌 깨기.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/swex/3752.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/swex/3752.py" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -31,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -39,26 +31,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/swex/7396.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/swex/5684.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="491">
+              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/2848.cpp">
+        <entry file="file://$PROJECT_DIR$/algorithm/swex/3752.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="712" selection-start-line="712" selection-end-line="712" />
             </state>
           </provider>
         </entry>
@@ -85,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/study/2293.py" />
         <option value="$PROJECT_DIR$/algorithm/study/test2.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2531.py" />
         <option value="$PROJECT_DIR$/algorithm/study/B.txt" />
@@ -136,12 +127,13 @@
         <option value="$PROJECT_DIR$/algorithm/study/test.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2848.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2848.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/swex/3752.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="166" />
+    <option name="x" value="16" />
+    <option name="y" value="40" />
     <option name="width" value="927" />
     <option name="height" value="890" />
   </component>
@@ -153,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,13 +162,12 @@
               <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TIL" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="swex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,14 +177,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\TIL\algorithm\study" />
+      <recent name="C:\Users\student\TIL\algorithm\work" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\student\TIL\algorithm\work" />
       <recent name="C:\Users\student\TIL\algorithm\string" />
       <recent name="C:\Users\student\TIL\algorithm\work\0816" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\TIL\algorithm\study" />
-      <recent name="C:\Users\student\TIL\algorithm\work" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.3752">
     <configuration name="1907" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2814" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3752" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +233,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/swex/2814.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/swex/3752.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3752" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.d" />
         <item itemvalue="Python.f" />
         <item itemvalue="Python.1907" />
-        <item itemvalue="Python.2814" />
       </list>
     </recent_temporary>
   </component>
@@ -333,13 +325,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00046" summary="11/16">
-      <created>1573831385384</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1573831385384</updated>
     </task>
     <task id="LOCAL-00047" summary="11/16">
       <created>1573875257177</created>
@@ -677,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583253766031</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="03/06">
+      <created>1583421806933</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1583421806934</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView">
@@ -690,7 +682,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="166" width="927" height="890" extended-state="0" />
+    <frame x="16" y="40" width="927" height="890" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26771653" />
@@ -698,7 +690,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23148148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23148148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54232806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -782,7 +774,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01/07" />
     <MESSAGE value="01/08" />
     <MESSAGE value="01/09" />
     <MESSAGE value="01/10" />
@@ -807,7 +798,8 @@
     <MESSAGE value="03/01" />
     <MESSAGE value="03/02" />
     <MESSAGE value="03/04" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/04" />
+    <MESSAGE value="03/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1623,6 +1615,7 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="i" language="Python" />
+        <watch expression="tmp" language="Python" />
         <watch expression="nl" language="Python" />
       </configuration>
     </watches-manager>
@@ -1682,6 +1675,11 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>tmp</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>nl</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1729,13 +1727,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2775.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/1507.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1806,13 +1797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" lean-forward="true" selection-start-column="10" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
         </state>
       </provider>
     </entry>
@@ -2049,38 +2033,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2848.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="702" selection-start-line="702" selection-end-line="702" />
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/7396.cpp">
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="98">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/swex/5684.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2848.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/7396.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+        <state relative-caret-position="491">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/3752.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
