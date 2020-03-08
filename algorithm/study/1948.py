@@ -1,5 +1,6 @@
 import sys
 from collections import deque
+import heapq
 '''
 시작점과 도착점 찾는 방법
 간선 입력 받을 때 도착, 시작 비짓체크를 한다.
@@ -20,13 +21,14 @@ for m in range(M):
     sl[s].append([e, d])
     el[e].append([s, d])
 S, E = map(int, sys.stdin.readline().split())
-Q = deque([S])
-while Q:
-    s = Q.popleft()
+Q = deque([])
+H = [S]
+while H:
+    s = heapq.heappop(H)
     for v in sl[s]:
         tmp = nl[s] + v[1]
         if nl[v[0]] < tmp:
-            Q.append(v[0])
+            heapq.heappush(H, v[0])
             nl[v[0]] = tmp
 r = 0
 vl = [False for _ in ran]
