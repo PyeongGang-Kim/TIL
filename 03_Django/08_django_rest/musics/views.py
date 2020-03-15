@@ -3,13 +3,24 @@ from .models import Music, Artist, Comment
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .serializers import MusicSerializer, ArtistSerializer, ArtistDetailSerializer, CommentSerializer, MusicDetailSerializer
+from django.core.cache import cache
 
-
-
+from IPython import embed
 # Create your views here.
 @api_view(['GET'])
 def music_list(request):
+
+
+    # musics = cache.get('musics', None)
+    # if not musics:
+    #     musics = Music.objects.all()
+    #     cache.set('musics', musics, 10)
+
     musics = Music.objects.all()
+    # # embed()
+    # for i in range(10000):
+    #     print(i%5)
+    #     Music.objects.create(artist=Artist.objects.get(id=(i%5+1)), title="곡번호"+str(i))
     serializer=MusicSerializer(musics, many=True)
     return Response(serializer.data)
 

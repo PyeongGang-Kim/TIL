@@ -6,14 +6,18 @@
     <bookmark url="file://$PROJECT_DIR$/algorithm/swex/4052.py" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/11">
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3.12/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3.12/b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3.12/d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/cf/3.12/f.py" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/13">
+      <change afterPath="$PROJECT_DIR$/algorithm/study/11097.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/study/3682.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/study/3977.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/study/4196.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/study/6543.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 테스트/사용방법.md" beforeDir="false" afterPath="$PROJECT_DIR$/서버 테스트/사용방법.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 테스트/플러그인2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Django/08_django_rest/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/08_django_rest/api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Django/08_django_rest/musics/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/08_django_rest/musics/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/cf/3.12/f.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cf/3.12/f.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/서버 테스트/apache-jmeter-5.2.1/bin/jp@gc - Ultimate Thread Group.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/서버 테스트/apache-jmeter-5.2.1/bin/jp@gc - Ultimate Thread Group.jmx" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -24,35 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/b.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="8" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/d.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/f.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,11 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/study/13168.py" />
-        <option value="$PROJECT_DIR$/algorithm/cf/c.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/6497.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1922.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1647.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2406.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2211.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2887.py" />
@@ -118,7 +89,6 @@
         <option value="$PROJECT_DIR$/algorithm/study/1948.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/1948.py" />
         <option value="$PROJECT_DIR$/algorithm/study/1728.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/test.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2150.cpp" />
         <option value="$PROJECT_DIR$/algorithm/swex/asdf.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -126,6 +96,12 @@
         <option value="$PROJECT_DIR$/algorithm/cf/3.12/b.py" />
         <option value="$PROJECT_DIR$/algorithm/cf/3.12/d.py" />
         <option value="$PROJECT_DIR$/algorithm/cf/3.12/f.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/test.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/6543.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/11097.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/3682.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/4196.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/3977.cpp" />
       </list>
     </option>
   </component>
@@ -142,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,19 +134,13 @@
               <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TIL" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="cf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="cf" type="462c0819:PsiDirectoryNode" />
-              <item name="3.12" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.f">
+  <component name="RunManager" selected="Python.test">
     <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.f" />
         <item itemvalue="Python.d" />
         <item itemvalue="Python.b" />
         <item itemvalue="Python.a" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -329,13 +298,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00055" summary="01/05">
-      <created>1578214356096</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1578214356096</updated>
     </task>
     <task id="LOCAL-00056" summary="01/05">
       <created>1578235224482</created>
@@ -673,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583905944255</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="03/13">
+      <created>1584025932538</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1584025932539</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -688,13 +657,13 @@
   <component name="ToolWindowManager">
     <frame x="899" y="0" width="1006" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33953997" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30558598" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30558598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
@@ -777,7 +746,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01/13" />
     <MESSAGE value="01/15" />
     <MESSAGE value="01/16" />
     <MESSAGE value="01/19" />
@@ -802,7 +770,8 @@
     <MESSAGE value="03/08" />
     <MESSAGE value="03/09" />
     <MESSAGE value="03/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/11" />
+    <MESSAGE value="03/13" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1622,11 +1591,6 @@
           <option name="timeStamp" value="733" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="734" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/cf/3.12/b.py</url>
           <line>18</line>
           <option name="timeStamp" value="735" />
@@ -1638,7 +1602,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/cf/3.12/f.py</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="739" />
         </line-breakpoint>
       </breakpoints>
@@ -1766,44 +1730,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/study/4386.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1937.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2406.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2887.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1751" selection-start-line="1751" selection-end-line="1751" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/swex/1861.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -2099,13 +2025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -2122,15 +2041,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/f.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="76">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/11097.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/6543.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3682.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/4196.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3977.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
         </state>
       </provider>
     </entry>

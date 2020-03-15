@@ -49,5 +49,6 @@ for i in range(1, n+1):
     vl[i] = 1
     t1, t2 = dfs(i)
     vl[i] = 0
-    r.append(str(max(abs(t1), t2)))
+    print(t1, t2)
+    r.append(str(t2))
 print('\n'.join(r))
