@@ -6,18 +6,8 @@
     <bookmark url="file://$PROJECT_DIR$/algorithm/swex/4052.py" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/13">
-      <change afterPath="$PROJECT_DIR$/algorithm/study/11097.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/3682.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/3977.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/4196.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/study/6543.cpp" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/08_django_rest/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/08_django_rest/api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Django/08_django_rest/musics/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Django/08_django_rest/musics/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/cf/3.12/f.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/cf/3.12/f.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 테스트/apache-jmeter-5.2.1/bin/jp@gc - Ultimate Thread Group.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/서버 테스트/apache-jmeter-5.2.1/bin/jp@gc - Ultimate Thread Group.jmx" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -298,13 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00056" summary="01/05">
-      <created>1578235224482</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1578235224485</updated>
     </task>
     <task id="LOCAL-00057" summary="01/06">
       <created>1578239291151</created>
@@ -642,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584025932539</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="03/15">
+      <created>1584254880684</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1584254880684</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -746,7 +736,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01/15" />
     <MESSAGE value="01/16" />
     <MESSAGE value="01/19" />
     <MESSAGE value="01/20" />
@@ -771,7 +760,8 @@
     <MESSAGE value="03/09" />
     <MESSAGE value="03/11" />
     <MESSAGE value="03/13" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/13" />
+    <MESSAGE value="03/15" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
