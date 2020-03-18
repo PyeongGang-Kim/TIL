@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/study/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test.py" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -18,7 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,19 +97,20 @@
         <option value="$PROJECT_DIR$/algorithm/cf/3.12/b.py" />
         <option value="$PROJECT_DIR$/algorithm/cf/3.12/d.py" />
         <option value="$PROJECT_DIR$/algorithm/cf/3.12/f.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/test.py" />
         <option value="$PROJECT_DIR$/algorithm/study/6543.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/11097.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/3682.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/4196.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/3977.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="899" />
+    <option name="x" value="291" />
+    <option name="y" value="74" />
     <option name="width" value="1006" />
-    <option name="height" value="1047" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -108,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,13 +300,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00057" summary="01/06">
-      <created>1578239291151</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1578239291151</updated>
     </task>
     <task id="LOCAL-00058" summary="01/06">
       <created>1578309453289</created>
@@ -632,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584254880684</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="03/15">
+      <created>1584276639545</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1584276639545</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -645,15 +657,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="899" y="0" width="1006" height="1047" extended-state="0" />
+    <frame x="291" y="74" width="1006" height="806" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33953997" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30558598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38392857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45089287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
@@ -1606,10 +1618,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="ml[j][i]" language="Python" />
-        <watch expression="ml" language="Python" />
-        <watch expression="bin(i+1, n-1)" language="Python" />
-        <watch expression="dfs(1)" language="Python" />
+        <watch expression="str(nonce, encoding='utf-8')" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1668,6 +1677,21 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>str(nonce, encoding='utf-8')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chain[-1].data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chain[-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>ml</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1699,21 +1723,6 @@
       </expression>
       <expression>
         <expression-string>tmp</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nl</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>r</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -2043,13 +2052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/study/11097.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -2082,6 +2084,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1400">
           <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
