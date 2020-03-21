@@ -6,34 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/19">
+      <change afterPath="$PROJECT_DIR$/algorithm/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/삼성모의1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/데이터 적재 및 가공/DB데이터적재및가공.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/서버 최적화하기(REDIS).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Colab 활용 이미지 프로세싱/Colab기반얼굴인식입문.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/블록체인/블록체인구현.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/api/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/api/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/fixtures/musics/dummy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/08_django_rest/musics/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/images/70 rt 캐시.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/images/70 rt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/images/70 tps 캐시.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/images/70 tps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/images/시스템 아키텍처.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 최적화/redis/서버 최적화하기.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/서버 테스트/부하테스트.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/test.py" beforeDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -44,7 +20,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/삼성모의1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="26" selection-end-line="40" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="712" selection-start-line="712" selection-end-line="712" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/study/2406.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2211.py" />
         <option value="$PROJECT_DIR$/algorithm/study/2887.py" />
         <option value="$PROJECT_DIR$/algorithm/study/9373.py" />
         <option value="$PROJECT_DIR$/algorithm/study/4386.py" />
@@ -118,12 +120,14 @@
         <option value="$PROJECT_DIR$/algorithm/study/4196.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/3977.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/test.py" />
+        <option value="$PROJECT_DIR$/algorithm/test.py" />
+        <option value="$PROJECT_DIR$/algorithm/test2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="876" />
-    <option name="y" value="5" />
+    <option name="x" value="920" />
+    <option name="y" value="16" />
     <option name="width" value="1006" />
     <option name="height" value="806" />
   </component>
@@ -183,49 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/cf/3.12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/cf/3.12/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="b" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/cf/3.12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/cf/3.12/b.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test2">
     <configuration name="d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,6 +230,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\TIL\algorithm\삼성모의1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,13 +272,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.f" />
         <item itemvalue="Python.d" />
-        <item itemvalue="Python.b" />
-        <item itemvalue="Python.a" />
       </list>
     </recent_temporary>
   </component>
@@ -666,14 +670,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="876" y="5" width="1006" height="806" extended-state="0" />
+    <frame x="920" y="16" width="1006" height="806" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38392857" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38392857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45089287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -681,7 +685,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.28968254" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32671958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32858709" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32858709" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32738096" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1616,6 +1620,16 @@
           <line>53</line>
           <option name="timeStamp" value="739" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/test2.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="746" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/test2.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="747" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1628,6 +1642,7 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="str(nonce, encoding='utf-8')" language="Python" />
+        <watch expression="tmppos.get((x, y))" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1686,6 +1701,11 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>tmppos.get((x, y))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>str(nonce, encoding='utf-8')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1730,62 +1750,13 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>tmp</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/1861.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="26" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/2814.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1944.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2211.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/9373.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1944.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2211.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/9373.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/swex/4534.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
@@ -1810,20 +1781,8 @@
     <entry file="file://$PROJECT_DIR$/SW_Expert_Arcademy/Programming_Intermediate/01_List1/07.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2529.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1516.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2529.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1516.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/cf/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -1859,13 +1818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2848.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2848.cpp" />
     <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1880,13 +1833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/9470.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/9470.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithm/swex/5684.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1894,13 +1841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/14501.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/14501.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/swex/7396.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -1915,13 +1856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2623.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2623.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithm/cf/3.7/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1936,79 +1871,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3665.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2637.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1766.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1948.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1948.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1005.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2252.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="699" selection-start-line="699" selection-end-line="699" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1728.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2150.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="82" column="1" selection-end-line="82" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3665.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2637.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1766.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1948.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1948.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1005.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2252.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1728.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2150.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithm/swex/4052.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -2058,45 +1929,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11097.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/11097.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/6543.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3682.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/4196.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3977.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py" />
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="91" column="25" lean-forward="true" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        <state relative-caret-position="106">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/6543.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithm/삼성모의1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="247">
+          <caret line="26" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3682.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/4196.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3977.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="15" selection-end-column="25" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
