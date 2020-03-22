@@ -5,10 +5,11 @@
     <bookmark url="file://$PROJECT_DIR$/algorithm/swex/4052.py" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/21">
-      <change afterPath="$PROJECT_DIR$/algorithm/백준/2152.cpp" afterDir="false" />
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/22">
+      <change afterPath="$PROJECT_DIR$/algorithm/kickstart1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/kickstart2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/백준/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/백준/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/백준/3977.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/백준/3977.cpp" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -19,12 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/삼성모의1.py">
+        <entry file="file://$PROJECT_DIR$/algorithm/백준/3977.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="223">
+              <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -32,44 +33,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/백준/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="505">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/백준/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/삼성모의 2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/algorithm/백준/2160.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/백준/2152.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="712" selection-start-line="712" selection-end-line="712" />
+            <state relative-caret-position="429">
+              <caret line="111" column="56" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -97,10 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/study/4386.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/asdf.txt" />
-        <option value="$PROJECT_DIR$/algorithm/study/1944+.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1944.py" />
         <option value="$PROJECT_DIR$/algorithm/swex/4534.py" />
         <option value="$PROJECT_DIR$/algorithm/swex/1861.py" />
         <option value="$PROJECT_DIR$/algorithm/swex/2814.py" />
@@ -147,15 +122,19 @@
         <option value="$PROJECT_DIR$/algorithm/test.py" />
         <option value="$PROJECT_DIR$/algorithm/test2.py" />
         <option value="$PROJECT_DIR$/algorithm/백준/2152.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/swex/9162.py" />
+        <option value="$PROJECT_DIR$/algorithm/kickstart1.py" />
+        <option value="$PROJECT_DIR$/algorithm/kickstart2.py" />
+        <option value="$PROJECT_DIR$/algorithm/백준/3977.cpp" />
         <option value="$PROJECT_DIR$/algorithm/백준/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="920" />
-    <option name="y" value="16" />
+    <option name="x" value="885" />
+    <option name="y" value="44" />
     <option name="width" value="1006" />
-    <option name="height" value="806" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -219,8 +198,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
-    <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kickstart2">
+    <configuration name="kickstart1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +207,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/cf/3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/cf/3.12/f.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/kickstart1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kickstart2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/kickstart2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,27 +283,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kickstart2" />
+        <item itemvalue="Python.kickstart1" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.f" />
       </list>
     </recent_temporary>
   </component>
@@ -345,13 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00061" summary="01/08">
-      <created>1578492551112</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1578492551113</updated>
     </task>
     <task id="LOCAL-00062" summary="01/09">
       <created>1578575896795</created>
@@ -689,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584774607090</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="03/22">
+      <created>1584812784165</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1584812784165</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -702,15 +681,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="920" y="16" width="1006" height="806" extended-state="0" />
+    <frame x="885" y="44" width="1006" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24586777" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4962631" visible="true" weight="0.24586777" />
+      <window_info id="Structure" order="1" sideWeight="0.5037369" side_tool="true" weight="0.24586777" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38392857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38565022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45089287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,20 +703,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15170941" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962631" weight="0.24586777" />
+      <window_info id="Structure" order="1" sideWeight="0.5037369" side_tool="true" visible="true" weight="0.24586777" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24972618" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3253012" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38565022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45089287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32810616" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282636" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3274918" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28968254" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32671958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32858709" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32858709" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32738096" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -794,7 +773,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01/20" />
     <MESSAGE value="01/22" />
     <MESSAGE value="01/23" />
     <MESSAGE value="01/29" />
@@ -819,7 +797,8 @@
     <MESSAGE value="03/15" />
     <MESSAGE value="03/19" />
     <MESSAGE value="03/21" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/21" />
+    <MESSAGE value="03/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1655,8 +1634,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/백준/test.py</url>
-          <line>46</line>
+          <line>43</line>
           <option name="timeStamp" value="751" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/kickstart1.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="752" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/kickstart2.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="753" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1671,6 +1660,9 @@
       <configuration name="PythonConfigurationType">
         <watch expression="str(nonce, encoding='utf-8')" language="Python" />
         <watch expression="tmppos.get((x, y))" language="Python" />
+        <watch expression="D[n-1][j-k]" language="Python" />
+        <watch expression="tmp" language="Python" />
+        <watch expression="D[n-1][j]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1729,6 +1721,21 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>D[n-1][j]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tmp</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>D[n-1][j-k]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>tmppos.get((x, y))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1763,50 +1770,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>bin(i, n)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ml[j][i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/4534.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/1907.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/swex/8382.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SW_Expert_Arcademy/Programming_Intermediate/01_List1/07.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2529.cpp" />
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1516.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/cf/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -1959,52 +1925,84 @@
     <entry file="file://$PROJECT_DIR$/algorithm/study/4196.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithm/study/3977.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithm/study/test.py" />
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="712" selection-start-line="712" selection-end-line="712" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/test2.py" />
     <entry file="file://$PROJECT_DIR$/algorithm/삼성모의1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="646">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/1859.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/9162.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/kickstart2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="47" lean-forward="true" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/백준/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/삼성모의 2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13490">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/kickstart1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/2160.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/3977.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/백준/2152.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+        <state relative-caret-position="429">
+          <caret line="111" column="56" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/백준/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="505">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>

@@ -91,7 +91,6 @@ int main(void) {
 			printcycle(Q[0]);
 		}
 		else {
-
 			for (int i = 0; i < Q.size(); i++) {
 				for (int j = 0; j < Q[i].size(); j++) {
 					// 시작점과 도착점 cnum이 다를경우 도착점 cnum위치에 ++
