@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/algorithm/swex/3752.py" />
+    <bookmark url="file://$PROJECT_DIR$/algorithm/swex/4052.py" line="12" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="01/29">
+    <list default="true" id="f2a8664e-7e76-41fc-9328-2510432ed25d" name="Revert &quot;11/15&quot;" comment="03/22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/study/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/study/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/백준/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/백준/test.py" afterDir="false" />
     </list>
     <list id="f7310ae5-ee93-415f-9003-631ac6d231ea" name="Default Changelist" comment="" />
     <list id="bdc79a64-8f04-43cb-9b3c-056c8ad08147" name="Revert &quot;11/13&quot;" comment="Revert &quot;11/13&quot;&#10;&#10;This reverts commit 81448df7" />
@@ -13,102 +17,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1336606916">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="5" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="2622" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="2622" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/9095.py">
+        <entry file="file://$PROJECT_DIR$/algorithm/백준/3977.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="223">
+              <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/test2.py">
+        <entry file="file://$PROJECT_DIR$/algorithm/백준/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="-768">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/1937.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/algorithm/백준/2160.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+        <entry file="file://$PROJECT_DIR$/algorithm/백준/2152.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5852">
-              <caret line="308" selection-start-line="308" selection-end-line="308" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python35/Lib/urllib/parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13243">
-              <caret line="699" selection-start-line="699" selection-end-line="699" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/study/1987.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="429">
+              <caret line="111" column="56" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -127,6 +65,7 @@
       <find>E</find>
       <find>K</find>
       <find>33619080246</find>
+      <find>tmp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,66 +74,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/study/1946.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/11000.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1517.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/4796.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/9657.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1463.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2747.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/9461.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/9095.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/11404.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/11725.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1068.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/16437.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2250.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/4256.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1967.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1949.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2533.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/3482.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/4195.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/3197.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/11085.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/17398.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/10775.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1976.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/16562.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1929.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2606.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1912.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1010.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2628.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1365.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/3745.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/12015.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2042.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2357.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/12837.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1275.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2268.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1389.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/11048.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/3006.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/2617.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/t2.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1280.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/asdf.txt" />
-        <option value="$PROJECT_DIR$/algorithm/study/3653.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/4534.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/1861.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/2814.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/1907.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/8382.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/2529.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/1005.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/1516.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3/04/a.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3/04/f.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3/04/d.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/벽돌 깨기.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/7396.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/swex/5684.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/2848.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/2848.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/swex/3752.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/4066.py" />
+        <option value="$PROJECT_DIR$/algorithm/swex/4052.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/9470.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/2623.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3.7/a.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3.7/b.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/3665.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/2637.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/1766.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/2252.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/1948.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/1948.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/1728.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/2150.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/swex/asdf.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3.12/a.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3.12/b.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3.12/d.py" />
+        <option value="$PROJECT_DIR$/algorithm/cf/3.12/f.py" />
+        <option value="$PROJECT_DIR$/algorithm/study/6543.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/11097.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/3682.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/4196.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/study/3977.cpp" />
         <option value="$PROJECT_DIR$/algorithm/study/test.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/1937.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/14503.py" />
-        <option value="$PROJECT_DIR$/algorithm/study/test2.py" />
+        <option value="$PROJECT_DIR$/algorithm/test.py" />
+        <option value="$PROJECT_DIR$/algorithm/test2.py" />
+        <option value="$PROJECT_DIR$/algorithm/백준/2152.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/swex/9162.py" />
+        <option value="$PROJECT_DIR$/algorithm/kickstart1.py" />
+        <option value="$PROJECT_DIR$/algorithm/kickstart2.py" />
+        <option value="$PROJECT_DIR$/algorithm/백준/3977.cpp" />
+        <option value="$PROJECT_DIR$/algorithm/백준/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1173" />
-    <option name="y" value="118" />
-    <option name="width" value="747" />
-    <option name="height" value="874" />
-  </component>
+  <component name="ProjectId" id="1Zs394B96jZ2MD7PevfAUSqpO7V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -220,7 +154,7 @@
               <item name="TIL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TIL" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,6 +165,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -256,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration name="1280" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test (2)">
+    <configuration name="kickstart1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/1280.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/kickstart1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2268" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kickstart2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/2268.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/kickstart2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,11 +242,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/t2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\TIL\algorithm\삼성모의1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,11 +263,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/백준" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/백준/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,11 +284,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/study/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,20 +297,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.1280" />
-      <item itemvalue="Python.2268" />
-      <item itemvalue="Python.t2" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test2" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.kickstart2" />
+        <item itemvalue="Python.kickstart1" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.1280" />
-        <item itemvalue="Python.t2" />
-        <item itemvalue="Python.2268" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -389,314 +317,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565741304060</updated>
-    </task>
-    <task id="LOCAL-00019" summary="10/7">
-      <created>1570438766949</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1570438766949</updated>
-    </task>
-    <task id="LOCAL-00020" summary="10/7">
-      <created>1570445285356</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1570445285356</updated>
-    </task>
-    <task id="LOCAL-00021" summary="10/8">
-      <created>1570528837537</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1570528837537</updated>
-    </task>
-    <task id="LOCAL-00022" summary="10/11">
-      <created>1570724878749</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1570724878749</updated>
-    </task>
-    <task id="LOCAL-00023" summary="10/17">
-      <created>1571309132641</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1571309132641</updated>
-    </task>
-    <task id="LOCAL-00024" summary="10/18">
-      <created>1571391382930</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1571391382930</updated>
-    </task>
-    <task id="LOCAL-00025" summary="10/19">
-      <created>1571414998256</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1571414998256</updated>
-    </task>
-    <task id="LOCAL-00026" summary="10/19">
-      <created>1571466361836</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1571466361836</updated>
-    </task>
-    <task id="LOCAL-00027" summary="10/23">
-      <created>1571825194733</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1571825194733</updated>
-    </task>
-    <task id="LOCAL-00028" summary="10/23">
-      <created>1571828491325</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1571828491325</updated>
-    </task>
-    <task id="LOCAL-00029" summary="10/24">
-      <created>1571907451934</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1571907451934</updated>
-    </task>
-    <task id="LOCAL-00030" summary="10/24">
-      <created>1571909453409</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1571909453409</updated>
-    </task>
-    <task id="LOCAL-00031" summary="10/28">
-      <created>1572224864735</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1572224864735</updated>
-    </task>
-    <task id="LOCAL-00032" summary="10/29">
-      <created>1572346413441</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1572346413441</updated>
-    </task>
-    <task id="LOCAL-00033" summary="10/30">
-      <created>1572426135805</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1572426135805</updated>
-    </task>
-    <task id="LOCAL-00034" summary="10/31">
-      <created>1572480949078</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1572480949078</updated>
-    </task>
-    <task id="LOCAL-00035" summary="10/31">
-      <created>1572506036811</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1572506036811</updated>
-    </task>
-    <task id="LOCAL-00036" summary="10/31">
-      <created>1572518930112</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1572518930112</updated>
-    </task>
-    <task id="LOCAL-00037" summary="10/31">
-      <created>1572518982096</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1572518982096</updated>
-    </task>
-    <task id="LOCAL-00038" summary="11/01">
-      <created>1572599186714</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1572599186714</updated>
-    </task>
-    <task id="LOCAL-00039" summary="11/05">
-      <created>1572944514073</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1572944514073</updated>
-    </task>
-    <task id="LOCAL-00040" summary="11/05">
-      <created>1572951123675</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1572951123675</updated>
-    </task>
-    <task id="LOCAL-00041" summary="11/07">
-      <created>1573116367408</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1573116367408</updated>
-    </task>
-    <task id="LOCAL-00042" summary="11/10">
-      <created>1573315731435</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1573315731435</updated>
-    </task>
-    <task id="LOCAL-00043" summary="11/13">
-      <created>1573642625200</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1573642625200</updated>
-    </task>
-    <task id="LOCAL-00044" summary="11/13">
-      <created>1573728760812</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1573728760812</updated>
-    </task>
-    <task id="LOCAL-00045" summary="11/16">
-      <created>1573831331371</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1573831331371</updated>
-    </task>
-    <task id="LOCAL-00046" summary="11/16">
-      <created>1573831385384</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1573831385384</updated>
-    </task>
-    <task id="LOCAL-00047" summary="11/16">
-      <created>1573875257177</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1573875257177</updated>
-    </task>
-    <task id="LOCAL-00048" summary="11/24">
-      <created>1574604474701</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1574604474701</updated>
-    </task>
-    <task id="LOCAL-00049" summary="11/24">
-      <created>1574604488634</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1574604488634</updated>
-    </task>
-    <task id="LOCAL-00050" summary="11/26">
-      <created>1574697450952</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1574697450952</updated>
-    </task>
-    <task id="LOCAL-00051" summary="11/27">
-      <created>1574786804518</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1574786804518</updated>
-    </task>
-    <task id="LOCAL-00052" summary="12/30">
-      <created>1577703422159</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1577703422160</updated>
-    </task>
-    <task id="LOCAL-00053" summary="01/03">
-      <created>1578062470645</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1578062470645</updated>
-    </task>
-    <task id="LOCAL-00054" summary="01/05">
-      <created>1578211656208</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1578211656208</updated>
-    </task>
-    <task id="LOCAL-00055" summary="01/05">
-      <created>1578214356096</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1578214356096</updated>
-    </task>
-    <task id="LOCAL-00056" summary="01/05">
-      <created>1578235224482</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1578235224485</updated>
-    </task>
-    <task id="LOCAL-00057" summary="01/06">
-      <created>1578239291151</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1578239291151</updated>
-    </task>
-    <task id="LOCAL-00058" summary="01/06">
-      <created>1578309453289</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1578309453290</updated>
-    </task>
-    <task id="LOCAL-00059" summary="01/07">
-      <created>1578408513166</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1578408513167</updated>
-    </task>
-    <task id="LOCAL-00060" summary="01/08">
-      <created>1578409543182</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1578409543182</updated>
-    </task>
-    <task id="LOCAL-00061" summary="01/08">
-      <created>1578492551112</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1578492551113</updated>
-    </task>
-    <task id="LOCAL-00062" summary="01/09">
-      <created>1578575896795</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1578575896796</updated>
     </task>
     <task id="LOCAL-00063" summary="01/10">
       <created>1578582422158</created>
@@ -719,24 +339,332 @@
       <option name="project" value="LOCAL" />
       <updated>1578667474317</updated>
     </task>
-    <task id="LOCAL-00066" summary="01/29">
-      <created>1580272825453</created>
+    <task id="LOCAL-00066" summary="01/12">
+      <created>1578755975631</created>
       <option name="number" value="00066" />
       <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1580272825454</updated>
+      <updated>1578755975632</updated>
     </task>
-    <task id="LOCAL-00067" summary="01/29">
-      <created>1580295059875</created>
+    <task id="LOCAL-00067" summary="01/12">
+      <created>1578804489589</created>
       <option name="number" value="00067" />
       <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1580295059875</updated>
+      <updated>1578804489590</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="01/12">
+      <created>1578807315930</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1578807315930</updated>
+    </task>
+    <task id="LOCAL-00069" summary="01/13">
+      <created>1578842692002</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1578842692002</updated>
+    </task>
+    <task id="LOCAL-00070" summary="01/15">
+      <created>1579091817861</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1579091817862</updated>
+    </task>
+    <task id="LOCAL-00071" summary="01/16">
+      <created>1579101777831</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1579101777833</updated>
+    </task>
+    <task id="LOCAL-00072" summary="01/16">
+      <created>1579101807400</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1579101807400</updated>
+    </task>
+    <task id="LOCAL-00073" summary="01/16">
+      <created>1579184313719</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1579184313719</updated>
+    </task>
+    <task id="LOCAL-00074" summary="01/19">
+      <created>1579441516894</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1579441516895</updated>
+    </task>
+    <task id="LOCAL-00075" summary="01/19">
+      <created>1579443243267</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1579443243268</updated>
+    </task>
+    <task id="LOCAL-00076" summary="01/20">
+      <created>1579446256780</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446256780</updated>
+    </task>
+    <task id="LOCAL-00077" summary="01/20">
+      <created>1579531555863</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1579531555864</updated>
+    </task>
+    <task id="LOCAL-00078" summary="01/22">
+      <created>1579705101416</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1579705101432</updated>
+    </task>
+    <task id="LOCAL-00079" summary="01/23">
+      <created>1579708105620</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1579708105620</updated>
+    </task>
+    <task id="LOCAL-00080" summary="01/29">
+      <created>1580307453723</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1580307453725</updated>
+    </task>
+    <task id="LOCAL-00081" summary="01/30">
+      <created>1580394810286</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1580394810286</updated>
+    </task>
+    <task id="LOCAL-00082" summary="02/09">
+      <created>1581253288028</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1581253288028</updated>
+    </task>
+    <task id="LOCAL-00083" summary="02/13">
+      <created>1581523639872</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1581523639872</updated>
+    </task>
+    <task id="LOCAL-00084" summary="02/13">
+      <created>1581605154170</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1581605154171</updated>
+    </task>
+    <task id="LOCAL-00085" summary="02/16">
+      <created>1581863561530</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1581863561530</updated>
+    </task>
+    <task id="LOCAL-00086" summary="02/18">
+      <created>1581952076324</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1581952076324</updated>
+    </task>
+    <task id="LOCAL-00087" summary="02/24">
+      <created>1582476646253</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1582476646254</updated>
+    </task>
+    <task id="LOCAL-00088" summary="02/25">
+      <created>1582639664952</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1582639664952</updated>
+    </task>
+    <task id="LOCAL-00089" summary="02/26">
+      <created>1582717850970</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1582717850972</updated>
+    </task>
+    <task id="LOCAL-00090" summary="02/26">
+      <created>1582719936542</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1582719936542</updated>
+    </task>
+    <task id="LOCAL-00091" summary="02/27">
+      <created>1582731685263</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731685263</updated>
+    </task>
+    <task id="LOCAL-00092" summary="03/01">
+      <created>1583072129341</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1583072129341</updated>
+    </task>
+    <task id="LOCAL-00093" summary="03/02">
+      <created>1583143086575</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1583143086576</updated>
+    </task>
+    <task id="LOCAL-00094" summary="03/04">
+      <created>1583253766030</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1583253766031</updated>
+    </task>
+    <task id="LOCAL-00095" summary="03/06">
+      <created>1583421806933</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1583421806934</updated>
+    </task>
+    <task id="LOCAL-00096" summary="03/06">
+      <created>1583471273365</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1583471273365</updated>
+    </task>
+    <task id="LOCAL-00097" summary="03/07">
+      <created>1583507131245</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1583507131245</updated>
+    </task>
+    <task id="LOCAL-00098" summary="03/08">
+      <created>1583596584054</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1583596584054</updated>
+    </task>
+    <task id="LOCAL-00099" summary="03/08">
+      <created>1583671924542</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1583671924543</updated>
+    </task>
+    <task id="LOCAL-00100" summary="03/09">
+      <created>1583680136543</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1583680136543</updated>
+    </task>
+    <task id="LOCAL-00101" summary="03/11">
+      <created>1583905682036</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1583905682036</updated>
+    </task>
+    <task id="LOCAL-00102" summary="03/11">
+      <created>1583905759384</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1583905759385</updated>
+    </task>
+    <task id="LOCAL-00103" summary="03/11">
+      <created>1583905944255</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1583905944255</updated>
+    </task>
+    <task id="LOCAL-00104" summary="03/13">
+      <created>1584025932538</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1584025932539</updated>
+    </task>
+    <task id="LOCAL-00105" summary="03/15">
+      <created>1584254880684</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1584254880684</updated>
+    </task>
+    <task id="LOCAL-00106" summary="03/15">
+      <created>1584276639545</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1584276639545</updated>
+    </task>
+    <task id="LOCAL-00107" summary="03/19">
+      <created>1584592937764</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1584592937764</updated>
+    </task>
+    <task id="LOCAL-00108" summary="03/21">
+      <created>1584774522743</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1584774522744</updated>
+    </task>
+    <task id="LOCAL-00109" summary="03/21">
+      <created>1584774607090</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1584774607090</updated>
+    </task>
+    <task id="LOCAL-00110" summary="03/22">
+      <created>1584812784165</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1584812784165</updated>
+    </task>
+    <task id="LOCAL-00111" summary="03/22">
+      <created>1584882125420</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1584882125421</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -746,41 +674,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="885" y="44" width="1006" height="803" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07534247" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962631" visible="true" weight="0.24586777" />
+      <window_info id="Structure" order="1" sideWeight="0.5037369" side_tool="true" weight="0.24586777" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.247557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4113667" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38565022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45089287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32810616" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282636" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3274918" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32951653" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32858709" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28968254" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32671958" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32738096" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962631" weight="0.24586777" />
+      <window_info id="Structure" order="1" sideWeight="0.5037369" side_tool="true" visible="true" weight="0.24586777" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3918575" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3244275" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38565022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45089287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32810616" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282636" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32810616" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3293124" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3274918" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28968254" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32671958" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32738096" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -796,36 +725,83 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10/19" />
-    <MESSAGE value="10/23" />
-    <MESSAGE value="10/24" />
-    <MESSAGE value="10/28" />
-    <MESSAGE value="10/29" />
-    <MESSAGE value="10/30" />
-    <MESSAGE value="10/31" />
-    <MESSAGE value="11/01" />
-    <MESSAGE value="11/05" />
-    <MESSAGE value="11/07" />
-    <MESSAGE value="11/10" />
-    <MESSAGE value="11/13" />
-    <MESSAGE value="11/16" />
-    <MESSAGE value="11/24" />
-    <MESSAGE value="11/26" />
-    <MESSAGE value="11/27" />
-    <MESSAGE value="12/30" />
-    <MESSAGE value="01/03" />
-    <MESSAGE value="01/05" />
-    <MESSAGE value="01/06" />
-    <MESSAGE value="01/07" />
-    <MESSAGE value="01/08" />
-    <MESSAGE value="01/09" />
-    <MESSAGE value="01/10" />
+    <MESSAGE value="01/22" />
+    <MESSAGE value="01/23" />
     <MESSAGE value="01/29" />
-    <option name="LAST_COMMIT_MESSAGE" value="01/29" />
+    <MESSAGE value="01/30" />
+    <MESSAGE value="02/09" />
+    <MESSAGE value="02/13" />
+    <MESSAGE value="02/16" />
+    <MESSAGE value="02/18" />
+    <MESSAGE value="02/24" />
+    <MESSAGE value="02/25" />
+    <MESSAGE value="02/26" />
+    <MESSAGE value="02/27" />
+    <MESSAGE value="03/01" />
+    <MESSAGE value="03/02" />
+    <MESSAGE value="03/04" />
+    <MESSAGE value="03/06" />
+    <MESSAGE value="03/07" />
+    <MESSAGE value="03/08" />
+    <MESSAGE value="03/09" />
+    <MESSAGE value="03/11" />
+    <MESSAGE value="03/13" />
+    <MESSAGE value="03/15" />
+    <MESSAGE value="03/19" />
+    <MESSAGE value="03/21" />
+    <MESSAGE value="03/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/22" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="821" y="110" key="CommitChangelistDialog2" timestamp="1585613885119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585613885119" />
+    <state x="865" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1585613825630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="865" y="341" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585613825630" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1290,11 +1266,6 @@
           <option name="timeStamp" value="389" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/1948.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="394" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/stupid.py</url>
           <line>15</line>
           <option name="timeStamp" value="395" />
@@ -1545,9 +1516,139 @@
           <option name="timeStamp" value="622" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/study/test.py</url>
-          <line>6</line>
+          <url>file://$PROJECT_DIR$/algorithm/study/3006.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/1644.py</url>
+          <line>37</line>
           <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test2.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/test2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/10282.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="673" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/b.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="684" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/1956.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="685" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/1956.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/c.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="689" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/c.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="690" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/swex/2814.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="709" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/swex/1861.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="710" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/swex/1861.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/swex/1907.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/swex/1907.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3/04/d.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="728" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3/04/d.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="729" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3.7/a.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="730" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3.7/c.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="731" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/study/1948.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="732" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/swex/4052.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="733" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3.12/b.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="735" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3.12/d.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="736" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/cf/3.12/f.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="739" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/백준/test.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="751" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/kickstart1.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="752" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/kickstart2.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="753" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1560,8 +1661,11 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="nl" language="Python" />
-        <watch expression="D" language="Python" />
+        <watch expression="str(nonce, encoding='utf-8')" language="Python" />
+        <watch expression="tmppos.get((x, y))" language="Python" />
+        <watch expression="D[n-1][j-k]" language="Python" />
+        <watch expression="tmp" language="Python" />
+        <watch expression="D[n-1][j]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -1620,390 +1724,288 @@
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>D</expression-string>
+        <expression-string>D[n-1][j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>nl</expression-string>
+        <expression-string>tmp</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>nl[83]</expression-string>
+        <expression-string>D[n-1][j-k]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>nl[84]</expression-string>
+        <expression-string>tmppos.get((x, y))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>r</expression-string>
+        <expression-string>str(nonce, encoding='utf-8')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tree</expression-string>
+        <expression-string>chain[-1].data</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tree[idx]</expression-string>
+        <expression-string>chain[-1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tree[idx] + sumnum</expression-string>
+        <expression-string>ml</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>x</expression-string>
+        <expression-string>dfs(1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>s</expression-string>
+        <expression-string>bin(i+1, n-1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11725.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11404.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1991.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/.PyCharmCE2019.1/system/python_stubs/-2098077903/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3482.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7334">
-          <caret line="393" selection-start-line="393" selection-end-line="393" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/4195.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/17398.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/4256.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1967.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2250.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2533.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1949.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/16437.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1976.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/16562.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3197.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11085.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/10775.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1929.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2606.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1912.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1010.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2628.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1365.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3745.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/12015.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2042.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2357.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/12837.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/11048.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1389.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2268.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="23" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1275.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3006.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/2617.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/AppData/Local/Programs/Python/Python35/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/algorithm/study/t2.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3/04/a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1068.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3/04/f.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1280.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3/04/d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py" />
-    <entry file="file://$PROJECT_DIR$/algorithm/study/3653.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/벽돌 깨기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="1216">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2848.cpp" />
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/14503.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/9095.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1937.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
+        <state relative-caret-position="137">
           <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/4066.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13243">
-          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        <state relative-caret-position="252">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/asdf.txt">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/9470.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/5684.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="760">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/1987.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/study/14501.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/7396.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="893">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/study/test2.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/3752.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="228">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2623.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3.7/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3.7/c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3665.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2637.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1766.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1948.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1948.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1005.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2252.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/1728.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/2150.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/4052.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/asdf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="286" column="70" lean-forward="true" selection-start-line="286" selection-start-column="70" selection-end-line="286" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/cf/3.12/f.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/study/11097.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/6543.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3682.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/4196.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/3977.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithm/study/test.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/test2.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm/삼성모의1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/1859.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/swex/9162.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/kickstart2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="47" lean-forward="true" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/삼성모의 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13490">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/kickstart1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/2160.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/3977.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/2152.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="111" column="56" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/백준/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
