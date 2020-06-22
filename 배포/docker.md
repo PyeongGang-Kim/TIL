@@ -117,6 +117,10 @@ CMD [ "http-server", "dist" ]
 
 docker build -t front:0.1
 
+맨 뒤에 . 추가해서 현재경로에 설치한다고 해도 되긴함
+
+
+
 
 
 터미널에 아래의 명령어를 입력하여 서버를 구동시켜 본다.
@@ -343,3 +347,10 @@ docker rmi $(docker images -q)
 
 ## docker compose
 
+
+
+
+
+도커 nginx
+
+https://www.docker.com/blog/tips-for-deploying-nginx-official-image-with-docker/
