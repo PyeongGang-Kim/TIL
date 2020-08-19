@@ -7,7 +7,6 @@ int main() {
 	scanf("%d", &N);
 	int i = 0;
 	scanf("%s[^\n]", tmp);
-
 	while (tmp[i++]);
 	K = i / N;
 	int dy = 1;
