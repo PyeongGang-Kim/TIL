@@ -1,19 +1,6 @@
-
-k = 1<<1000
-j = (1 << 1000) - 1
-print(k)
-
-
-print(k&j)
-
-
-
-a=0b00001100100
-
-b=0b01110000000
-
-0b10001111110
-
-
-
-print(bin(a ^ a & (a-1)))
+i = 0
+tmp = 1
+while i < 20:
+    tmp /= 2
+    i += 1
+print('{:.10f}'.format(tmp))
