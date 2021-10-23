@@ -1,15 +1,25 @@
-class asdf:
-    def __init__(self):
-        self.__a = 10
+def per(dep):
+    if dep == len(a):
+        print(a)
+        return
 
-    def say(self):
-        return self.__a
+    for i in range(dep, len(a)):
+        a[i], a[dep] = a[dep], a[i]
+        per(dep+1)
+        a[i], a[dep] = a[dep], a[i]
 
-    def add(self):
-        self.__a += 1
+def comb(dep, arr = []):
+    if dep == len(a):
+        print(arr)
+        return
+    comb(dep+1, arr)
+    arr.append(a[dep])
+    comb(dep+1, arr)
+    arr.pop()
 
-k = asdf()
-print(k.say())
-print(k.add())
-print(k.say())
-print(k.__a)
+
+
+a = [1, 2, 3, 4, 5]
+# per(0)
+comb(0)
+
